@@ -1,0 +1,177 @@
+2019-04-09 17:03:22,998 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:23,000 - root - INFO - Processing: agentes.DBF
+2019-04-09 17:03:23,003 - root - INFO - wrong query:create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar, "CALIDAD" varchar(max), DELETED varchar (5))Creating Vw_origin_agentes table
+2019-04-09 17:03:23,003 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_agentes' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,003 - root - INFO - Processing: ccvs.DBF
+2019-04-09 17:03:23,005 - root - INFO - wrong query:create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))Creating Vw_origin_ccvs table
+2019-04-09 17:03:23,005 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_ccvs' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,005 - root - INFO - Processing: codigos.dbf
+2019-04-09 17:03:23,008 - root - INFO - wrong query:create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))Creating Vw_origin_codigos table
+2019-04-09 17:03:23,008 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_codigos' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,008 - root - INFO - Processing: eventab.dbf
+2019-04-09 17:03:23,009 - root - INFO - wrong query:create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))Creating Vw_origin_eventab table
+2019-04-09 17:03:23,010 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_eventab' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,010 - root - INFO - Processing: marca.DBF
+2019-04-09 17:03:23,012 - root - INFO - wrong query:create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "RENUEVA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" float, "LARFON" float, "PESO_R" float, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar, "HORA" varchar(max), "RTOMO" float, "RFOLIO" float, "RESERVA" varchar, "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" float, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" float, "MODIFICADO" varchar(max), "ANUALIDAD" float, "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))Creating Vw_origin_marca table
+2019-04-09 17:03:23,013 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_marca' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,013 - root - INFO - Processing: migracio.dbf
+2019-04-09 17:03:23,014 - root - INFO - wrong query:create table HN1.dbo.vw_origin_migracio (rowNum numeric (20), "STATUS_INI" varchar(max), "EVENTO" varchar(max), "STATUS_FIN" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))Creating Vw_origin_migracio table
+2019-04-09 17:03:23,015 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_migracio' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,015 - root - INFO - Processing: movimi.DBF
+2019-04-09 17:03:23,017 - root - INFO - wrong query:create table HN1.dbo.vw_origin_movimi (rowNum numeric (20), "NRO_SOLICI" varchar(max), "COMENTARIO" varchar, "F_EVENTO" date, "F_VENCIM" date, "F_TRANS" date, "NRO_MOV" varchar(max), "EVENTO" varchar(max), "STATUS" varchar(max), "HORA" varchar(max), "DOCUMENTO" varchar(max), "USUARIO" varchar(max), "N_ENTRADA" varchar(max), DELETED varchar (5))Creating Vw_origin_movimi table
+2019-04-09 17:03:23,017 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_movimi' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,017 - root - INFO - Processing: nuenoms.DBF
+2019-04-09 17:03:23,019 - root - INFO - wrong query:create table HN1.dbo.vw_origin_nuenoms (rowNum numeric (20), "NUM_SERIE" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))Creating Vw_origin_nuenoms table
+2019-04-09 17:03:23,020 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_nuenoms' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,020 - root - INFO - Processing: orinoms.DBF
+2019-04-09 17:03:23,022 - root - INFO - wrong query:create table HN1.dbo.vw_origin_orinoms (rowNum numeric (20), "NUM_SERIE" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))Creating Vw_origin_orinoms table
+2019-04-09 17:03:23,022 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_orinoms' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,022 - root - INFO - Processing: Pago.DBF
+2019-04-09 17:03:23,024 - root - INFO - wrong query:create table HN1.dbo.vw_origin_pago (rowNum numeric (20), "NUM_PAGO" varchar(max), "TIPO_REF" varchar(max), "REFERENCIA" varchar(max), "DENOMINA" varchar(max), "MONTO" float, "RECIBO" varchar(max), "FECHA" date, "HORA" varchar(max), "PERSONA" varchar(max), DELETED varchar (5))Creating Vw_origin_Pago table
+2019-04-09 17:03:23,025 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_pago' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,025 - root - INFO - Processing: peticion.DBF
+2019-04-09 17:03:23,027 - root - INFO - wrong query:create table HN1.dbo.vw_origin_peticion (rowNum numeric (20), "NUM_SERIE" varchar(max), "SOLICITADA" date, "HORA" varchar(max), "TIPO_PETI" varchar(max), "STATUS_RES" varchar(max), "STAT_DESDE" date, "AGENTE" varchar(max), "CALIDAD" varchar(max), "QUIEN" varchar(max), "CUAL" varchar(max), "NRO_RESOL" varchar(max), "OBSERVACIO" varchar, "LEY" varchar(max), "CAMBREP" integer, DELETED varchar (5))Creating Vw_origin_peticion table
+2019-04-09 17:03:23,027 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_peticion' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,027 - root - INFO - Processing: petireg.DBF
+2019-04-09 17:03:23,029 - root - INFO - wrong query:create table HN1.dbo.vw_origin_petireg (rowNum numeric (20), "NRO_SOLICI" varchar(max), "NUM_SERIE" varchar(max), DELETED varchar (5))Creating Vw_origin_petireg table
+2019-04-09 17:03:23,029 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_petireg' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,029 - root - INFO - Processing: PODER.DBF
+2019-04-09 17:03:23,031 - root - INFO - wrong query:create table HN1.dbo.vw_origin_poder (rowNum numeric (20), "TITULAR1" varchar(max), "TITULAR2" varchar(max), "TITULAR3" varchar(max), "APODERADO1" varchar(max), "APODERADO2" varchar(max), "APODERADO3" varchar(max), "APODERADO4" varchar(max), "APODERADO5" varchar(max), "DOMICILIO1" varchar(max), "DOMICILIO2" varchar(max), "DOMICILIO3" varchar(max), "TIPOPODER1" varchar(max), "TIPOPODER2" varchar(max), "TIPOPODER3" varchar(max), "MARCA" varchar(max), "CLASES" float, "NRO_SOLIC1" float, "NRO_SOLIC2" float, "REGISTRO" float, "ASIENTO" float, DELETED varchar (5))Creating Vw_origin_PODER table
+2019-04-09 17:03:23,031 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_poder' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,031 - root - INFO - Processing: poderes.dbf
+2019-04-09 17:03:23,034 - root - INFO - wrong query:create table HN1.dbo.vw_origin_poderes (rowNum numeric (20), "NUM_PODER" varchar(max), "NOMBRE" varchar(max), "DOMICILIO" varchar(max), "APODERADOS" varchar, "TIPO_REF" varchar(max), "REFERENCIA" varchar(max), "DENOMINA" varchar(max), "TIPO_PODER" varchar(max), DELETED varchar (5))Creating Vw_origin_poderes table
+2019-04-09 17:03:23,034 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_poderes' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,034 - root - INFO - Processing: producto.DBF
+2019-04-09 17:03:23,037 - root - INFO - wrong query:create table HN1.dbo.vw_origin_producto (rowNum numeric (20), "NRO_SOLICI" varchar(max), "CLASE" float, "PROD_SERV" varchar, "CL_TYPE" varchar(max), DELETED varchar (5))Creating Vw_origin_producto table
+2019-04-09 17:03:23,037 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_producto' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,037 - root - INFO - Processing: status.DBF
+2019-04-09 17:03:23,039 - root - INFO - wrong query:create table HN1.dbo.vw_origin_status (rowNum numeric (20), "STATUS" varchar(max), "DESC_STAT" varchar(max), "PLAZO" float, "TIPO_PLAZO" varchar(max), "NOTIFIC" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))Creating Vw_origin_status table
+2019-04-09 17:03:23,039 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_status' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,039 - root - INFO - Processing: titular.DBF
+2019-04-09 17:03:23,041 - root - INFO - wrong query:create table HN1.dbo.vw_origin_titular (rowNum numeric (20), "TITULAR" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "PAIS" varchar(max), "LUGAR" varchar(max), "BANDERA" bit, DELETED varchar (5))Creating Vw_origin_titular table
+2019-04-09 17:03:23,041 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_titular' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,041 - root - INFO - Processing: titumar.DBF
+2019-04-09 17:03:23,043 - root - INFO - wrong query:create table HN1.dbo.vw_origin_titumar (rowNum numeric (20), "NRO_SOLICI" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))Creating Vw_origin_titumar table
+2019-04-09 17:03:23,043 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_titumar' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:23,043 - root - INFO - Processing: users.DBF
+2019-04-09 17:03:23,045 - root - INFO - wrong query:create table HN1.dbo.vw_origin_users (rowNum numeric (20), "CODE_USER" varchar(max), "NAME" varchar(max), "CAPACITY" varchar(max), "PASSW" varchar(max), "POST" varchar(max), DELETED varchar (5))Creating Vw_origin_users table
+2019-04-09 17:03:23,045 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S01', "[42S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]There is already an object named 'vw_origin_users' in the database. (2714) (SQLExecDirectW)")
+2019-04-09 17:03:41,416 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,422 - root - INFO - Connections to database severed
+2019-04-09 17:03:41,445 - root - INFO - database dropped
+2019-04-09 17:03:41,698 - root - INFO - New Intermediate databas created
+2019-04-09 17:03:41,714 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,714 - root - INFO - Processing: agentes.DBF
+2019-04-09 17:03:41,716 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar, "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,718 - root - WARNING - Going to insert to table: agentes
+2019-04-09 17:03:41,718 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,718 - root - WARNING - insert finished
+2019-04-09 17:03:41,721 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,721 - root - INFO - Processing: ccvs.DBF
+2019-04-09 17:03:41,722 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,724 - root - WARNING - Going to insert to table: ccvs
+2019-04-09 17:03:41,724 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,724 - root - WARNING - insert finished
+2019-04-09 17:03:41,724 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,724 - root - INFO - Processing: codigos.dbf
+2019-04-09 17:03:41,726 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,727 - root - WARNING - Going to insert to table: codigos
+2019-04-09 17:03:41,727 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,727 - root - WARNING - insert finished
+2019-04-09 17:03:41,728 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,728 - root - INFO - Processing: eventab.dbf
+2019-04-09 17:03:41,729 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,731 - root - WARNING - Going to insert to table: eventab
+2019-04-09 17:03:41,731 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,731 - root - WARNING - insert finished
+2019-04-09 17:03:41,731 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,731 - root - INFO - Processing: marca.DBF
+2019-04-09 17:03:41,733 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "RENUEVA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" float, "LARFON" float, "PESO_R" float, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar, "HORA" varchar(max), "RTOMO" float, "RFOLIO" float, "RESERVA" varchar, "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" float, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" float, "MODIFICADO" varchar(max), "ANUALIDAD" float, "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,735 - root - WARNING - Going to insert to table: marca
+2019-04-09 17:03:41,735 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,735 - root - WARNING - insert finished
+2019-04-09 17:03:41,735 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,736 - root - INFO - Processing: migracio.dbf
+2019-04-09 17:03:41,737 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_migracio (rowNum numeric (20), "STATUS_INI" varchar(max), "EVENTO" varchar(max), "STATUS_FIN" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,738 - root - WARNING - Going to insert to table: migracio
+2019-04-09 17:03:41,738 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,738 - root - WARNING - insert finished
+2019-04-09 17:03:41,738 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,738 - root - INFO - Processing: movimi.DBF
+2019-04-09 17:03:41,740 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_movimi (rowNum numeric (20), "NRO_SOLICI" varchar(max), "COMENTARIO" varchar, "F_EVENTO" date, "F_VENCIM" date, "F_TRANS" date, "NRO_MOV" varchar(max), "EVENTO" varchar(max), "STATUS" varchar(max), "HORA" varchar(max), "DOCUMENTO" varchar(max), "USUARIO" varchar(max), "N_ENTRADA" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,741 - root - WARNING - Going to insert to table: movimi
+2019-04-09 17:03:41,741 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,741 - root - WARNING - insert finished
+2019-04-09 17:03:41,741 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,741 - root - INFO - Processing: nuenoms.DBF
+2019-04-09 17:03:41,743 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_nuenoms (rowNum numeric (20), "NUM_SERIE" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,744 - root - WARNING - Going to insert to table: nuenoms
+2019-04-09 17:03:41,744 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,744 - root - WARNING - insert finished
+2019-04-09 17:03:41,745 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,745 - root - INFO - Processing: orinoms.DBF
+2019-04-09 17:03:41,745 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_orinoms (rowNum numeric (20), "NUM_SERIE" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,746 - root - WARNING - Going to insert to table: orinoms
+2019-04-09 17:03:41,746 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,746 - root - WARNING - insert finished
+2019-04-09 17:03:41,747 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,747 - root - INFO - Processing: peticion.DBF
+2019-04-09 17:03:41,749 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_peticion (rowNum numeric (20), "NUM_SERIE" varchar(max), "SOLICITADA" date, "HORA" varchar(max), "TIPO_PETI" varchar(max), "STATUS_RES" varchar(max), "STAT_DESDE" date, "AGENTE" varchar(max), "CALIDAD" varchar(max), "QUIEN" varchar(max), "CUAL" varchar(max), "NRO_RESOL" varchar(max), "OBSERVACIO" varchar, "LEY" varchar(max), "CAMBREP" integer, DELETED varchar (5))"
+2019-04-09 17:03:41,750 - root - WARNING - Going to insert to table: peticion
+2019-04-09 17:03:41,750 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,750 - root - WARNING - insert finished
+2019-04-09 17:03:41,750 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,750 - root - INFO - Processing: petireg.DBF
+2019-04-09 17:03:41,752 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_petireg (rowNum numeric (20), "NRO_SOLICI" varchar(max), "NUM_SERIE" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,753 - root - WARNING - Going to insert to table: petireg
+2019-04-09 17:03:41,753 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,753 - root - WARNING - insert finished
+2019-04-09 17:03:41,753 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,753 - root - INFO - Processing: PODER.DBF
+2019-04-09 17:03:41,755 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_poder (rowNum numeric (20), "TITULAR1" varchar(max), "TITULAR2" varchar(max), "TITULAR3" varchar(max), "APODERADO1" varchar(max), "APODERADO2" varchar(max), "APODERADO3" varchar(max), "APODERADO4" varchar(max), "APODERADO5" varchar(max), "DOMICILIO1" varchar(max), "DOMICILIO2" varchar(max), "DOMICILIO3" varchar(max), "TIPOPODER1" varchar(max), "TIPOPODER2" varchar(max), "TIPOPODER3" varchar(max), "MARCA" varchar(max), "CLASES" float, "NRO_SOLIC1" float, "NRO_SOLIC2" float, "REGISTRO" float, "ASIENTO" float, DELETED varchar (5))"
+2019-04-09 17:03:41,756 - root - WARNING - Going to insert to table: PODER
+2019-04-09 17:03:41,757 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,757 - root - WARNING - insert finished
+2019-04-09 17:03:41,757 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,757 - root - INFO - Processing: poderes.dbf
+2019-04-09 17:03:41,759 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_poderes (rowNum numeric (20), "NUM_PODER" varchar(max), "NOMBRE" varchar(max), "DOMICILIO" varchar(max), "APODERADOS" varchar, "TIPO_REF" varchar(max), "REFERENCIA" varchar(max), "DENOMINA" varchar(max), "TIPO_PODER" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,760 - root - WARNING - Going to insert to table: poderes
+2019-04-09 17:03:41,761 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,761 - root - WARNING - insert finished
+2019-04-09 17:03:41,761 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,761 - root - INFO - Processing: PRIORIDA.DBF
+2019-04-09 17:03:41,762 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_priorida (rowNum numeric (20), "NRO_SOLICI" varchar(max), "FECHA" date, "NUMERO" varchar(max), "PAIS" varchar(max), "TIPO" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,763 - root - WARNING - Going to insert to table: PRIORIDA
+2019-04-09 17:03:41,763 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,763 - root - WARNING - insert finished
+2019-04-09 17:03:41,764 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,764 - root - INFO - Processing: producto.DBF
+2019-04-09 17:03:41,765 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_producto (rowNum numeric (20), "NRO_SOLICI" varchar(max), "CLASE" float, "PROD_SERV" varchar, "CL_TYPE" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,767 - root - WARNING - Going to insert to table: producto
+2019-04-09 17:03:41,767 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,767 - root - WARNING - insert finished
+2019-04-09 17:03:41,767 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,768 - root - INFO - Processing: status.DBF
+2019-04-09 17:03:41,769 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_status (rowNum numeric (20), "STATUS" varchar(max), "DESC_STAT" varchar(max), "PLAZO" float, "TIPO_PLAZO" varchar(max), "NOTIFIC" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,769 - root - WARNING - Going to insert to table: status
+2019-04-09 17:03:41,770 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,770 - root - WARNING - insert finished
+2019-04-09 17:03:41,770 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,770 - root - INFO - Processing: titular.DBF
+2019-04-09 17:03:41,771 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_titular (rowNum numeric (20), "TITULAR" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "PAIS" varchar(max), "LUGAR" varchar(max), "BANDERA" bit, DELETED varchar (5))"
+2019-04-09 17:03:41,772 - root - WARNING - Going to insert to table: titular
+2019-04-09 17:03:41,772 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,772 - root - WARNING - insert finished
+2019-04-09 17:03:41,773 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,773 - root - INFO - Processing: titumar.DBF
+2019-04-09 17:03:41,774 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_titumar (rowNum numeric (20), "NRO_SOLICI" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,775 - root - WARNING - Going to insert to table: titumar
+2019-04-09 17:03:41,775 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,775 - root - WARNING - insert finished
+2019-04-09 17:03:41,775 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:03:41,775 - root - INFO - Processing: users.DBF
+2019-04-09 17:03:41,776 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_users (rowNum numeric (20), "CODE_USER" varchar(max), "NAME" varchar(max), "CAPACITY" varchar(max), "PASSW" varchar(max), "POST" varchar(max), DELETED varchar (5))"
+2019-04-09 17:03:41,778 - root - WARNING - Going to insert to table: users
+2019-04-09 17:03:41,778 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "list") to str
+2019-04-09 17:03:41,778 - root - WARNING - insert finished
+2019-04-09 17:03:41,779 - root - WARNING - Updating original tables with correction script.

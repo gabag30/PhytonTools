@@ -1,0 +1,141 @@
+2019-04-12 16:59:00,709 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:00,713 - root - INFO - Connections to database severed
+2019-04-12 16:59:00,758 - root - INFO - database dropped
+2019-04-12 16:59:00,760 - root - INFO - user ready
+2019-04-12 16:59:00,761 - root - INFO - access granted
+2019-04-12 16:59:00,761 - root - INFO - access granted
+2019-04-12 16:59:00,762 - root - INFO - password changed
+2019-04-12 16:59:01,493 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:01,508 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:01,539 - root - INFO - repository synced
+2019-04-12 16:59:01,544 - root - INFO - repository synced
+2019-04-12 16:59:01,550 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:01,664 - root - INFO - changing database to intermed
+2019-04-12 16:59:01,668 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:02,514 - root - INFO - access granted
+2019-04-12 16:59:02,515 - root - INFO - access granted
+2019-04-12 16:59:04,775 - root - WARNING - Running initial updates to intermed.
+2019-04-12 16:59:04,775 - root - INFO - changing database to intermed
+2019-04-12 16:59:06,230 - root - INFO - changing database to ipas
+2019-04-12 16:59:06,234 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:06,235 - root - WARNING - Creating store procedures and wrk tables.
+2019-04-12 16:59:06,384 - root - INFO - cleanning manual validation tables
+2019-04-12 16:59:06,384 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-04-12 16:59:06,462 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:06,462 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-04-12 16:59:06,531 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:06,531 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-04-12 16:59:06,600 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:06,600 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-04-12 16:59:06,679 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:06,679 - root - INFO - creating store procedure12-userdocImport-1
+2019-04-12 16:59:06,754 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:06,754 - root - INFO - creating store procedure13-userdocImport-2
+2019-04-12 16:59:06,827 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:06,827 - root - INFO - creating store procedure2-PatentDateValidationPROC
+2019-04-12 16:59:06,901 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:06,901 - root - INFO - creating store procedure3-UserDocDateValidationPROC
+2019-04-12 16:59:06,969 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:06,969 - root - INFO - creating store procedure4-CallToDateValidationPROC
+2019-04-12 16:59:07,035 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:07,036 - root - INFO - creating store procedure5-ImportAgentValidate
+2019-04-12 16:59:07,108 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:07,108 - root - INFO - creating store procedure6-ImportMarkValidate
+2019-04-12 16:59:07,220 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:07,220 - root - INFO - creating store procedure8-ImportUserdocValidate
+2019-04-12 16:59:07,325 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:07,325 - root - INFO - creating store procedure9-ImportWorkTablesCreate
+2019-04-12 16:59:07,726 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:07,726 - root - WARNING - Running validation and migration.
+2019-04-12 16:59:07,845 - root - WARNING - Migrating agents.
+2019-04-12 16:59:39,162 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:39,167 - root - INFO - Connections to database severed
+2019-04-12 16:59:39,208 - root - INFO - database dropped
+2019-04-12 16:59:39,209 - root - INFO - user ready
+2019-04-12 16:59:39,210 - root - INFO - access granted
+2019-04-12 16:59:39,211 - root - INFO - access granted
+2019-04-12 16:59:39,212 - root - INFO - password changed
+2019-04-12 16:59:39,947 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:39,961 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:39,991 - root - INFO - repository synced
+2019-04-12 16:59:39,997 - root - INFO - repository synced
+2019-04-12 16:59:40,001 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:40,116 - root - INFO - changing database to intermed
+2019-04-12 16:59:40,120 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:40,929 - root - INFO - access granted
+2019-04-12 16:59:40,929 - root - INFO - access granted
+2019-04-12 16:59:43,205 - root - WARNING - Running initial updates to intermed.
+2019-04-12 16:59:43,205 - root - INFO - changing database to intermed
+2019-04-12 16:59:44,662 - root - INFO - changing database to ipas
+2019-04-12 16:59:44,666 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:59:44,666 - root - WARNING - Creating store procedures and wrk tables.
+2019-04-12 16:59:44,817 - root - INFO - cleanning manual validation tables
+2019-04-12 16:59:44,818 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-04-12 16:59:44,895 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:44,895 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-04-12 16:59:44,964 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:44,964 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-04-12 16:59:45,033 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,033 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-04-12 16:59:45,123 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,123 - root - INFO - creating store procedure12-userdocImport-1
+2019-04-12 16:59:45,196 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,196 - root - INFO - creating store procedure13-userdocImport-2
+2019-04-12 16:59:45,270 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,270 - root - INFO - creating store procedure2-PatentDateValidationPROC
+2019-04-12 16:59:45,342 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,342 - root - INFO - creating store procedure3-UserDocDateValidationPROC
+2019-04-12 16:59:45,410 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,410 - root - INFO - creating store procedure4-CallToDateValidationPROC
+2019-04-12 16:59:45,478 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,478 - root - INFO - creating store procedure5-ImportAgentValidate
+2019-04-12 16:59:45,552 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,552 - root - INFO - creating store procedure6-ImportMarkValidate
+2019-04-12 16:59:45,662 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,662 - root - INFO - creating store procedure8-ImportUserdocValidate
+2019-04-12 16:59:45,762 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:45,762 - root - INFO - creating store procedure9-ImportWorkTablesCreate
+2019-04-12 16:59:46,150 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:59:46,150 - root - WARNING - Running validation and migration.
+2019-04-12 16:59:46,269 - root - WARNING - Migrating agents.
+2019-04-12 16:59:51,099 - root - WARNING - Validation TM .
+2019-04-12 17:00:07,035 - root - INFO - wrong query:INSERT INTO HNMARCAS.HNADMIN.CF_APPLICATION_SUBTYPE(ROW_VERSION,APPL_TYP,APPL_SUBTYP,APPL_SUBTYPE_NAME)  VALUES (1,'MAR','RO','ROTULO')running TM updates
+2019-04-12 17:00:07,035 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'SUBTIPO_SOLICITUD_PK'. Cannot insert duplicate key in object 'HNADMIN.CF_APPLICATION_SUBTYPE'. The duplicate key value is (MAR, RO). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-12 17:00:22,785 - root - INFO - wrong query:INSERT INTO HNMARCAS.HNADMIN.CF_DOC_SEQUENCE (ROW_VERSION  ,DOC_SEQ_TYP   ,DOC_SEQ_NAME     ,IND_ANNUAL_SERIES   ,FIXED_SERIES    ,IND_CONT_NBR_FOR_FILE) SELECT DISTINCT 1,USERDOC_SEQ,'SEQ ALTERNATIVA USERDOCS'+USERDOC_SEQ,'S',NULL,'N' FROM HN1.dbo.VW_IMPORT_USERDOC WHERE USERDOC_SEQ!='M'running TM updates
+2019-04-12 17:00:22,785 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'SECUENCIA_PROMOCION_PK'. Cannot insert duplicate key in object 'HNADMIN.CF_DOC_SEQUENCE'. The duplicate key value is (M-66). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-12 17:00:22,787 - root - INFO - wrong query:INSERT INTO HNMARCAS.HNADMIN.CF_DOC_SEQUENCE (ROW_VERSION  ,DOC_SEQ_TYP   ,DOC_SEQ_NAME     ,IND_ANNUAL_SERIES   ,FIXED_SERIES    ,IND_CONT_NBR_FOR_FILE) VALUES(1,'M-A', 'SEQ ALTERNATIVA OVERLAP','S',NULL,'N')running TM updates
+2019-04-12 17:00:22,787 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'SECUENCIA_PROMOCION_PK'. Cannot insert duplicate key in object 'HNADMIN.CF_DOC_SEQUENCE'. The duplicate key value is (M-A). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-12 17:00:22,787 - root - WARNING - Validation TM post correction.
+2019-04-12 17:00:37,584 - root - WARNING - Migrating trademarks.
+2019-04-12 17:00:37,832 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:37,832 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:00:37,832 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:37,832 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:00:37,933 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:37,933 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:00:37,933 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:37,933 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:00:38,034 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,034 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:00:38,035 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,035 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:00:38,141 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,142 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:00:38,142 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,142 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:00:38,276 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,276 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:00:38,276 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,276 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:00:38,390 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,390 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:00:38,391 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,391 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:00:38,510 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,510 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:00:38,510 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,510 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:00:38,657 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,657 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:00:38,657 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:00:38,657 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'

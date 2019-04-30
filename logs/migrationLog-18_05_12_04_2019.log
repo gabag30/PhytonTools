@@ -1,0 +1,60 @@
+2019-04-12 18:05:07,425 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:05:07,430 - root - INFO - Connections to database severed
+2019-04-12 18:05:07,486 - root - INFO - database dropped
+2019-04-12 18:05:07,487 - root - INFO - user ready
+2019-04-12 18:05:07,488 - root - INFO - access granted
+2019-04-12 18:05:07,489 - root - INFO - access granted
+2019-04-12 18:05:07,489 - root - INFO - password changed
+2019-04-12 18:05:08,209 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:08,223 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:05:08,252 - root - INFO - repository synced
+2019-04-12 18:05:08,258 - root - INFO - repository synced
+2019-04-12 18:05:08,262 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:05:08,378 - root - INFO - changing database to intermed
+2019-04-12 18:05:08,383 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:05:09,311 - root - INFO - access granted
+2019-04-12 18:05:09,312 - root - INFO - access granted
+2019-04-12 18:05:11,589 - root - WARNING - Running initial updates to intermed.
+2019-04-12 18:05:11,589 - root - INFO - changing database to intermed
+2019-04-12 18:05:13,074 - root - INFO - changing database to ipas
+2019-04-12 18:05:13,078 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:05:13,078 - root - WARNING - Creating store procedures and wrk tables.
+2019-04-12 18:05:13,229 - root - INFO - cleanning manual validation tables
+2019-04-12 18:05:13,230 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-04-12 18:05:13,311 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:13,311 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-04-12 18:05:13,386 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:13,386 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-04-12 18:05:13,460 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:13,460 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-04-12 18:05:13,557 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:13,558 - root - INFO - creating store procedure12-userdocImport-1
+2019-04-12 18:05:13,632 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:13,632 - root - INFO - creating store procedure13-userdocImport-2
+2019-04-12 18:05:13,708 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:13,708 - root - INFO - creating store procedure2-PatentDateValidationPROC
+2019-04-12 18:05:13,783 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:13,783 - root - INFO - creating store procedure3-UserDocDateValidationPROC
+2019-04-12 18:05:13,854 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:13,854 - root - INFO - creating store procedure4-CallToDateValidationPROC
+2019-04-12 18:05:13,926 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:13,927 - root - INFO - creating store procedure5-ImportAgentValidate
+2019-04-12 18:05:14,007 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:14,007 - root - INFO - creating store procedure6-ImportMarkValidate
+2019-04-12 18:05:14,118 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:14,118 - root - INFO - creating store procedure8-ImportUserdocValidate
+2019-04-12 18:05:14,219 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:14,220 - root - INFO - creating store procedure9-ImportWorkTablesCreate
+2019-04-12 18:05:14,617 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:05:14,617 - root - WARNING - Running validation and migration.
+2019-04-12 18:05:14,738 - root - WARNING - Migrating agents.
+2019-04-12 18:05:19,463 - root - WARNING - Validation TM .
+2019-04-12 18:05:52,652 - root - WARNING - Validation TM post correction.
+2019-04-12 18:06:08,431 - root - WARNING - Migrating trademarks.
+2019-04-12 18:07:06,572 - root - INFO - From SQLCMD: b'Msg 3701, Level 11, State 5, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 1651\r\n'
+2019-04-12 18:07:06,573 - root - INFO - From SQLCMD: b"Cannot drop the table 'SYS_SEC_DENOMINACION', because it does not exist or you do not have permission.\r\n"
+2019-04-12 18:07:06,573 - root - INFO - From SQLCMD: b'Msg 3701, Level 11, State 5, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 1652\r\n'
+2019-04-12 18:07:06,573 - root - INFO - From SQLCMD: b"Cannot drop the table 'SYS_SEC_BUSQ_DENOMINACION', because it does not exist or you do not have permission.\r\n"
+2019-04-12 18:26:27,053 - root - INFO - From SQLCMD: b'Warning: Null value is eliminated by an aggregate or other SET operation.\r\n'
+2019-04-12 18:26:37,899 - root - INFO - changing database to intermed
+2019-04-12 18:26:37,902 - root - WARNING - connected to Sqlserver.

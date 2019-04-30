@@ -1,0 +1,45 @@
+2019-04-10 15:54:38,789 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:54:38,793 - root - INFO - Connections to database severed
+2019-04-10 15:54:38,817 - root - INFO - database dropped
+2019-04-10 15:54:39,098 - root - INFO - New Intermediate databas created
+2019-04-10 15:54:39,114 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:54:39,114 - root - INFO - Processing: agentes.DBF
+2019-04-10 15:54:39,116 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 15:54:39,118 - root - WARNING - Going to insert to table: agentes
+2019-04-10 15:54:41,192 - root - WARNING - insert finished
+2019-04-10 15:54:41,194 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:54:41,195 - root - INFO - Processing: ccvs.DBF
+2019-04-10 15:54:41,196 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 15:54:41,198 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 15:54:51,418 - root - WARNING - insert finished
+2019-04-10 15:54:51,418 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:54:51,419 - root - INFO - Processing: codigos.dbf
+2019-04-10 15:54:51,420 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 15:54:51,421 - root - WARNING - Going to insert to table: codigos
+2019-04-10 15:54:51,430 - root - WARNING - insert finished
+2019-04-10 15:54:51,430 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:54:51,430 - root - INFO - Processing: eventab.dbf
+2019-04-10 15:54:51,431 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 15:54:51,433 - root - WARNING - Going to insert to table: eventab
+2019-04-10 15:54:51,460 - root - WARNING - insert finished
+2019-04-10 15:54:51,460 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:54:51,460 - root - INFO - Processing: marca.DBF
+2019-04-10 15:54:51,462 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "RENUEVA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" real, "LARFON" real, "PESO_R" real, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" real, "RFOLIO" real, "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" real, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" real, "MODIFICADO" varchar(max), "ANUALIDAD" real, "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 15:54:51,464 - root - WARNING - Going to insert to table: marca
+2019-04-10 15:54:51,473 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:strptime() takes exactly 2 arguments (4 given)
+2019-04-10 15:54:51,473 - root - WARNING - insert finished
+2019-04-10 15:54:51,474 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:54:51,474 - root - INFO - Processing: migracio.dbf
+2019-04-10 15:54:51,475 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_migracio (rowNum numeric (20), "STATUS_INI" varchar(max), "EVENTO" varchar(max), "STATUS_FIN" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-10 15:54:51,476 - root - WARNING - Going to insert to table: migracio
+2019-04-10 15:54:51,503 - root - WARNING - insert finished
+2019-04-10 15:54:51,503 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:54:51,504 - root - INFO - Processing: movimi.DBF
+2019-04-10 15:54:51,505 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_movimi (rowNum numeric (20), "NRO_SOLICI" varchar(max), "COMENTARIO" varchar(max), "F_EVENTO" date, "F_VENCIM" date, "F_TRANS" date, "NRO_MOV" varchar(max), "EVENTO" varchar(max), "STATUS" varchar(max), "HORA" varchar(max), "DOCUMENTO" varchar(max), "USUARIO" varchar(max), "N_ENTRADA" varchar(max), DELETED varchar (5))"
+2019-04-10 15:54:51,507 - root - WARNING - Going to insert to table: movimi
+2019-04-10 15:54:53,888 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:strptime() takes exactly 2 arguments (4 given)
+2019-04-10 15:54:53,888 - root - WARNING - insert finished
+2019-04-10 15:54:53,888 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:54:53,888 - root - INFO - Processing: nuenoms.DBF
+2019-04-10 15:54:53,889 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_nuenoms (rowNum numeric (20), "NUM_SERIE" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-10 15:54:53,891 - root - WARNING - Going to insert to table: nuenoms

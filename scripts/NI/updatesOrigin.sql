@@ -1,0 +1,8 @@
+ALTER TABLE vw_origin_movimi DROP COLUMN ACTION_DATE_IPAS;;
+ALTER TABLE vw_origin_movimi ADD ACTION_DATE_IPAS datetime;;
+update vw_origin_movimi  set action_date_IPAS=convert(datetime,f_evento +' '+substring(HORA,1,2)+':'+substring(HORA,3,2)+':'+substring(HORA,5,2)+'.000',120) where isdate(f_evento +' '+substring(HORA,1,2)+':'+substring(HORA,3,2)+':'+substring(HORA,5,2)+'.000')=1;;
+update vw_origin_movimi  set action_date_IPAS=convert(datetime,f_evento +' '+substring(HORA,1,2)+':'+substring(HORA,3,2)+':'+substring(HORA,5,2)+'.000',120) where isdate(f_evento +' '+substring(HORA,1,2)+':'+substring(HORA,3,2)+':'+substring(HORA,5,2)+'.000')=1;;
+update vw_origin_movimi  set action_date_IPAS=convert(datetime,f_evento,120)  where action_date_IPAS is null and  isdate(f_evento)=1;;
+update vw_origin_movimi  set action_date_IPAS=convert(datetime,f_evento,120)  where action_date_IPAS is null and  isdate(f_evento)=1;;
+update vw_origin_movimi  set action_date_IPAS=convert(datetime,'20'+substring(f_trans,3,8) +' '+substring(HORA,1,2)+':'+substring(HORA,3,2)+':'+substring(HORA,5,2)+'.000',120)  where action_date_IPAS is null and substring(F_EVENTO,3,2) <50 and isdate('20'+substring(f_trans,3,8) +' '+substring(HORA,1,2)+':'+substring(HORA,3,2)+':'+substring(HORA,5,2)+'.000')=1;;
+update [vw_origin_movimi]  set action_date_IPAS=convert(datetime,'19'+substring(f_trans,3,8) +' '+substring(HORA,1,2)+':'+substring(HORA,3,2)+':'+substring(HORA,5,2)+'.000',120)  where action_date_IPAS is null and substring(F_EVENTO,3,2) >50 and isdate('19'+substring(f_trans,3,8) +' '+substring(HORA,1,2)+':'+substring(HORA,3,2)+':'+substring(HORA,5,2)+'.000')=1;

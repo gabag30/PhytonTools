@@ -1,0 +1,126 @@
+2019-04-10 15:59:21,348 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:59:24,353 - root - INFO - Connections to database severed
+2019-04-10 15:59:24,381 - root - INFO - database dropped
+2019-04-10 15:59:24,648 - root - INFO - New Intermediate databas created
+2019-04-10 15:59:24,665 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:59:24,665 - root - INFO - Processing: agentes.DBF
+2019-04-10 15:59:24,667 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 15:59:24,669 - root - WARNING - Going to insert to table: agentes
+2019-04-10 15:59:26,762 - root - WARNING - insert finished
+2019-04-10 15:59:26,764 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:59:26,764 - root - INFO - Processing: ccvs.DBF
+2019-04-10 15:59:26,765 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 15:59:26,766 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 15:59:37,142 - root - WARNING - insert finished
+2019-04-10 15:59:37,142 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:59:37,143 - root - INFO - Processing: codigos.dbf
+2019-04-10 15:59:37,144 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 15:59:37,145 - root - WARNING - Going to insert to table: codigos
+2019-04-10 15:59:37,155 - root - WARNING - insert finished
+2019-04-10 15:59:37,155 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:59:37,155 - root - INFO - Processing: eventab.dbf
+2019-04-10 15:59:37,156 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 15:59:37,157 - root - WARNING - Going to insert to table: eventab
+2019-04-10 15:59:37,184 - root - WARNING - insert finished
+2019-04-10 15:59:37,185 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:59:37,185 - root - INFO - Processing: marca.DBF
+2019-04-10 15:59:37,187 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "RENUEVA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" real, "LARFON" real, "PESO_R" real, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" real, "RFOLIO" real, "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" real, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" real, "MODIFICADO" varchar(max), "ANUALIDAD" real, "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 15:59:37,188 - root - WARNING - Going to insert to table: marca
+2019-04-10 16:00:00,660 - root - INFO - records[79523]['STAT_DESDE'] == InvalidValue(b'00001228')
+2019-04-10 16:00:01,564 - root - INFO - records[82440]['REGISTRADA'] == InvalidValue(b'00001229')
+2019-04-10 16:00:01,564 - root - INFO - records[82440]['STAT_DESDE'] == InvalidValue(b'00001229')
+2019-04-10 16:00:40,787 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:time data '19 03 1978' does not match format '%Y %m %d'
+2019-04-10 16:00:40,787 - root - WARNING - insert finished
+2019-04-10 16:00:40,789 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:00:40,789 - root - INFO - Processing: migracio.dbf
+2019-04-10 16:00:40,791 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_migracio (rowNum numeric (20), "STATUS_INI" varchar(max), "EVENTO" varchar(max), "STATUS_FIN" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-10 16:00:40,792 - root - WARNING - Going to insert to table: migracio
+2019-04-10 16:00:40,818 - root - WARNING - insert finished
+2019-04-10 16:00:40,819 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:00:40,819 - root - INFO - Processing: movimi.DBF
+2019-04-10 16:00:40,821 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_movimi (rowNum numeric (20), "NRO_SOLICI" varchar(max), "COMENTARIO" varchar(max), "F_EVENTO" date, "F_VENCIM" date, "F_TRANS" date, "NRO_MOV" varchar(max), "EVENTO" varchar(max), "STATUS" varchar(max), "HORA" varchar(max), "DOCUMENTO" varchar(max), "USUARIO" varchar(max), "N_ENTRADA" varchar(max), DELETED varchar (5))"
+2019-04-10 16:00:40,822 - root - WARNING - Going to insert to table: movimi
+2019-04-10 16:01:07,548 - root - INFO - records[121364]['F_EVENTO'] == InvalidValue(b'00001228')
+2019-04-10 16:01:07,560 - root - INFO - records[121654]['F_EVENTO'] == InvalidValue(b'00001229')
+2019-04-10 16:01:19,879 - root - INFO - records[178956]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:19,880 - root - INFO - records[178956]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:19,880 - root - INFO - records[178956]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:27,383 - root - INFO - records[215740]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:27,383 - root - INFO - records[215740]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:27,383 - root - INFO - records[215740]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:27,383 - root - INFO - records[215741]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:27,383 - root - INFO - records[215741]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:27,384 - root - INFO - records[215741]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:28,817 - root - INFO - records[222679]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:28,817 - root - INFO - records[222679]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:28,817 - root - INFO - records[222679]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:28,818 - root - INFO - records[222680]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:28,818 - root - INFO - records[222680]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:28,818 - root - INFO - records[222680]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:28,818 - root - INFO - records[222681]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:28,818 - root - INFO - records[222681]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:01:28,818 - root - INFO - records[222681]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 16:10:07,817 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:time data '19 12 1996' does not match format '%Y %m %d'
+2019-04-10 16:10:07,818 - root - WARNING - insert finished
+2019-04-10 16:10:07,821 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:10:07,821 - root - INFO - Processing: nuenoms.DBF
+2019-04-10 16:10:07,822 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_nuenoms (rowNum numeric (20), "NUM_SERIE" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-10 16:10:07,824 - root - WARNING - Going to insert to table: nuenoms
+2019-04-10 16:10:17,058 - root - WARNING - insert finished
+2019-04-10 16:10:17,059 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:10:17,059 - root - INFO - Processing: orinoms.DBF
+2019-04-10 16:10:17,072 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_orinoms (rowNum numeric (20), "NUM_SERIE" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-10 16:10:17,073 - root - WARNING - Going to insert to table: orinoms
+2019-04-10 16:10:39,361 - root - WARNING - insert finished
+2019-04-10 16:10:39,361 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:10:39,361 - root - INFO - Processing: peticion.DBF
+2019-04-10 16:10:39,390 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_peticion (rowNum numeric (20), "NUM_SERIE" varchar(max), "SOLICITADA" date, "HORA" varchar(max), "TIPO_PETI" varchar(max), "STATUS_RES" varchar(max), "STAT_DESDE" date, "AGENTE" varchar(max), "CALIDAD" varchar(max), "QUIEN" varchar(max), "CUAL" varchar(max), "NRO_RESOL" varchar(max), "OBSERVACIO" varchar(max), "LEY" varchar(max), "CAMBREP" integer, DELETED varchar (5))"
+2019-04-10 16:10:39,392 - root - WARNING - Going to insert to table: peticion
+2019-04-10 16:11:25,668 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:time data '19 06 2000' does not match format '%Y %m %d'
+2019-04-10 16:11:25,668 - root - WARNING - insert finished
+2019-04-10 16:11:25,668 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:11:25,668 - root - INFO - Processing: petireg.DBF
+2019-04-10 16:11:25,681 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_petireg (rowNum numeric (20), "NRO_SOLICI" varchar(max), "NUM_SERIE" varchar(max), DELETED varchar (5))"
+2019-04-10 16:11:25,682 - root - WARNING - Going to insert to table: petireg
+2019-04-10 16:11:54,750 - root - WARNING - insert finished
+2019-04-10 16:11:54,751 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:11:54,751 - root - INFO - Processing: PODER.DBF
+2019-04-10 16:11:54,769 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_poder (rowNum numeric (20), "TITULAR1" varchar(max), "TITULAR2" varchar(max), "TITULAR3" varchar(max), "APODERADO1" varchar(max), "APODERADO2" varchar(max), "APODERADO3" varchar(max), "APODERADO4" varchar(max), "APODERADO5" varchar(max), "DOMICILIO1" varchar(max), "DOMICILIO2" varchar(max), "DOMICILIO3" varchar(max), "TIPOPODER1" varchar(max), "TIPOPODER2" varchar(max), "TIPOPODER3" varchar(max), "MARCA" varchar(max), "CLASES" real, "NRO_SOLIC1" real, "NRO_SOLIC2" real, "REGISTRO" real, "ASIENTO" real, DELETED varchar (5))"
+2019-04-10 16:11:54,771 - root - WARNING - Going to insert to table: PODER
+2019-04-10 16:11:55,606 - root - WARNING - insert finished
+2019-04-10 16:11:55,607 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:11:55,607 - root - INFO - Processing: poderes.dbf
+2019-04-10 16:11:55,632 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_poderes (rowNum numeric (20), "NUM_PODER" varchar(max), "NOMBRE" varchar(max), "DOMICILIO" varchar(max), "APODERADOS" varchar(max), "TIPO_REF" varchar(max), "REFERENCIA" varchar(max), "DENOMINA" varchar(max), "TIPO_PODER" varchar(max), DELETED varchar (5))"
+2019-04-10 16:11:55,634 - root - WARNING - Going to insert to table: poderes
+2019-04-10 16:11:55,638 - root - WARNING - insert finished
+2019-04-10 16:11:55,638 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:11:55,638 - root - INFO - Processing: PRIORIDA.DBF
+2019-04-10 16:11:55,662 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_priorida (rowNum numeric (20), "NRO_SOLICI" varchar(max), "FECHA" date, "NUMERO" varchar(max), "PAIS" varchar(max), "TIPO" varchar(max), DELETED varchar (5))"
+2019-04-10 16:11:55,663 - root - WARNING - Going to insert to table: PRIORIDA
+2019-04-10 16:11:56,978 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:time data '19 04 1998' does not match format '%Y %m %d'
+2019-04-10 16:11:56,978 - root - WARNING - insert finished
+2019-04-10 16:11:56,978 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:11:56,978 - root - INFO - Processing: producto.DBF
+2019-04-10 16:11:56,998 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_producto (rowNum numeric (20), "NRO_SOLICI" varchar(max), "CLASE" real, "PROD_SERV" varchar(max), "CL_TYPE" varchar(max), DELETED varchar (5))"
+2019-04-10 16:11:56,999 - root - WARNING - Going to insert to table: producto
+2019-04-10 16:12:39,103 - root - WARNING - insert finished
+2019-04-10 16:12:39,103 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:12:39,103 - root - INFO - Processing: status.DBF
+2019-04-10 16:12:39,125 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_status (rowNum numeric (20), "STATUS" varchar(max), "DESC_STAT" varchar(max), "PLAZO" real, "TIPO_PLAZO" varchar(max), "NOTIFIC" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-10 16:12:39,126 - root - WARNING - Going to insert to table: status
+2019-04-10 16:12:39,139 - root - WARNING - insert finished
+2019-04-10 16:12:39,139 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:12:39,139 - root - INFO - Processing: titular.DBF
+2019-04-10 16:12:39,163 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_titular (rowNum numeric (20), "TITULAR" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "PAIS" varchar(max), "LUGAR" varchar(max), "BANDERA" bit, DELETED varchar (5))"
+2019-04-10 16:12:39,165 - root - WARNING - Going to insert to table: titular
+2019-04-10 16:13:04,717 - root - WARNING - insert finished
+2019-04-10 16:13:04,717 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:13:04,717 - root - INFO - Processing: titumar.DBF
+2019-04-10 16:13:04,752 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_titumar (rowNum numeric (20), "NRO_SOLICI" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-10 16:13:04,753 - root - WARNING - Going to insert to table: titumar
+2019-04-10 16:13:42,184 - root - WARNING - insert finished
+2019-04-10 16:13:42,184 - root - WARNING - connected to Sqlserver.
+2019-04-10 16:13:42,185 - root - INFO - Processing: users.DBF
+2019-04-10 16:13:42,203 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_users (rowNum numeric (20), "CODE_USER" varchar(max), "NAME" varchar(max), "CAPACITY" varchar(max), "PASSW" varchar(max), "POST" varchar(max), DELETED varchar (5))"
+2019-04-10 16:13:42,205 - root - WARNING - Going to insert to table: users
+2019-04-10 16:13:42,244 - root - WARNING - insert finished

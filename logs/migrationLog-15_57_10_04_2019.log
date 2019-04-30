@@ -1,0 +1,42 @@
+2019-04-10 15:57:32,594 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:57:32,598 - root - INFO - Connections to database severed
+2019-04-10 15:57:32,619 - root - INFO - database dropped
+2019-04-10 15:57:32,838 - root - INFO - New Intermediate databas created
+2019-04-10 15:57:32,855 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:57:32,855 - root - INFO - Processing: agentes.DBF
+2019-04-10 15:57:32,857 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 15:57:32,860 - root - WARNING - Going to insert to table: agentes
+2019-04-10 15:57:34,938 - root - WARNING - insert finished
+2019-04-10 15:57:34,940 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:57:34,941 - root - INFO - Processing: ccvs.DBF
+2019-04-10 15:57:34,942 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 15:57:34,943 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 15:57:45,134 - root - WARNING - insert finished
+2019-04-10 15:57:45,134 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:57:45,134 - root - INFO - Processing: codigos.dbf
+2019-04-10 15:57:45,136 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 15:57:45,137 - root - WARNING - Going to insert to table: codigos
+2019-04-10 15:57:45,146 - root - WARNING - insert finished
+2019-04-10 15:57:45,146 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:57:45,146 - root - INFO - Processing: eventab.dbf
+2019-04-10 15:57:45,147 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 15:57:45,149 - root - WARNING - Going to insert to table: eventab
+2019-04-10 15:57:45,180 - root - WARNING - insert finished
+2019-04-10 15:57:45,180 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:57:45,180 - root - INFO - Processing: marca.DBF
+2019-04-10 15:57:45,182 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "RENUEVA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" real, "LARFON" real, "PESO_R" real, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" real, "RFOLIO" real, "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" real, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" real, "MODIFICADO" varchar(max), "ANUALIDAD" real, "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 15:57:45,184 - root - WARNING - Going to insert to table: marca
+2019-04-10 15:58:07,539 - root - INFO - records[79523]['STAT_DESDE'] == InvalidValue(b'00001228')
+2019-04-10 15:58:08,411 - root - INFO - records[82440]['REGISTRADA'] == InvalidValue(b'00001229')
+2019-04-10 15:58:08,411 - root - INFO - records[82440]['STAT_DESDE'] == InvalidValue(b'00001229')
+2019-04-10 15:58:45,076 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:'datetime.date' object has no attribute 'split'
+2019-04-10 15:58:45,076 - root - WARNING - insert finished
+2019-04-10 15:58:45,077 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:58:45,077 - root - INFO - Processing: migracio.dbf
+2019-04-10 15:58:45,078 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_migracio (rowNum numeric (20), "STATUS_INI" varchar(max), "EVENTO" varchar(max), "STATUS_FIN" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-10 15:58:45,079 - root - WARNING - Going to insert to table: migracio
+2019-04-10 15:58:45,108 - root - WARNING - insert finished
+2019-04-10 15:58:45,108 - root - WARNING - connected to Sqlserver.
+2019-04-10 15:58:45,108 - root - INFO - Processing: movimi.DBF
+2019-04-10 15:58:45,110 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_movimi (rowNum numeric (20), "NRO_SOLICI" varchar(max), "COMENTARIO" varchar(max), "F_EVENTO" date, "F_VENCIM" date, "F_TRANS" date, "NRO_MOV" varchar(max), "EVENTO" varchar(max), "STATUS" varchar(max), "HORA" varchar(max), "DOCUMENTO" varchar(max), "USUARIO" varchar(max), "N_ENTRADA" varchar(max), DELETED varchar (5))"
+2019-04-10 15:58:45,111 - root - WARNING - Going to insert to table: movimi

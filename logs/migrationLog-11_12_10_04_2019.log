@@ -1,0 +1,276 @@
+2019-04-10 11:12:47,761 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:12:47,814 - root - INFO - Connections to database severed
+2019-04-10 11:12:47,848 - root - INFO - database dropped
+2019-04-10 11:12:48,033 - root - INFO - New Intermediate databas created
+2019-04-10 11:12:48,050 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:12:48,050 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:12:48,052 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:12:48,054 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:12:48,074 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,074 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,093 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,093 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,113 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,113 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,132 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,132 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,151 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,151 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,170 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,171 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,189 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,189 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,209 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,209 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,228 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,228 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,247 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,247 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,268 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,268 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,270 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:12:48,270 - root - WARNING - insert finished
+2019-04-10 11:12:48,273 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:12:48,274 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:12:48,275 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:12:48,277 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:12:48,285 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,285 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,293 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,293 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,302 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,303 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,310 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,310 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,320 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,320 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,328 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,329 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,338 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,338 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,346 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,347 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,354 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,355 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,362 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,362 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,370 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,370 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,378 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,378 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,386 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,386 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,395 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,395 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,403 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,404 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,412 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,412 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,421 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,421 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,429 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,429 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,438 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,438 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,447 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,447 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,455 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,455 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,464 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,464 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,472 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,473 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,481 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,481 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,490 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,490 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,503 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,503 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,512 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,512 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,520 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,520 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,529 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,529 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,537 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,537 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,546 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,547 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,559 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,560 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,569 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,569 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,578 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,578 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,586 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,586 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,594 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,594 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,603 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,603 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,611 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,611 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,619 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,620 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,628 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,628 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,637 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,637 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,645 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,645 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,654 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,654 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,663 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,663 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,676 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,677 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,684 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,684 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,693 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,693 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,701 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,701 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,710 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,710 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,719 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,719 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,727 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,727 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,736 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,737 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,745 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,745 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,753 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,753 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,762 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,762 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,772 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,772 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,780 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,781 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,788 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,788 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,797 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,797 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,806 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,806 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,814 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,814 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,823 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,823 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,831 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:48,831 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:48,835 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:12:48,836 - root - WARNING - insert finished
+2019-04-10 11:12:48,836 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:12:48,836 - root - INFO - Processing: codigos.dbf
+2019-04-10 11:12:48,837 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:12:48,839 - root - WARNING - Going to insert to table: codigos
+2019-04-10 11:12:48,840 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:12:48,840 - root - WARNING - insert finished
+2019-04-10 11:12:48,840 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:12:48,841 - root - INFO - Processing: eventab.dbf
+2019-04-10 11:12:48,842 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 11:12:48,843 - root - WARNING - Going to insert to table: eventab
+2019-04-10 11:12:48,845 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:12:48,845 - root - WARNING - insert finished
+2019-04-10 11:12:48,846 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:12:48,846 - root - INFO - Processing: marca.DBF
+2019-04-10 11:12:48,848 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" varchar(max), "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" varchar(max), "RENUEVA" varchar(max), "EXPIRA" varchar(max), "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" varchar(max), "PESO_RASGO" varchar(max), "LARFON" varchar(max), "PESO_R" varchar(max), "PUBLICADA" varchar(max), "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" varchar(max), "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" varchar(max), "MODIFICADO" varchar(max), "ANUALIDAD" varchar(max), "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 11:12:48,850 - root - WARNING - Going to insert to table: marca
+2019-04-10 11:12:48,972 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:48,972 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 35 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:49,093 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:49,093 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 35 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:49,224 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:49,224 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 35 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:57,623 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:12:57,628 - root - INFO - Connections to database severed
+2019-04-10 11:12:57,653 - root - INFO - database dropped
+2019-04-10 11:12:57,856 - root - INFO - New Intermediate databas created
+2019-04-10 11:12:57,872 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:12:57,872 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:12:57,874 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:12:57,877 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:12:57,894 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:57,894 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:57,913 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:57,914 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:57,933 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:57,934 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:57,953 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:57,953 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:57,973 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:57,973 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:57,992 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:57,993 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,011 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:58,011 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,027 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:58,027 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,046 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:58,046 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,066 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:58,066 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,086 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:12:58,086 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,088 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:12:58,088 - root - WARNING - insert finished
+2019-04-10 11:12:58,091 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:12:58,091 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:12:58,092 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:12:58,095 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:12:58,108 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,108 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,117 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,117 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,125 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,125 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,133 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,133 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,141 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,141 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,150 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,150 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,158 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,159 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,166 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,167 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,175 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,176 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,183 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,183 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,193 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,193 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,200 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,200 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,209 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,210 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,217 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,217 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,225 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,225 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,233 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,233 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,241 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,241 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,249 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,249 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,258 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,258 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,266 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,266 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,274 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,274 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,282 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,283 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,291 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,292 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,300 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,300 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,309 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,309 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,318 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,318 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:12:58,326 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs values (?,?, ?, ?)inserting data
+2019-04-10 11:12:58,326 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1 parameters were supplied', 'HY000')

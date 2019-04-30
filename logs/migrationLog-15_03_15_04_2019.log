@@ -1,0 +1,836 @@
+2019-04-15 15:03:03,297 - root - WARNING - loading available logos
+2019-04-15 15:03:03,330 - root - WARNING - connected to Sqlserver.
+2019-04-15 15:03:03,344 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:03,345 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:03,432 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (241, 1, M, 1900). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:03,490 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (379, 1, M, 1900). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:03,902 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (9551, 1, M, 1992). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,304 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (11996, 1, M, 2003). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,338 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (9445, 1, M, 2003). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,341 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (17769, 1, M, 2003). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,342 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (17974, 1, M, 2003). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,344 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (23149, 1, M, 2003). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,345 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (23169, 1, M, 2003). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,346 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (23170, 1, M, 2003). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,596 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (7392, 1, M, 2007). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,674 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (15169, 1, M, 2007). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,717 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (39666, 1, M, 2007). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:04,756 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (14545, 1, M, 2008). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,056 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (25678, 1, M, 2009). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,071 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (25901, 1, M, 2009). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,385 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (27123, 1, M, 2011). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,417 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (32073, 1, M, 2011). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,418 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (32739, 1, M, 2011). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,419 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (32742, 1, M, 2011). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,421 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (32745, 1, M, 2011). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,536 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,537 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,539 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,540 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,541 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,543 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,545 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,547 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,548 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,550 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,552 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,552 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,554 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,555 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,557 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,558 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,560 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,561 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,563 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,565 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,567 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,568 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,570 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,575 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,578 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,579 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,581 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,582 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,584 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,585 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,587 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,591 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,593 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,595 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,596 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,598 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,600 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,601 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,602 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,603 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,604 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,606 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,608 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,609 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,611 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,613 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,614 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,616 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,617 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,618 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,619 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,620 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,621 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,623 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,627 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,629 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,633 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,634 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,636 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,638 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,639 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,641 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,642 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,644 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,645 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,646 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,648 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,649 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,650 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,652 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,653 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,653 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,655 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,657 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,659 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,660 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,660 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,662 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,663 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,665 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,666 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,668 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,669 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,670 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,671 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,672 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,674 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,676 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,677 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,679 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,682 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,683 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,684 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,686 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,687 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,690 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,692 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,693 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,695 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,696 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,698 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,699 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,700 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,701 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,703 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,705 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,706 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,708 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,709 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,710 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,711 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,712 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,713 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,715 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,718 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,721 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,722 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,723 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,729 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,731 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,732 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,733 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,735 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,736 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,744 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,745 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,746 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,747 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,748 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,750 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,755 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,758 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,759 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,760 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,762 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,763 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,765 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,766 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,768 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,769 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,774 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,776 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,778 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,780 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,782 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,783 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,787 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,788 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,794 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,804 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,805 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,807 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,810 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,811 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,812 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,815 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,816 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,818 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,819 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,820 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,821 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,822 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,824 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,825 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,826 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,829 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,831 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,833 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,834 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,835 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,836 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,838 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,839 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,843 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,844 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,846 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,847 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,848 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,850 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,851 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,858 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,865 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,867 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,867 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,868 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,870 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,872 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,875 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,877 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,878 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,880 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,881 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (2511, 1, M, 1992). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,883 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,884 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,885 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,891 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,892 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,897 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,898 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,901 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,902 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,904 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,905 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,908 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,911 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,912 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,914 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,915 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,916 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,918 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,919 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,921 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,922 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,923 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,924 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,925 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,927 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,929 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,930 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,934 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,936 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,937 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,939 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,940 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,942 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,943 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,944 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,945 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,947 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,950 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,952 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,953 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,954 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,955 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,957 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,958 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,960 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,962 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,963 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,964 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,965 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,967 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,968 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,969 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,984 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (5977, 1, M, 1996). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:05,986 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,988 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:05,990 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,991 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:05,999 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,000 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,002 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,003 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,007 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,008 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,010 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,015 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,018 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,022 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,023 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,026 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,028 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,029 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,031 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,032 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,033 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,034 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,036 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,055 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,057 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,063 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,070 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,072 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,074 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,078 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,080 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,081 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,083 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,084 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,086 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,087 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,088 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,090 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,093 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,095 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:06,098 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,107 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,109 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,110 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,111 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,114 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,116 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,118 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,119 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,121 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,122 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,124 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,125 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,130 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,132 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,146 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,148 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,149 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,156 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,164 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,165 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,168 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,170 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,181 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,183 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,184 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,188 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,189 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,192 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:06,198 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,200 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,201 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,203 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,223 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,225 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,226 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,228 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,232 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,233 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,238 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,240 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,241 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,242 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,243 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,246 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (20439, 1, M, 2003). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,247 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (21837, 1, M, 2003). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,248 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:06,249 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,251 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,253 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,256 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,260 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,261 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,263 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,266 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,270 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,272 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,273 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,280 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,281 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,282 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,283 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,284 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,285 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,286 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,287 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,288 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,290 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,291 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,292 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,294 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,295 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,296 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,297 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,298 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,299 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,301 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,302 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,303 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,304 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,306 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,307 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,308 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,309 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,310 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,311 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,313 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,314 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,315 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,316 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,317 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,318 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,319 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,320 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,321 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,322 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,324 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,325 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,326 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,327 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,328 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,329 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,330 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,331 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,333 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,334 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,335 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,336 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,337 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,338 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,340 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,341 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,343 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,344 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,345 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,346 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,347 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,348 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,349 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,351 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,352 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,353 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,354 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,362 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,366 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,368 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,370 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,584 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (32036, 1, M, 2011). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,585 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (42086, 1, M, 2011). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,606 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (5612, 1, M, 2012). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,609 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (5613, 1, M, 2012). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,611 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (5614, 1, M, 2012). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,614 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (5615, 1, M, 2012). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,616 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (5616, 1, M, 2012). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,619 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (5618, 1, M, 2012). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,771 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (24251, 1, M, 2018). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,773 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (24532, 1, M, 2018). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,775 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (25544, 1, M, 2018). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,776 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (26168, 1, M, 2018). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,777 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (26169, 1, M, 2018). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,778 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (26171, 1, M, 2018). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,779 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (26173, 1, M, 2018). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:06,782 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,784 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,785 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,786 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,788 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,789 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,791 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,792 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,794 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,795 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,796 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,798 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,800 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,802 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,803 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,804 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,805 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,806 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,807 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,808 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,810 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,811 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,813 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,815 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,816 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,817 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,818 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,819 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,821 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,822 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,823 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,824 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,826 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,827 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,829 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,830 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,832 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,834 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,836 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,837 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,840 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,841 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,848 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,849 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,850 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,851 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,853 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,854 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,855 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,857 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,859 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,860 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,861 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,862 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,863 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,864 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,866 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,867 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,868 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,870 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,871 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,872 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,874 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,877 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,878 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,879 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,880 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,882 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,883 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:06,884 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,885 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:06,886 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,887 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,891 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,893 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,894 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,895 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,896 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,897 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,899 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,900 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,913 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,915 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,916 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,918 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:06,919 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,921 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,923 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,924 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,925 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,927 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,928 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,931 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,932 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,933 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,938 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,941 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,955 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,957 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,959 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,960 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,962 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,963 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,965 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,966 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,967 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,969 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,971 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,972 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,973 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:06,975 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:06,976 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,977 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,980 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,982 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,983 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,985 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,986 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,987 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,990 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,991 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:06,993 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,002 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,006 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,012 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,016 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,018 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,020 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,022 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,024 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,026 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (21836, 1, M, 2003). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:07,028 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,029 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,033 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,035 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,037 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,039 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,040 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,043 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,045 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,047 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,048 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,049 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,051 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,052 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,116 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (36679, 1, M, 2010). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:07,195 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,196 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,204 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,206 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,209 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,211 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,213 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,215 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,217 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,219 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,224 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,227 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,232 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,236 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,246 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,249 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,252 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,253 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,256 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,259 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (7111, 1, M, 1900). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:07,261 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,265 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,266 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,267 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,268 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,269 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,271 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,274 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,276 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,298 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,299 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,301 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,302 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,303 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,304 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,308 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,310 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,315 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,316 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,320 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,330 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,331 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,334 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,336 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,338 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,342 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,343 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,345 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,346 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,353 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,355 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,360 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,364 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,366 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,368 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,373 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,375 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,376 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,378 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,391 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,397 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,411 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,412 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,415 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,417 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,418 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,424 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,426 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,428 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,430 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,431 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,437 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,439 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,442 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,444 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,445 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,447 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,449 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,451 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,455 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,474 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,476 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,481 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,482 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,486 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,488 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,489 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,492 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,494 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,495 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,497 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,502 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,503 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,517 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,521 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,522 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,524 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,526 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,529 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,532 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,533 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,535 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,536 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,538 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,540 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,541 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,542 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,544 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,545 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,546 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,557 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,561 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,563 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,568 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,572 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,573 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,576 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,578 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,580 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,586 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,589 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,593 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,595 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,599 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,600 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,602 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,603 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,605 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,608 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,609 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,611 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,618 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,623 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,625 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,657 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,658 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,663 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (30864, 1, M, 1900). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:07,664 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,668 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,687 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,689 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,690 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,692 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,694 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,698 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,699 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,701 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,705 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,708 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,712 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,713 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,714 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,717 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,719 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,722 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,723 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,725 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,728 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,730 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,730 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,732 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,744 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (42170, 1, M, 1900). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:07,745 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,747 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,748 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,749 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,768 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,770 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,771 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,776 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,779 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,781 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,788 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,790 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,794 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,800 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,802 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,804 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,805 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,807 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,808 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,817 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,820 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,822 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,823 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,825 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,827 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,837 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,840 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,842 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,843 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,845 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,848 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,862 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,869 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,872 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,876 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,877 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,879 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,882 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,884 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,886 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,889 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,900 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (44571, 1, M, 1900). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:07,905 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,907 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,910 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,911 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,915 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,923 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,924 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,937 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (45129, 1, M, 1900). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:07,947 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (45187, 1, M, 1900). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:07,949 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,951 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,954 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,955 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,969 - root - ERROR - >>>>>>>>>>>>>>> issue with image upload ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'LOGOTIPO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_LOGO'. The duplicate key value is (45382, 1, M, 1900). (2627) (SQLParamData); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-15 15:03:07,973 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,976 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,977 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,978 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,979 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:07,980 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,985 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:07,993 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:07,999 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:08,006 - root - ERROR - >>>>>> issue with conversion from L to RBG not supported
+2019-04-15 15:03:08,008 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:08,010 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:08,015 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:08,017 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:08,021 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:08,025 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:08,027 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:08,028 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported
+2019-04-15 15:03:08,029 - root - ERROR - >>>>>> issue with conversion not supported
+2019-04-15 15:03:08,031 - root - ERROR - >>>>>> issue with conversion from RGB to RBG not supported

@@ -1,0 +1,20 @@
+2019-04-09 16:59:57,657 - root - WARNING - connected to Sqlserver.
+2019-04-09 16:59:57,658 - root - INFO - Processing: agentes.DBF
+2019-04-09 16:59:57,660 - root - INFO - Processing: ccvs.DBF
+2019-04-09 16:59:57,662 - root - INFO - Processing: codigos.dbf
+2019-04-09 16:59:57,663 - root - INFO - Processing: eventab.dbf
+2019-04-09 16:59:57,664 - root - INFO - Processing: marca.DBF
+2019-04-09 16:59:57,666 - root - INFO - Processing: migracio.dbf
+2019-04-09 16:59:57,667 - root - INFO - Processing: movimi.DBF
+2019-04-09 16:59:57,669 - root - INFO - Processing: nuenoms.DBF
+2019-04-09 16:59:57,671 - root - INFO - Processing: orinoms.DBF
+2019-04-09 16:59:57,673 - root - INFO - Processing: Pago.DBF
+2019-04-09 16:59:57,674 - root - INFO - Processing: peticion.DBF
+2019-04-09 16:59:57,675 - root - INFO - Processing: petireg.DBF
+2019-04-09 16:59:57,677 - root - INFO - Processing: PODER.DBF
+2019-04-09 16:59:57,679 - root - INFO - Processing: poderes.dbf
+2019-04-09 16:59:57,681 - root - INFO - Processing: producto.DBF
+2019-04-09 16:59:57,682 - root - INFO - Processing: status.DBF
+2019-04-09 16:59:57,683 - root - INFO - Processing: titular.DBF
+2019-04-09 16:59:57,685 - root - INFO - Processing: titumar.DBF
+2019-04-09 16:59:57,686 - root - INFO - Processing: users.DBF

@@ -1,0 +1,8 @@
+2019-04-12 11:01:47,631 - root - WARNING - connected to Sqlserver.
+2019-04-12 11:01:47,633 - root - WARNING - connected to Sqlserver.
+2019-04-12 11:01:47,634 - root - WARNING - starting migration to intermed.
+2019-04-12 11:01:47,635 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_ACTIONS
+2019-04-12 11:01:47,732 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to numeric. (8114) (SQLExecDirectW)')
+2019-04-12 11:01:47,824 - root - ERROR - >>>>>>>>>>>>>>> issue with get cursor('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to numeric. (8114) (SQLExecDirectW)')
+2019-04-12 11:01:47,826 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object has no attribute 'fetchone'
+2019-04-12 11:01:47,827 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_FILES

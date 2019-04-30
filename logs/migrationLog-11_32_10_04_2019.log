@@ -1,0 +1,140 @@
+2019-04-10 11:32:17,862 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:32:17,902 - root - INFO - Connections to database severed
+2019-04-10 11:32:17,927 - root - INFO - database dropped
+2019-04-10 11:32:18,106 - root - INFO - New Intermediate databas created
+2019-04-10 11:32:18,123 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:32:18,123 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:32:18,125 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:32:18,127 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:32:18,145 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,145 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 1000 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,164 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,164 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,184 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,184 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,204 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,204 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,224 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,224 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,243 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,243 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,262 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,262 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,282 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,282 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,301 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,301 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,320 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,320 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,339 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:32:18,339 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 7 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,341 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:32:18,341 - root - WARNING - insert finished
+2019-04-10 11:32:18,344 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:32:18,344 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:32:18,346 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:32:18,348 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:32:18,362 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,363 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 1000 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,370 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,371 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,378 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,379 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,388 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,388 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,397 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,397 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,405 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,405 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,413 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,413 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,421 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,422 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,430 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,430 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,438 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,438 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,446 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,447 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,455 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,455 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,463 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,463 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,471 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,472 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,481 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,481 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,489 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,490 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,498 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,498 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,506 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,506 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,514 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,514 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,522 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,522 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,531 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,531 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,539 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,540 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,548 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,548 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,556 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,556 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,565 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,565 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,573 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,574 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,581 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,581 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,589 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,590 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,598 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,599 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,606 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,606 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,615 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,616 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,625 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,625 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,634 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,634 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,641 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,641 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,650 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,651 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,659 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,659 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,673 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,673 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,681 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,681 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,689 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,690 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,698 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,698 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,706 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,706 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,714 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,715 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,723 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,723 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,731 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,731 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,740 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,741 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,749 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,749 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,762 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,762 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,770 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,770 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,779 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,779 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,789 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,789 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,797 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,798 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')
+2019-04-10 11:32:18,806 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:32:18,806 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 4 parameter markers, but 999 parameters were supplied', 'HY000')

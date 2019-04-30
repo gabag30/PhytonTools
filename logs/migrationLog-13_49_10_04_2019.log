@@ -1,0 +1,47 @@
+2019-04-10 13:49:25,164 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:49:25,168 - root - INFO - Connections to database severed
+2019-04-10 13:49:25,192 - root - INFO - database dropped
+2019-04-10 13:49:25,388 - root - INFO - New Intermediate databas created
+2019-04-10 13:49:25,404 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:49:25,405 - root - INFO - Processing: agentes.DBF
+2019-04-10 13:49:25,407 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 13:49:25,409 - root - WARNING - Going to insert to table: agentes
+2019-04-10 13:49:59,870 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:49:59,906 - root - INFO - Connections to database severed
+2019-04-10 13:49:59,928 - root - INFO - database dropped
+2019-04-10 13:50:00,172 - root - INFO - New Intermediate databas created
+2019-04-10 13:50:00,193 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:50:00,194 - root - INFO - Processing: agentes.DBF
+2019-04-10 13:50:00,196 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 13:50:00,198 - root - WARNING - Going to insert to table: agentes
+2019-04-10 13:50:02,226 - root - WARNING - insert finished
+2019-04-10 13:50:02,228 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:50:02,229 - root - INFO - Processing: ccvs.DBF
+2019-04-10 13:50:02,230 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 13:50:02,231 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 13:50:12,500 - root - WARNING - insert finished
+2019-04-10 13:50:12,500 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:50:12,501 - root - INFO - Processing: codigos.dbf
+2019-04-10 13:50:12,502 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 13:50:12,503 - root - WARNING - Going to insert to table: codigos
+2019-04-10 13:50:12,511 - root - WARNING - insert finished
+2019-04-10 13:50:12,511 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:50:12,511 - root - INFO - Processing: eventab.dbf
+2019-04-10 13:50:12,512 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 13:50:12,513 - root - WARNING - Going to insert to table: eventab
+2019-04-10 13:50:12,542 - root - WARNING - insert finished
+2019-04-10 13:50:12,543 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:50:12,543 - root - INFO - Processing: marca.DBF
+2019-04-10 13:50:12,545 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" varchar(max), "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" varchar(max), "RENUEVA" varchar(max), "EXPIRA" varchar(max), "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" varchar(max), "PESO_RASGO" varchar(max), "LARFON" varchar(max), "PESO_R" varchar(max), "PUBLICADA" varchar(max), "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" varchar(max), "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" varchar(max), "MODIFICADO" varchar(max), "ANUALIDAD" varchar(max), "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 13:50:12,546 - root - WARNING - Going to insert to table: marca
+2019-04-10 13:50:12,547 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:'int' object has no attribute 'strip'
+2019-04-10 13:50:12,547 - root - WARNING - insert finished
+2019-04-10 13:50:12,547 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:50:12,547 - root - INFO - Processing: migracio.dbf
+2019-04-10 13:50:12,548 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_migracio (rowNum numeric (20), "STATUS_INI" varchar(max), "EVENTO" varchar(max), "STATUS_FIN" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-10 13:50:12,550 - root - WARNING - Going to insert to table: migracio
+2019-04-10 13:50:12,575 - root - WARNING - insert finished
+2019-04-10 13:50:12,575 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:50:12,575 - root - INFO - Processing: movimi.DBF
+2019-04-10 13:50:12,577 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_movimi (rowNum numeric (20), "NRO_SOLICI" varchar(max), "COMENTARIO" varchar(max), "F_EVENTO" varchar(max), "F_VENCIM" varchar(max), "F_TRANS" varchar(max), "NRO_MOV" varchar(max), "EVENTO" varchar(max), "STATUS" varchar(max), "HORA" varchar(max), "DOCUMENTO" varchar(max), "USUARIO" varchar(max), "N_ENTRADA" varchar(max), DELETED varchar (5))"
+2019-04-10 13:50:12,578 - root - WARNING - Going to insert to table: movimi

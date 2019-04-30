@@ -1,0 +1,33 @@
+2019-04-10 11:40:27,838 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:40:27,879 - root - INFO - Connections to database severed
+2019-04-10 11:40:27,901 - root - INFO - database dropped
+2019-04-10 11:40:28,186 - root - INFO - New Intermediate databas created
+2019-04-10 11:40:28,202 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:40:28,203 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:40:28,205 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:40:28,207 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:40:30,198 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:40:30,198 - root - WARNING - insert finished
+2019-04-10 11:40:30,201 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:40:30,201 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:40:30,202 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:40:30,203 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:40:40,196 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:40:40,196 - root - WARNING - insert finished
+2019-04-10 11:40:40,196 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:40:40,196 - root - INFO - Processing: codigos.dbf
+2019-04-10 11:40:40,197 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:40:40,199 - root - WARNING - Going to insert to table: codigos
+2019-04-10 11:40:40,200 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:40:40,200 - root - WARNING - insert finished
+2019-04-10 11:40:40,200 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:40:40,200 - root - INFO - Processing: eventab.dbf
+2019-04-10 11:40:40,201 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 11:40:40,202 - root - WARNING - Going to insert to table: eventab
+2019-04-10 11:40:40,205 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:40:40,205 - root - WARNING - insert finished
+2019-04-10 11:40:40,205 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:40:40,205 - root - INFO - Processing: marca.DBF
+2019-04-10 11:40:40,207 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" varchar(max), "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" varchar(max), "RENUEVA" varchar(max), "EXPIRA" varchar(max), "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" varchar(max), "PESO_RASGO" varchar(max), "LARFON" varchar(max), "PESO_R" varchar(max), "PUBLICADA" varchar(max), "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" varchar(max), "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" varchar(max), "MODIFICADO" varchar(max), "ANUALIDAD" varchar(max), "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 11:40:40,209 - root - WARNING - Going to insert to table: marca
+2019-04-10 11:41:04,816 - root - ERROR - records[79523]['STAT_DESDE'] == InvalidValue(b'00001228')

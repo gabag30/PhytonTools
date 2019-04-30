@@ -1,0 +1,16 @@
+2019-04-09 17:23:03,793 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:23:03,797 - root - INFO - Connections to database severed
+2019-04-09 17:23:03,817 - root - INFO - database dropped
+2019-04-09 17:23:04,073 - root - INFO - New Intermediate databas created
+2019-04-09 17:23:04,089 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:23:04,089 - root - INFO - Processing: agentes.DBF
+2019-04-09 17:23:04,091 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar, "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-09 17:23:04,093 - root - WARNING - Going to insert to table: agentes
+2019-04-09 17:23:48,803 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:23:48,807 - root - INFO - Connections to database severed
+2019-04-09 17:23:48,829 - root - INFO - database dropped
+2019-04-09 17:23:49,033 - root - INFO - New Intermediate databas created
+2019-04-09 17:23:49,049 - root - WARNING - connected to Sqlserver.
+2019-04-09 17:23:49,050 - root - INFO - Processing: agentes.DBF
+2019-04-09 17:23:49,052 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar, "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-09 17:23:49,054 - root - WARNING - Going to insert to table: agentes

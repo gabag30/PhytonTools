@@ -1,0 +1,29 @@
+2019-04-12 16:22:33,553 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:22:33,557 - root - INFO - Connections to database severed
+2019-04-12 16:22:33,590 - root - INFO - database dropped
+2019-04-12 16:22:33,591 - root - INFO - user ready
+2019-04-12 16:22:33,592 - root - INFO - access granted
+2019-04-12 16:22:33,593 - root - INFO - access granted
+2019-04-12 16:22:33,594 - root - INFO - password changed
+2019-04-12 16:22:34,310 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:22:34,325 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:22:34,354 - root - INFO - repository synced
+2019-04-12 16:22:34,360 - root - INFO - repository synced
+2019-04-12 16:22:34,364 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:22:34,369 - root - INFO - wrong query:insert into HNMARCAS.HNADMIN.[CF_GEO_COUNTRY] ([ROW_VERSION]
+      ,[COUNTRY_CODE]      ,[COUNTRY_NAME]      ,[NATIONALITY]      ,[IND_WIPO_STATISTICS]) values
+	  (1,'XX','pais desconocido','XX','N'),(1,'EA','Eurasian patent offi','EA','N' )corr pais
+2019-04-12 16:22:34,369 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PAIS_PK'. Cannot insert duplicate key in object 'HNADMIN.CF_GEO_COUNTRY'. The duplicate key value is (XX). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-12 16:22:34,374 - root - INFO - wrong query:insert into HNMARCAS.HNADMIN.[CF_CLASS_NICE] ([ROW_VERSION]      ,[NICE_CLASS_CODE]      ,[NICE_CLASS_NAME]      ,[XML_DESIGNER]
+      ,[CLASS_DETAIL]      ,[NICE_CLASS_EDITION]      ,[NICE_CLASS_VERSION]) values
+    	  (1,	46,	'CLASS 46',	'<PARAMS></PARAMS>','',11,0),(1,	46,	'CLASS 46',	'<PARAMS></PARAMS>','',11,2017.01)corr nice class nombres
+2019-04-12 16:22:34,374 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'CLASE_INTERNACIONAL_PK'. Cannot insert duplicate key in object 'HNADMIN.CF_CLASS_NICE'. The duplicate key value is (11, 0.00, 46). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-12 16:22:34,492 - root - INFO - changing database to intermed
+2019-04-12 16:22:34,496 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:22:35,641 - root - INFO - wrong query:EXEC sp_addrolemember N'db_datareader', N'HNADMIN';read access for ipas admin
+2019-04-12 16:22:35,641 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]User or role 'HNADMIN' does not exist in this database. (15410) (SQLExecDirectW)")
+2019-04-12 16:22:35,641 - root - INFO - wrong query:EXEC sp_addrolemember N'db_datawriter', N'HNADMIN';write access for ipas admin
+2019-04-12 16:22:35,642 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]User or role 'HNADMIN' does not exist in this database. (15410) (SQLExecDirectW)")
+2019-04-12 16:22:35,642 - root - INFO - password changed
+2019-04-12 16:22:39,650 - root - WARNING - Running initial updates to intermed.
+2019-04-12 16:22:39,650 - root - INFO - changing database to intermed

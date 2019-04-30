@@ -1,0 +1,41 @@
+2019-04-12 16:27:26,362 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:27:26,366 - root - INFO - Connections to database severed
+2019-04-12 16:27:26,410 - root - INFO - database dropped
+2019-04-12 16:27:26,412 - root - INFO - user ready
+2019-04-12 16:27:26,413 - root - INFO - access granted
+2019-04-12 16:27:26,413 - root - INFO - access granted
+2019-04-12 16:27:26,414 - root - INFO - password changed
+2019-04-12 16:27:27,146 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:27:27,160 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:27:27,188 - root - INFO - repository synced
+2019-04-12 16:27:27,193 - root - INFO - repository synced
+2019-04-12 16:27:27,197 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:27:27,202 - root - INFO - wrong query:insert into HNMARCAS.HNADMIN.[CF_GEO_COUNTRY] ([ROW_VERSION]
+      ,[COUNTRY_CODE]      ,[COUNTRY_NAME]      ,[NATIONALITY]      ,[IND_WIPO_STATISTICS]) values
+	  (1,'XX','pais desconocido','XX','N'),(1,'EA','Eurasian patent offi','EA','N' )corr pais
+2019-04-12 16:27:27,202 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PAIS_PK'. Cannot insert duplicate key in object 'HNADMIN.CF_GEO_COUNTRY'. The duplicate key value is (XX). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-12 16:27:27,206 - root - INFO - wrong query:insert into HNMARCAS.HNADMIN.[CF_CLASS_NICE] ([ROW_VERSION]      ,[NICE_CLASS_CODE]      ,[NICE_CLASS_NAME]      ,[XML_DESIGNER]
+      ,[CLASS_DETAIL]      ,[NICE_CLASS_EDITION]      ,[NICE_CLASS_VERSION]) values
+    	  (1,	46,	'CLASS 46',	'<PARAMS></PARAMS>','',11,0),(1,	46,	'CLASS 46',	'<PARAMS></PARAMS>','',11,2017.01)corr nice class nombres
+2019-04-12 16:27:27,207 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'CLASE_INTERNACIONAL_PK'. Cannot insert duplicate key in object 'HNADMIN.CF_CLASS_NICE'. The duplicate key value is (11, 0.00, 46). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-12 16:27:27,313 - root - INFO - changing database to intermed
+2019-04-12 16:27:27,317 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:27:28,130 - root - INFO - wrong query:EXEC sp_addrolemember N'db_datareader', N'HNADMIN';read access for ipas admin
+2019-04-12 16:27:28,130 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]User or role 'HNADMIN' does not exist in this database. (15410) (SQLExecDirectW)")
+2019-04-12 16:27:28,130 - root - INFO - wrong query:EXEC sp_addrolemember N'db_datawriter', N'HNADMIN';write access for ipas admin
+2019-04-12 16:27:28,130 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]User or role 'HNADMIN' does not exist in this database. (15410) (SQLExecDirectW)")
+2019-04-12 16:27:30,473 - root - WARNING - Running initial updates to intermed.
+2019-04-12 16:27:30,473 - root - INFO - changing database to intermed
+2019-04-12 16:27:31,949 - root - INFO - changing database to ipas
+2019-04-12 16:27:31,955 - root - WARNING - connected to Sqlserver.
+2019-04-12 16:27:31,955 - root - WARNING - Creating store procedures and wrk tables.
+2019-04-12 16:27:32,117 - root - INFO - cleanning manual validation tables
+2019-04-12 16:27:32,120 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-04-12 16:27:32,197 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:27:32,198 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-04-12 16:27:32,267 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:27:32,267 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-04-12 16:27:32,336 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:27:32,337 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-04-12 16:27:32,421 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 16:27:32,422 - root - INFO - creating store procedure12-userdocImport-1

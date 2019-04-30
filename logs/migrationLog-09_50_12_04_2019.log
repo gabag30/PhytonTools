@@ -1,0 +1,12 @@
+2019-04-12 09:50:31,436 - root - WARNING - connected to Sqlserver.
+2019-04-12 09:50:31,440 - root - WARNING - connected to Sqlserver.
+2019-04-12 09:50:31,440 - root - WARNING - starting migration to intermed.
+2019-04-12 09:50:31,441 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC
+2019-04-12 09:50:44,972 - root - WARNING - connected to Sqlserver.
+2019-04-12 09:50:48,175 - root - WARNING - connected to Sqlserver.
+2019-04-12 09:50:48,175 - root - WARNING - starting migration to intermed.
+2019-04-12 09:50:48,176 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC
+2019-04-12 09:52:06,634 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_ACTIONS
+2019-04-12 09:52:06,734 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type varchar to numeric. (8114) (SQLExecDirectW)')
+2019-04-12 09:52:14,908 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object is not subscriptable
+2019-04-12 09:52:14,908 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_FILES

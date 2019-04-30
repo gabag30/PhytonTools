@@ -1,0 +1,13 @@
+2019-04-10 14:25:24,000 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:25:24,040 - root - INFO - Connections to database severed
+2019-04-10 14:25:24,065 - root - INFO - database dropped
+2019-04-10 14:25:24,333 - root - INFO - New Intermediate databas created
+2019-04-10 14:25:24,349 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:25:24,350 - root - INFO - Processing: agentes.DBF
+2019-04-10 14:25:24,352 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 14:25:24,354 - root - WARNING - Going to insert to table: agentes
+2019-04-10 14:25:26,416 - root - WARNING - insert finished
+2019-04-10 14:25:26,418 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:25:26,418 - root - INFO - Processing: ccvs.DBF
+2019-04-10 14:25:26,419 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 14:25:26,420 - root - WARNING - Going to insert to table: ccvs

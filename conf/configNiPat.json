@@ -1,0 +1,43 @@
+{
+  "_comment": " check driver here https://github.com/mkleehammer/pyodbc/wiki/Connecting-to-SQL-Server-from-Windows",
+  "SERVERDATA": {
+    "SERVER_TYPE": "ODBC Driver 17 for SQL Server",
+    "HOST_IP": "127.0.0.1",
+    "ADMIN_USER": "sa",
+    "ADMIN_PASSWORD": "W1P0w1p0",
+	"FILES_LOCATION": "C:\\Program Files\\Microsoft SQL Server\\MSSQL14.MSSQLSERVER\\MSSQL\\DATA\\",
+    "TOOL_LOCATION": "C:\\Dropbox\\WIPO\\WIPOTools\\PhonAndTransli\\"
+
+  },
+  "INTERMED": {
+    "DB_NAME": "NIPAT"
+  },
+  "SOURCEDATA": {
+    "FILE_LOCATION": "C:/WIPO/NicaraguaFoxPro/patentes",
+    "TABLES_IGNORE": "'MARCATEMP','TITULARTEMP','VENCTO','actualizar','aviso','avisotemp','patente1','dibujo'",
+    "TABLES_LOAD":    "'agentes', 'ccvs', 'codigos', 'eventab', 'marca', 'migracio', 'movimi', 'nuenoms', 'orinoms', 'Pago','peticion','petireg', 'PODER', 'poderes', 'PRIORIDA', 'producto', 'status', 'titular', 'titumar', 'users'",
+    "IGNORE_LOAD": "IGNORE"
+  },
+  "IPASDB": {
+    "DB_NAME": "NIPATENTES",
+	"USER_NAME": "NIADMIN",
+	"USER_PASSWORD": "NIADMIN",
+	 "BK_LOC": "backup\\HNMARCAS.bak",
+    "LOGOS_LOCATION": "C:\\myCloud\\WIPOIPOBSD\\IpasDumps\\Honduras\\Graficos\\"
+  },
+  "SCRIPTS" : {
+    "QUERIES_IMPORT_FOLDER": "",
+    "VISTAS_ESPECIFICAS": "scripts/NI/vistas.sql",
+    "CORRECCIONES_ESPECIFICAS": "scripts/NI/updatesOrigin.sql",
+    "CORRECCIONES_OFICINA": "",
+    "INSERTS_INTERMED": "",
+    "INTERMED_UPDATE": "",
+    "TM_UPDATE_VALIDATION": "",
+    "UD_UPDATE_VALIDATION": ""
+  },
+  "IGNORE": {
+    "VW_ORIGIN_MARCA": ""
+  }
+  
+  
+}

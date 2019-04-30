@@ -1,0 +1,30 @@
+2019-04-10 11:48:33,830 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:48:33,870 - root - INFO - Connections to database severed
+2019-04-10 11:48:33,892 - root - INFO - database dropped
+2019-04-10 11:48:34,095 - root - INFO - New Intermediate databas created
+2019-04-10 11:48:34,111 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:48:34,111 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:48:34,113 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:48:34,116 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:48:36,156 - root - WARNING - insert finished
+2019-04-10 11:48:36,159 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:48:36,159 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:48:36,160 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:48:36,161 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:48:46,260 - root - WARNING - insert finished
+2019-04-10 11:48:46,261 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:48:46,261 - root - INFO - Processing: codigos.dbf
+2019-04-10 11:48:46,262 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:48:46,263 - root - WARNING - Going to insert to table: codigos
+2019-04-10 11:48:46,272 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_codigos (rownum, ID_CODIGO, CODIGO, DESCRIPCOD,deleted) values (?,?, ?, ?, ?)inserting data
+2019-04-10 11:48:46,272 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query The second parameter to executemany must not be empty.
+2019-04-10 11:48:46,273 - root - WARNING - insert finished
+2019-04-10 11:48:46,273 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:48:46,273 - root - INFO - Processing: eventab.dbf
+2019-04-10 11:48:46,274 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 11:48:46,275 - root - WARNING - Going to insert to table: eventab
+2019-04-10 11:48:46,303 - root - WARNING - insert finished
+2019-04-10 11:48:46,303 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:48:46,303 - root - INFO - Processing: marca.DBF
+2019-04-10 11:48:46,305 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" varchar(max), "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" varchar(max), "RENUEVA" varchar(max), "EXPIRA" varchar(max), "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" varchar(max), "PESO_RASGO" varchar(max), "LARFON" varchar(max), "PESO_R" varchar(max), "PUBLICADA" varchar(max), "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" varchar(max), "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" varchar(max), "MODIFICADO" varchar(max), "ANUALIDAD" varchar(max), "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 11:48:46,307 - root - WARNING - Going to insert to table: marca

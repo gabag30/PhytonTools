@@ -1,0 +1,14 @@
+{
+  "_comment": " fill with the info of the server and location of files",
+  "SERVERDATA": {
+    "HOST_IP": "127.0.0.1",
+    "HOST_PORT": "3305",
+    "ADMIN_USER": "root",
+    "ADMIN_PASSWORD": "root",
+	"FILES_LOCATION": "C:\\WIPO\\stati\\",
+    "TEMP_LOCATION": "C:\\WIPO\\stati\\temp\\"
+
+  }
+  
+  
+}

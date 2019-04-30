@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/intermedToIpas.py" line="53" mnemonic="7" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7db6f3e9-07d1-419b-86e0-0e0123e05142" name="Default" comment="update">
+      <change beforePath="$PROJECT_DIR$/hnMigrationFinal.py" beforeDir="false" afterPath="$PROJECT_DIR$/hnMigrationFinal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_37_15_04_2019.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/migrationLog-15_37_15_04_2019.log" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PythonProj$Nicaragua.coverage" NAME="Nicaragua Coverage Results" MODIFIED="1554810864005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProj$honduras.coverage" NAME="honduras Coverage Results" MODIFIED="1555335425663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProj$wos.coverage" NAME="wos Coverage Results" MODIFIED="1541670581205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProj$webServiceTest.coverage" NAME="webServiceTest Coverage Results" MODIFIED="1534421690112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/configHn.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moveDbfToSql2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2278">
+              <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="146" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basicTools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="151" column="24" selection-start-line="151" selection-start-column="24" selection-end-line="151" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hnMigrationFinal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/originToIntermed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prepareTablesAndViews.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="e#1#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restoreIpasDatabase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intermedToIpas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3026">
+              <caret line="186" column="29" selection-start-line="186" selection-start-column="29" selection-end-line="186" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logosUploader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loadConfig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>delete from</find>
+      <find>row</find>
+      <find>re.s</find>
+      <find>os</find>
+      <find>if</find>
+      <find>capi</find>
+      <find>via</find>
+      <find>changed database</find>
+      <find>.sql</find>
+      <find>sile</find>
+      <find>conex</find>
+      <find>selec</find>
+      <find>insert</find>
+      <find>queryinser</find>
+      <find>geti</find>
+      <find>fieldsInsert</find>
+      <find>issue wi</find>
+      <find>issue</find>
+      <find>curso</find>
+      <find>sql</find>
+      <find>con</find>
+      <find>querye</find>
+      <find>change</find>
+      <find>fileviasqlcmd</find>
+      <find>myfie</find>
+      <find>C:\\WIPO\\foxpro\\Python\\scripts/HN</find>
+      <find>path</find>
+      <find>spli</find>
+      <find>exit</find>
+      <find>.warn(</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>vw_origin_&quot;+fileName+&quot;</replace>
+      <replace>logger.error('records[{}][{!r}] == {!r}'.format(i, name, value))</replace>
+      <replace />
+      <replace>SERVERDATA</replace>
+      <replace>ipasDb</replace>
+      <replace>interMedDb</replace>
+      <replace>loadConfig.filesLocation</replace>
+      <replace>C:\\GitRepositories\\PythonProj\\scripts\\HN</replace>
+      <replace>.warning(</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BERLICKI Gabriel &lt;devbg@adi.wipo.int&gt;" />
+        <option value="GB" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Ex1.py" />
+        <option value="$PROJECT_DIR$/piEsti.py" />
+        <option value="$PROJECT_DIR$/rotate.py" />
+        <option value="$PROJECT_DIR$/cartalk3.py" />
+        <option value="$PROJECT_DIR$/testConnection.py" />
+        <option value="$PROJECT_DIR$/Honduras.py" />
+        <option value="$PROJECT_DIR$/testDbf.py" />
+        <option value="$PROJECT_DIR$/ConnectionToSqlServer.py" />
+        <option value="$PROJECT_DIR$/OldStuff/testDbf.bak" />
+        <option value="$PROJECT_DIR$/dbfToSqlList.py" />
+        <option value="$PROJECT_DIR$/dbfToSql.py" />
+        <option value="$PROJECT_DIR$/dbfToSqlDb.py" />
+        <option value="$PROJECT_DIR$/dbfToSqlDb2.py" />
+        <option value="$PROJECT_DIR$/dbfToSqlDb3.py" />
+        <option value="$PROJECT_DIR$/dbfToSqlFinal.py" />
+        <option value="$PROJECT_DIR$/conf/config.json" />
+        <option value="$PROJECT_DIR$/2.py" />
+        <option value="$PROJECT_DIR$/3.py" />
+        <option value="$PROJECT_DIR$/lastTest.py" />
+        <option value="$PROJECT_DIR$/finalProc.py" />
+        <option value="$PROJECT_DIR$/udvalidation.py" />
+        <option value="$PROJECT_DIR$/../Udemi/Complete-Python-3-Bootcamp-master/00-Python Object and Data Structure Basics/01-Numbers.ipynb" />
+        <option value="$PROJECT_DIR$/webServiceTest.py" />
+        <option value="$PROJECT_DIR$/niMigrationFinal.py" />
+        <option value="$PROJECT_DIR$/conf/configNiPat.json" />
+        <option value="$PROJECT_DIR$/conf/configNiDd.json" />
+        <option value="$PROJECT_DIR$/conf/additionalScripts/manual.sql" />
+        <option value="$PROJECT_DIR$/conf/configNi.json" />
+        <option value="$PROJECT_DIR$/loadConfigWos.py" />
+        <option value="$PROJECT_DIR$/conf/configWos.json" />
+        <option value="$PROJECT_DIR$/wosToMysql.py" />
+        <option value="$PROJECT_DIR$/moveDbfToSql.py" />
+        <option value="$PROJECT_DIR$/moveDbfToSql2.py" />
+        <option value="$PROJECT_DIR$/dbfToSqlAllTables2.py" />
+        <option value="$PROJECT_DIR$/dbfToSqlAllTablesStd.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/originToIntermed.py" />
+        <option value="$PROJECT_DIR$/restoreIpasDatabase.py" />
+        <option value="$PROJECT_DIR$/intermedToIpas.py" />
+        <option value="$PROJECT_DIR$/dbfToSqlAllTables.py" />
+        <option value="$PROJECT_DIR$/prepareTablesAndViews.py" />
+        <option value="$PROJECT_DIR$/loadConfig.py" />
+        <option value="$PROJECT_DIR$/conf/configHn.json" />
+        <option value="$PROJECT_DIR$/logosUploader.py" />
+        <option value="$PROJECT_DIR$/basicTools.py" />
+        <option value="$PROJECT_DIR$/hnMigrationFinal.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="136" />
+    <option name="y" value="47" />
+    <option name="width" value="1940" />
+    <option name="height" value="719" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hnMigrationFinal.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PythonProj" sdk-home="C:\Program Files\Python36\python.exe">
+        <option name="mySdkHome" value="C:\Program Files\Python36\python.exe" />
+        <option name="myModuleName" value="PythonProj" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Dropbox\Dropbox\Public\PythonProj\OldStuff" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitRepositories\PythonProj" />
+      <recent name="C:\GitRepository\PythonProj" />
+      <recent name="C:\Dropbox\Public\PythonProj\conf" />
+      <recent name="C:\Dropbox\Public\PythonProj" />
+      <recent name="F:\Dropbox\Dropbox\Public\PythonProj" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.honduras">
+    <configuration name="Nicaragua" type="PythonConfigurationType" factoryName="Python">
+      <module name="PythonProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moveDbfToSql2.py" />
+      <option name="PARAMETERS" value="&quot;ODBC Driver 17 for SQL Server&quot; 127.0.0.1 sa W1P0w1p0 NI &quot;C:/WIPO/Nicaragua/Marcas/Basedato0212/Datos/&quot; 'do' 'producto,marca,movimi,martemp,bitacoraexp,actualizar,batfon,recepcion,titumar,busfig,logos,batexa,titular,eliminados,movimielim,movimimar,priorida,ccvs,viena,renova,agentes,petireg,peticion,nuenoms,orinoms,batbus,bustit,resbatbus,regtemp,examen,extremo,ident,solicitante,controlreg,oposiciones,movimipeti,useroles,users,palelim,resoluciones,status,migracio,peticion05032018,eventab,ccvs,codigos,concepreci,conceptos,migracio' C:/temp" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="honduras" type="PythonConfigurationType" factoryName="Python">
+      <module name="PythonProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hnMigrationFinal.py" />
+      <option name="PARAMETERS" value="conf/configHn.json" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logosUploader.py" />
+      <option name="PARAMETERS" value="conf/configHn.json" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webServiceTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webServiceTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wos" type="PythonConfigurationType" factoryName="Python">
+      <module name="PythonProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wosToMysql.py" />
+      <option name="PARAMETERS" value="conf/configWos.json" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.wos" />
+      <item itemvalue="Python.honduras" />
+      <item itemvalue="Python.Nicaragua" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.webServiceTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.webServiceTest" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7db6f3e9-07d1-419b-86e0-0e0123e05142" name="Default" comment="" />
+      <created>1505120095672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505120095672</updated>
+      <workItem from="1542844669342" duration="616000" />
+      <workItem from="1542846752933" duration="6672000" />
+      <workItem from="1546112439611" duration="8653000" />
+      <workItem from="1546367269822" duration="4429000" />
+      <workItem from="1547210861470" duration="6003000" />
+      <workItem from="1547469286901" duration="1375000" />
+      <workItem from="1549445896867" duration="1237000" />
+      <workItem from="1552049222102" duration="214000" />
+      <workItem from="1552298257352" duration="1983000" />
+      <workItem from="1552467079669" duration="2923000" />
+      <workItem from="1552645798837" duration="1652000" />
+      <workItem from="1552986114711" duration="1264000" />
+      <workItem from="1554806911543" duration="23696000" />
+      <workItem from="1554889015208" duration="40285000" />
+      <workItem from="1555084644881" duration="9442000" />
+      <workItem from="1555322809545" duration="9028000" />
+      <workItem from="1555334189799" duration="2975000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1530539027050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530539027050</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1530632358360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530632358361</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <created>1531241785686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531241785686</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1531496384654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531496384654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1531814295973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531814295973</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1531817298043</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531817298043</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1531935814483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531935814483</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1532338569618</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532338569619</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1532338848491</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1532338848491</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1532339079489</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1532339079489</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1532339289144</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532339289144</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1532350633673</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532350633673</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <created>1532353223496</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532353223496</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1532425565979</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1532425565979</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1532425628574</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1532425628574</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <created>1532443598378</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1532443598378</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <created>1532443694928</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1532443694928</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1532505205194</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1532505205194</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1532596339629</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1532596339629</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <created>1534505668307</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1534505668307</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update">
+      <created>1534508406151</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1534508406152</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update">
+      <created>1547223178908</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547223178908</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <created>1555086152962</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1555086152962</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update">
+      <created>1555086628057</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1555086628057</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="122447000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="top" content_ui="combo" id="Project" order="0" weight="0.032930844" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Project Explorer" order="2" weight="0.32940447" />
+      <window_info id="DB Browser" order="3" weight="0.32940447" />
+      <window_info id="Job Explorer" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49946523" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.61460555" visible="true" weight="0.35455543" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39921466" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49452806" weight="0.0039267014" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4984375" weight="0.32985386" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.38539445" side_tool="true" visible="true" weight="0.35455543" />
+      <window_info anchor="bottom" id="Console" order="13" />
+      <window_info anchor="bottom" id="DB Execution Console" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.5558894" weight="0.59713167" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="top" content_ui="combo" id="Project" order="0" weight="0.032930844" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Project Explorer" order="2" weight="0.32940447" />
+      <window_info id="DB Browser" order="3" weight="0.32940447" />
+      <window_info id="Job Explorer" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49946523" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.89818764" visible="true" weight="0.28430295" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39921466" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49452806" weight="0.0039267014" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4984375" weight="0.32985386" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.10181237" side_tool="true" weight="0.4006586" />
+      <window_info anchor="bottom" id="Console" order="13" />
+      <window_info anchor="bottom" id="DB Execution Console" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.5558894" weight="0.59713167" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/dbfpy/dbf.py" />
+    <entry file="file://$PROJECT_DIR$/OldStuff/testConnection.py" />
+    <entry file="file://$PROJECT_DIR$/OldStuff/example of functions.txt" />
+    <entry file="file://$PROJECT_DIR$/OldStuff/testDbf.bak" />
+    <entry file="file://C:/Program Files/Python36/Lib/os.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/dbfread/field_parser.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/dbfread/memo.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/dbfread/field_parser.py" />
+    <entry file="file://$PROJECT_DIR$/dbfToSqlDb2.py" />
+    <entry file="file://$PROJECT_DIR$/dbfToSqlDb3.py" />
+    <entry file="file://$PROJECT_DIR$/dbfToSqlDb.py" />
+    <entry file="file://$PROJECT_DIR$/dbfToSql.py" />
+    <entry file="file://$PROJECT_DIR$/ConnectionToSqlServer.py" />
+    <entry file="file://$PROJECT_DIR$/conf/config.json" />
+    <entry file="file://$PROJECT_DIR$/3.py" />
+    <entry file="file://$PROJECT_DIR$/2.py" />
+    <entry file="file://$PROJECT_DIR$/dbfToSqlStart.py" />
+    <entry file="file://$PROJECT_DIR$/dbfToSqlFinal.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/HN/IPAS-Inconsistencias-Marcas.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="93" lean-forward="true" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lastTest.py" />
+    <entry file="file://$PROJECT_DIR$/finalProc.py" />
+    <entry file="file://$PROJECT_DIR$/udvalidation.py" />
+    <entry file="file://$PROJECT_DIR$/logs/migrationLog.log" />
+    <entry file="file://C:/WIPO/WIPOTools/PhonAndTransli/config/config311.back" />
+    <entry file="file://C:/WIPO/WIPOTools/PhonAndTransli/config/config311.properties" />
+    <entry file="db://45d4ad7e-41d9-4789-8395-1883bcb2f6b0/consoles/Connection" />
+    <entry file="file://$PROJECT_DIR$/../Udemi/Complete-Python-3-Bootcamp-master/00-Python Object and Data Structure Basics/01-Numbers.ipynb" />
+    <entry file="file://$PROJECT_DIR$/conf/additionalScripts/manual.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/configNiPat.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/configNiDd.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wosToMysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niMigrationFinal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/configWos.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadConfigWos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webServiceTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/configNi.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moveDbfToSql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbfToSqlAllTables2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="38" column="44" lean-forward="true" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbfToSqlAllTablesStd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbfToSqlAllTables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moveDbfToSql2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="146" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/originToIntermed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prepareTablesAndViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#1#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restoreIpasDatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intermedToIpas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="186" column="29" selection-start-line="186" selection-start-column="29" selection-end-line="186" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/configHn.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logosUploader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicTools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="151" column="24" selection-start-line="151" selection-start-column="24" selection-end-line="151" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hnMigrationFinal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

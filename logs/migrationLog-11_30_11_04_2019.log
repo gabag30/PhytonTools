@@ -1,0 +1,8 @@
+2019-04-11 11:30:50,299 - root - WARNING - connected to Sqlserver.
+2019-04-11 11:30:50,333 - root - WARNING - connected to Sqlserver.
+2019-04-11 11:30:50,333 - root - WARNING - starting migration to intermed.
+2019-04-11 11:30:50,334 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_AGENT
+2019-04-11 11:30:50,335 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'nombre'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'AGENT_NAME'. (102); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'll'. (102)")
+2019-04-11 11:30:50,336 - root - ERROR - >>>>>>>>>>>>>>> issue with get cursor('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'nombre'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'AGENT_NAME'. (102); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'll'. (102)")
+2019-04-11 11:30:50,336 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object has no attribute 'fetchone'
+2019-04-11 11:30:50,336 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_AGENT_PERSONS

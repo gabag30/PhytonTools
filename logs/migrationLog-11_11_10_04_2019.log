@@ -1,0 +1,692 @@
+2019-04-10 11:11:14,173 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:14,178 - root - INFO - Connections to database severed
+2019-04-10 11:11:14,198 - root - INFO - database dropped
+2019-04-10 11:11:14,437 - root - INFO - New Intermediate databas created
+2019-04-10 11:11:14,453 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:14,454 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:11:14,456 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:14,458 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:11:14,475 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,476 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,495 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,495 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,515 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,515 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,534 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,534 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,554 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,554 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,573 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,573 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,591 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,591 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,610 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,610 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,628 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,629 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,648 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,648 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,668 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:14,668 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,669 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:14,669 - root - WARNING - insert finished
+2019-04-10 11:11:14,672 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:14,672 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:11:14,674 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:14,676 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:11:14,689 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,690 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,698 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,698 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,707 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,707 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,715 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,716 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,723 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,723 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,732 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,732 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,740 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,740 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,749 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,749 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,757 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,757 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,765 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,766 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,774 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,774 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,782 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,782 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,790 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,790 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,798 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,798 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,807 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,807 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,815 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,815 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,824 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,825 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,832 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,832 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,841 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,841 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,849 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,849 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,858 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,858 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,866 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,866 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,874 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,875 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,883 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,883 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,893 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,893 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,901 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,901 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,909 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,909 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,918 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,918 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,927 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,927 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,939 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,939 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,947 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,947 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,956 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,956 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,965 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,965 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,973 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,973 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,981 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,981 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,989 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,989 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:14,997 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:14,997 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,005 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,005 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,012 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,012 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,021 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,021 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,030 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,030 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,038 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,038 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,046 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,046 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,054 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,054 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,062 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,062 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,070 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,070 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,078 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,078 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,086 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,087 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,094 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,094 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,103 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,103 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,111 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,111 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,119 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,119 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,128 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,128 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,136 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,136 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,144 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,144 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,153 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,153 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,161 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,161 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,170 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,170 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,179 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,179 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,187 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,187 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,195 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,196 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,204 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,204 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,212 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:15,212 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,217 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:15,217 - root - WARNING - insert finished
+2019-04-10 11:11:15,217 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:15,217 - root - INFO - Processing: codigos.dbf
+2019-04-10 11:11:15,218 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:15,221 - root - WARNING - Going to insert to table: codigos
+2019-04-10 11:11:15,221 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:15,221 - root - WARNING - insert finished
+2019-04-10 11:11:15,222 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:15,222 - root - INFO - Processing: eventab.dbf
+2019-04-10 11:11:15,223 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:15,224 - root - WARNING - Going to insert to table: eventab
+2019-04-10 11:11:15,226 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:15,227 - root - WARNING - insert finished
+2019-04-10 11:11:15,227 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:15,227 - root - INFO - Processing: marca.DBF
+2019-04-10 11:11:15,229 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" varchar(max), "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" varchar(max), "RENUEVA" varchar(max), "EXPIRA" varchar(max), "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" varchar(max), "PESO_RASGO" varchar(max), "LARFON" varchar(max), "PESO_R" varchar(max), "PUBLICADA" varchar(max), "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" varchar(max), "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" varchar(max), "MODIFICADO" varchar(max), "ANUALIDAD" varchar(max), "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:15,231 - root - WARNING - Going to insert to table: marca
+2019-04-10 11:11:15,347 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:15,347 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,465 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:15,465 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,589 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:15,589 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,732 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:15,732 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,857 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:15,857 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:15,974 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:15,975 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:16,101 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:16,101 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:16,217 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:16,218 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:16,336 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:16,336 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:16,455 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:16,456 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:16,576 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:16,576 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:16,692 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:16,692 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:16,811 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:16,811 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:16,929 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:16,929 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:17,053 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:17,053 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:17,177 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:17,177 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:17,305 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:17,305 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,367 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:18,372 - root - INFO - Connections to database severed
+2019-04-10 11:11:18,401 - root - INFO - database dropped
+2019-04-10 11:11:18,650 - root - INFO - New Intermediate databas created
+2019-04-10 11:11:18,668 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:18,668 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:11:18,670 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:18,672 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:11:18,692 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,692 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,711 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,711 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,730 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,730 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,750 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,750 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,769 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,769 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,787 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,787 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,807 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,808 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,826 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,826 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,845 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,845 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,864 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,864 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,883 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:18,884 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,885 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:18,886 - root - WARNING - insert finished
+2019-04-10 11:11:18,888 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:18,889 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:11:18,890 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:18,892 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:11:18,904 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,904 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,913 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,913 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,921 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,922 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,930 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,931 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,939 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,939 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,947 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,947 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,955 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,955 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,963 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,963 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,972 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,972 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,981 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,981 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,990 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,990 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:18,998 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:18,999 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,007 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,008 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,016 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,016 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,025 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,026 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,033 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,033 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,042 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,042 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,050 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,050 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,059 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,059 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,067 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,067 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,075 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,075 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,083 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,083 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,091 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,092 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,099 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,099 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,108 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,108 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,117 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,118 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,125 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,126 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,134 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,134 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,142 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,143 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,151 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,151 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,160 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,160 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,169 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,169 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,177 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,177 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,185 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,186 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,193 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,193 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,202 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,202 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,210 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,210 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,218 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,218 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,226 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,226 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,234 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,234 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,243 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,244 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,251 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,251 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,260 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,260 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,268 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,268 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,276 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,276 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,285 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,285 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,294 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,294 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,302 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,302 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,311 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,311 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,319 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,319 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,327 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,327 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,335 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,336 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:19,345 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:19,346 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,085 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:41,088 - root - INFO - Connections to database severed
+2019-04-10 11:11:41,109 - root - INFO - database dropped
+2019-04-10 11:11:41,327 - root - INFO - New Intermediate databas created
+2019-04-10 11:11:41,343 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:41,343 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:11:41,346 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:41,347 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:11:41,365 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,366 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,384 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,384 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,404 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,404 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,423 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,424 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,443 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,443 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,462 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,462 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,481 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,481 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,501 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,501 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,520 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,520 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,539 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,539 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,556 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:41,556 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,558 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:41,558 - root - WARNING - insert finished
+2019-04-10 11:11:41,561 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:41,561 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:11:41,562 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:41,565 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:11:41,577 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,577 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,585 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,585 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,593 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,593 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,602 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,602 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,610 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,611 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,618 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,618 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,626 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,626 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,634 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,634 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,643 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,643 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,651 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,651 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,664 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,664 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,672 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,672 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,680 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,680 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,689 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,689 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,698 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,698 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,706 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,706 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,715 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,715 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,724 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,724 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,732 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,732 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,740 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,740 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,748 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,748 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,757 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,758 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,765 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,765 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,774 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,774 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,782 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,782 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,790 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,790 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,798 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,799 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,807 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,807 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,816 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,816 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,826 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,826 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,835 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,835 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,842 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,842 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,850 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,850 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,859 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,859 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,867 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,868 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,875 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,876 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,884 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,884 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,892 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,892 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,900 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,900 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,908 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,908 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,917 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,917 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,926 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,926 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,934 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,934 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,942 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,942 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,951 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,951 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,959 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,960 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,968 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,968 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,977 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,977 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,985 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,985 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:41,994 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:41,994 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,002 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,003 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,011 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,011 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,020 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,020 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,028 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,028 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,037 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,037 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,046 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,046 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,054 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,054 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,062 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,062 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,070 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,071 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,079 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,080 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,088 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,088 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,096 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,096 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,104 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:42,104 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,108 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:42,109 - root - WARNING - insert finished
+2019-04-10 11:11:42,109 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:42,109 - root - INFO - Processing: codigos.dbf
+2019-04-10 11:11:42,110 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:42,113 - root - WARNING - Going to insert to table: codigos
+2019-04-10 11:11:42,113 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:42,113 - root - WARNING - insert finished
+2019-04-10 11:11:42,114 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:42,114 - root - INFO - Processing: eventab.dbf
+2019-04-10 11:11:42,115 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:42,116 - root - WARNING - Going to insert to table: eventab
+2019-04-10 11:11:42,118 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:42,118 - root - WARNING - insert finished
+2019-04-10 11:11:42,119 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:42,119 - root - INFO - Processing: marca.DBF
+2019-04-10 11:11:42,121 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" varchar(max), "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" varchar(max), "RENUEVA" varchar(max), "EXPIRA" varchar(max), "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" varchar(max), "PESO_RASGO" varchar(max), "LARFON" varchar(max), "PESO_R" varchar(max), "PUBLICADA" varchar(max), "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" varchar(max), "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" varchar(max), "MODIFICADO" varchar(max), "ANUALIDAD" varchar(max), "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:42,123 - root - WARNING - Going to insert to table: marca
+2019-04-10 11:11:42,248 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:42,248 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,365 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:42,365 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,483 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:42,483 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,606 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:42,606 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,731 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:42,731 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,855 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:42,855 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:42,981 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:42,981 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:43,104 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:43,104 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:43,226 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_marca(rowNum,NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT, DELETED) VALUES inserting data
+2019-04-10 11:11:43,226 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,437 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:44,442 - root - INFO - Connections to database severed
+2019-04-10 11:11:44,463 - root - INFO - database dropped
+2019-04-10 11:11:44,688 - root - INFO - New Intermediate databas created
+2019-04-10 11:11:44,707 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:44,707 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:11:44,709 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:44,711 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:11:44,733 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,733 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,758 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,758 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,777 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,777 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,796 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,796 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,814 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,814 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,834 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,834 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,854 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,854 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,873 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,873 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,894 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,894 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,912 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,912 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,932 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_agentes(rowNum,AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD, DELETED) VALUES inserting data
+2019-04-10 11:11:44,932 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,934 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:11:44,934 - root - WARNING - insert finished
+2019-04-10 11:11:44,937 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:11:44,937 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:11:44,938 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:11:44,941 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:11:44,953 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:44,953 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,962 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:44,963 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,970 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:44,970 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,979 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:44,979 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,987 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:44,988 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:44,996 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:44,996 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,005 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,005 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,014 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,014 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,023 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,023 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,031 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,031 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,039 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,040 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,047 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,047 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,056 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,056 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,064 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,064 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,072 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,072 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,080 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,080 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,089 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,089 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,097 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,097 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,105 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,106 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,114 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,114 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,122 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,123 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,132 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,132 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,140 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,140 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,148 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,149 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,160 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,161 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,170 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,170 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,178 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,179 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,187 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,187 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,195 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,196 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,204 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,205 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,214 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,214 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,222 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,222 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,230 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,231 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,239 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,239 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,247 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,247 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,256 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,256 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,264 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,264 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,272 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,272 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,281 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,281 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,289 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,289 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,298 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,298 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,306 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,306 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,315 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,315 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,324 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,324 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,332 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,332 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,340 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,340 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,348 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,348 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,356 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,356 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,365 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,365 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,373 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,373 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')
+2019-04-10 11:11:45,382 - root - INFO - wrong query:INSERT INTO HN1.dbo.vw_origin_ccvs(rowNum,CCV, NRO_SOLICI, DELETED) VALUES inserting data
+2019-04-10 11:11:45,382 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('The SQL contains 0 parameter markers, but 1 parameters were supplied', 'HY000')

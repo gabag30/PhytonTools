@@ -1,0 +1,61 @@
+2019-04-10 14:08:05,977 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:08:09,035 - root - INFO - Connections to database severed
+2019-04-10 14:08:09,073 - root - INFO - database dropped
+2019-04-10 14:08:09,292 - root - INFO - New Intermediate databas created
+2019-04-10 14:08:09,309 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:08:09,309 - root - INFO - Processing: agentes.DBF
+2019-04-10 14:08:09,311 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 14:08:09,313 - root - WARNING - Going to insert to table: agentes
+2019-04-10 14:08:11,333 - root - WARNING - insert finished
+2019-04-10 14:08:11,335 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:08:11,336 - root - INFO - Processing: ccvs.DBF
+2019-04-10 14:08:11,337 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 14:08:11,338 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 14:08:21,269 - root - WARNING - insert finished
+2019-04-10 14:08:21,269 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:08:21,269 - root - INFO - Processing: codigos.dbf
+2019-04-10 14:08:21,270 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 14:08:21,271 - root - WARNING - Going to insert to table: codigos
+2019-04-10 14:08:21,280 - root - WARNING - insert finished
+2019-04-10 14:08:21,281 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:08:21,281 - root - INFO - Processing: eventab.dbf
+2019-04-10 14:08:21,282 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 14:08:21,283 - root - WARNING - Going to insert to table: eventab
+2019-04-10 14:08:21,310 - root - WARNING - insert finished
+2019-04-10 14:08:21,311 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:08:21,311 - root - INFO - Processing: marca.DBF
+2019-04-10 14:08:21,313 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "RENUEVA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" real, "LARFON" real, "PESO_R" real, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" real, "RFOLIO" real, "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" real, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" real, "MODIFICADO" varchar(max), "ANUALIDAD" real, "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 14:08:21,315 - root - WARNING - Going to insert to table: marca
+2019-04-10 14:08:41,863 - root - ERROR - records[79523]['STAT_DESDE'] == InvalidValue(b'00001228')
+2019-04-10 14:08:42,623 - root - ERROR - records[82440]['REGISTRADA'] == InvalidValue(b'00001229')
+2019-04-10 14:08:42,623 - root - ERROR - records[82440]['STAT_DESDE'] == InvalidValue(b'00001229')
+2019-04-10 14:09:17,091 - root - WARNING - insert finished
+2019-04-10 14:09:17,092 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:09:17,092 - root - INFO - Processing: migracio.dbf
+2019-04-10 14:09:17,093 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_migracio (rowNum numeric (20), "STATUS_INI" varchar(max), "EVENTO" varchar(max), "STATUS_FIN" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-10 14:09:17,094 - root - WARNING - Going to insert to table: migracio
+2019-04-10 14:09:17,119 - root - WARNING - insert finished
+2019-04-10 14:09:17,119 - root - WARNING - connected to Sqlserver.
+2019-04-10 14:09:17,119 - root - INFO - Processing: movimi.DBF
+2019-04-10 14:09:17,121 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_movimi (rowNum numeric (20), "NRO_SOLICI" varchar(max), "COMENTARIO" varchar(max), "F_EVENTO" date, "F_VENCIM" date, "F_TRANS" date, "NRO_MOV" varchar(max), "EVENTO" varchar(max), "STATUS" varchar(max), "HORA" varchar(max), "DOCUMENTO" varchar(max), "USUARIO" varchar(max), "N_ENTRADA" varchar(max), DELETED varchar (5))"
+2019-04-10 14:09:17,123 - root - WARNING - Going to insert to table: movimi
+2019-04-10 14:09:41,300 - root - ERROR - records[121364]['F_EVENTO'] == InvalidValue(b'00001228')
+2019-04-10 14:09:41,309 - root - ERROR - records[121654]['F_EVENTO'] == InvalidValue(b'00001229')
+2019-04-10 14:09:52,440 - root - ERROR - records[178956]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:09:52,440 - root - ERROR - records[178956]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:09:52,441 - root - ERROR - records[178956]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:09:59,720 - root - ERROR - records[215740]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:09:59,720 - root - ERROR - records[215740]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:09:59,720 - root - ERROR - records[215740]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:09:59,720 - root - ERROR - records[215741]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:09:59,720 - root - ERROR - records[215741]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:09:59,720 - root - ERROR - records[215741]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:10:01,089 - root - ERROR - records[222679]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:10:01,089 - root - ERROR - records[222679]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:10:01,089 - root - ERROR - records[222679]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:10:01,090 - root - ERROR - records[222680]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:10:01,090 - root - ERROR - records[222680]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:10:01,090 - root - ERROR - records[222680]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:10:01,090 - root - ERROR - records[222681]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:10:01,090 - root - ERROR - records[222681]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-10 14:10:01,090 - root - ERROR - records[222681]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')

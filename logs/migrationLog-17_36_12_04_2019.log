@@ -1,0 +1,52 @@
+2019-04-12 17:36:22,341 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:36:22,345 - root - INFO - Connections to database severed
+2019-04-12 17:36:22,396 - root - INFO - database dropped
+2019-04-12 17:36:22,397 - root - INFO - user ready
+2019-04-12 17:36:22,398 - root - INFO - access granted
+2019-04-12 17:36:22,399 - root - INFO - access granted
+2019-04-12 17:36:22,400 - root - INFO - password changed
+2019-04-12 17:36:23,123 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:23,137 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:36:23,167 - root - INFO - repository synced
+2019-04-12 17:36:23,173 - root - INFO - repository synced
+2019-04-12 17:36:23,177 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:36:23,290 - root - INFO - changing database to intermed
+2019-04-12 17:36:23,295 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:36:24,209 - root - INFO - access granted
+2019-04-12 17:36:24,210 - root - INFO - access granted
+2019-04-12 17:36:26,498 - root - WARNING - Running initial updates to intermed.
+2019-04-12 17:36:26,498 - root - INFO - changing database to intermed
+2019-04-12 17:36:27,969 - root - INFO - changing database to ipas
+2019-04-12 17:36:27,974 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:36:27,974 - root - WARNING - Creating store procedures and wrk tables.
+2019-04-12 17:36:28,123 - root - INFO - cleanning manual validation tables
+2019-04-12 17:36:28,124 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-04-12 17:36:28,203 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,203 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-04-12 17:36:28,271 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,271 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-04-12 17:36:28,340 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,341 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-04-12 17:36:28,430 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,430 - root - INFO - creating store procedure12-userdocImport-1
+2019-04-12 17:36:28,503 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,504 - root - INFO - creating store procedure13-userdocImport-2
+2019-04-12 17:36:28,578 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,578 - root - INFO - creating store procedure2-PatentDateValidationPROC
+2019-04-12 17:36:28,649 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,649 - root - INFO - creating store procedure3-UserDocDateValidationPROC
+2019-04-12 17:36:28,717 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,717 - root - INFO - creating store procedure4-CallToDateValidationPROC
+2019-04-12 17:36:28,784 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,784 - root - INFO - creating store procedure5-ImportAgentValidate
+2019-04-12 17:36:28,859 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,859 - root - INFO - creating store procedure6-ImportMarkValidate
+2019-04-12 17:36:28,975 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:28,976 - root - INFO - creating store procedure8-ImportUserdocValidate
+2019-04-12 17:36:29,075 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:29,075 - root - INFO - creating store procedure9-ImportWorkTablesCreate
+2019-04-12 17:36:29,464 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:36:29,465 - root - WARNING - Running validation and migration.
+2019-04-12 17:36:29,587 - root - WARNING - Migrating agents.
+2019-04-12 17:36:34,583 - root - WARNING - Validation TM .
+2019-04-12 17:37:08,748 - root - WARNING - Validation TM post correction.

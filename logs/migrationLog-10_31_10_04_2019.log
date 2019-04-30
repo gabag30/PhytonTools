@@ -1,0 +1,64 @@
+2019-04-10 10:31:06,536 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:06,541 - root - INFO - Connections to database severed
+2019-04-10 10:31:06,562 - root - INFO - database dropped
+2019-04-10 10:31:06,789 - root - INFO - New Intermediate databas created
+2019-04-10 10:31:06,806 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:06,806 - root - INFO - Processing: agentes.DBF
+2019-04-10 10:31:06,809 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:06,811 - root - WARNING - Going to insert to table: agentes
+2019-04-10 10:31:09,099 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 10:31:09,099 - root - WARNING - insert finished
+2019-04-10 10:31:09,102 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:09,102 - root - INFO - Processing: ccvs.DBF
+2019-04-10 10:31:09,103 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:09,106 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 10:31:10,600 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 10:31:10,600 - root - WARNING - insert finished
+2019-04-10 10:31:10,600 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:10,600 - root - INFO - Processing: codigos.dbf
+2019-04-10 10:31:10,601 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:10,604 - root - WARNING - Going to insert to table: codigos
+2019-04-10 10:31:10,605 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 10:31:10,605 - root - WARNING - insert finished
+2019-04-10 10:31:10,605 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:10,606 - root - INFO - Processing: eventab.dbf
+2019-04-10 10:31:10,607 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:10,608 - root - WARNING - Going to insert to table: eventab
+2019-04-10 10:31:10,614 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 10:31:10,615 - root - WARNING - insert finished
+2019-04-10 10:31:10,615 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:10,615 - root - INFO - Processing: marca.DBF
+2019-04-10 10:31:10,617 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" varchar(max), "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" varchar(max), "RENUEVA" varchar(max), "EXPIRA" varchar(max), "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" varchar(max), "PESO_RASGO" varchar(max), "LARFON" varchar(max), "PESO_R" varchar(max), "PUBLICADA" varchar(max), "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" varchar(max), "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" varchar(max), "MODIFICADO" varchar(max), "ANUALIDAD" varchar(max), "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:10,619 - root - WARNING - Going to insert to table: marca
+2019-04-10 10:31:46,263 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:46,267 - root - INFO - Connections to database severed
+2019-04-10 10:31:46,289 - root - INFO - database dropped
+2019-04-10 10:31:46,484 - root - INFO - New Intermediate databas created
+2019-04-10 10:31:46,500 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:46,500 - root - INFO - Processing: agentes.DBF
+2019-04-10 10:31:46,502 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:46,504 - root - WARNING - Going to insert to table: agentes
+2019-04-10 10:31:46,808 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 10:31:46,808 - root - WARNING - insert finished
+2019-04-10 10:31:46,810 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:46,811 - root - INFO - Processing: ccvs.DBF
+2019-04-10 10:31:46,812 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:46,814 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 10:31:46,840 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 10:31:46,840 - root - WARNING - insert finished
+2019-04-10 10:31:46,841 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:46,841 - root - INFO - Processing: codigos.dbf
+2019-04-10 10:31:46,842 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:46,843 - root - WARNING - Going to insert to table: codigos
+2019-04-10 10:31:46,844 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 10:31:46,844 - root - WARNING - insert finished
+2019-04-10 10:31:46,845 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:46,845 - root - INFO - Processing: eventab.dbf
+2019-04-10 10:31:46,846 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:46,847 - root - WARNING - Going to insert to table: eventab
+2019-04-10 10:31:46,854 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 10:31:46,854 - root - WARNING - insert finished
+2019-04-10 10:31:46,854 - root - WARNING - connected to Sqlserver.
+2019-04-10 10:31:46,854 - root - INFO - Processing: marca.DBF
+2019-04-10 10:31:46,856 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" varchar(max), "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" varchar(max), "RENUEVA" varchar(max), "EXPIRA" varchar(max), "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" varchar(max), "PESO_RASGO" varchar(max), "LARFON" varchar(max), "PESO_R" varchar(max), "PUBLICADA" varchar(max), "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" varchar(max), "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" varchar(max), "MODIFICADO" varchar(max), "ANUALIDAD" varchar(max), "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 10:31:46,858 - root - WARNING - Going to insert to table: marca

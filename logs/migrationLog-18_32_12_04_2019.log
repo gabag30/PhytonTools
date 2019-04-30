@@ -1,0 +1,453 @@
+2019-04-12 18:32:17,329 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:32:20,374 - root - INFO - Connections to database severed
+2019-04-12 18:32:21,164 - root - INFO - database dropped
+2019-04-12 18:32:21,374 - root - INFO - New Intermediate databas created
+2019-04-12 18:32:21,405 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:32:21,406 - root - INFO - Processing: agentes.DBF
+2019-04-12 18:32:21,421 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-12 18:32:21,424 - root - WARNING - Going to insert to table: agentes
+2019-04-12 18:32:23,672 - root - WARNING - insert finished
+2019-04-12 18:32:23,675 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:32:23,675 - root - INFO - Processing: ccvs.DBF
+2019-04-12 18:32:23,694 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-12 18:32:23,695 - root - WARNING - Going to insert to table: ccvs
+2019-04-12 18:32:34,982 - root - WARNING - insert finished
+2019-04-12 18:32:34,982 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:32:34,982 - root - INFO - Processing: codigos.dbf
+2019-04-12 18:32:34,997 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-12 18:32:34,998 - root - WARNING - Going to insert to table: codigos
+2019-04-12 18:32:35,008 - root - WARNING - insert finished
+2019-04-12 18:32:35,008 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:32:35,008 - root - INFO - Processing: eventab.dbf
+2019-04-12 18:32:35,016 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-12 18:32:35,017 - root - WARNING - Going to insert to table: eventab
+2019-04-12 18:32:35,046 - root - WARNING - insert finished
+2019-04-12 18:32:35,046 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:32:35,046 - root - INFO - Processing: marca.DBF
+2019-04-12 18:32:35,068 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "RENUEVA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" real, "LARFON" real, "PESO_R" real, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" real, "RFOLIO" real, "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" real, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" real, "MODIFICADO" varchar(max), "ANUALIDAD" real, "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-12 18:32:35,070 - root - WARNING - Going to insert to table: marca
+2019-04-12 18:32:56,082 - root - INFO - records[79523]['STAT_DESDE'] == InvalidValue(b'00001228')
+2019-04-12 18:32:58,254 - root - INFO - records[82440]['REGISTRADA'] == InvalidValue(b'00001229')
+2019-04-12 18:32:58,254 - root - INFO - records[82440]['STAT_DESDE'] == InvalidValue(b'00001229')
+2019-04-12 18:33:38,401 - root - WARNING - insert finished
+2019-04-12 18:33:38,402 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:33:38,402 - root - INFO - Processing: migracio.dbf
+2019-04-12 18:33:38,512 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_migracio (rowNum numeric (20), "STATUS_INI" varchar(max), "EVENTO" varchar(max), "STATUS_FIN" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-12 18:33:38,515 - root - WARNING - Going to insert to table: migracio
+2019-04-12 18:33:38,554 - root - WARNING - insert finished
+2019-04-12 18:33:38,554 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:33:38,555 - root - INFO - Processing: movimi.DBF
+2019-04-12 18:33:38,583 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_movimi (rowNum numeric (20), "NRO_SOLICI" varchar(max), "COMENTARIO" varchar(max), "F_EVENTO" date, "F_VENCIM" date, "F_TRANS" date, "NRO_MOV" varchar(max), "EVENTO" varchar(max), "STATUS" varchar(max), "HORA" varchar(max), "DOCUMENTO" varchar(max), "USUARIO" varchar(max), "N_ENTRADA" varchar(max), DELETED varchar (5))"
+2019-04-12 18:33:38,585 - root - WARNING - Going to insert to table: movimi
+2019-04-12 18:34:08,332 - root - INFO - records[121364]['F_EVENTO'] == InvalidValue(b'00001228')
+2019-04-12 18:34:08,350 - root - INFO - records[121654]['F_EVENTO'] == InvalidValue(b'00001229')
+2019-04-12 18:34:19,091 - root - INFO - records[178956]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:19,091 - root - INFO - records[178956]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:19,091 - root - INFO - records[178956]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:27,356 - root - INFO - records[215740]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:27,356 - root - INFO - records[215740]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:27,357 - root - INFO - records[215740]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:27,357 - root - INFO - records[215741]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:27,357 - root - INFO - records[215741]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:27,357 - root - INFO - records[215741]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:29,243 - root - INFO - records[222679]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:29,243 - root - INFO - records[222679]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:29,243 - root - INFO - records[222679]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:29,244 - root - INFO - records[222680]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:29,244 - root - INFO - records[222680]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:29,244 - root - INFO - records[222680]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:29,244 - root - INFO - records[222681]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:29,244 - root - INFO - records[222681]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:34:29,244 - root - INFO - records[222681]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:43:09,305 - root - INFO - records[98312]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:43:09,305 - root - INFO - records[98312]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:43:09,305 - root - INFO - records[98312]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:43:09,305 - root - INFO - records[98313]['F_EVENTO'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:43:09,305 - root - INFO - records[98313]['F_VENCIM'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:43:09,305 - root - INFO - records[98313]['F_TRANS'] == InvalidValue(b'\x00\x00\x00\x00\x00\x00\x00\x00')
+2019-04-12 18:43:16,233 - root - WARNING - insert finished
+2019-04-12 18:43:16,249 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:43:16,249 - root - INFO - Processing: nuenoms.DBF
+2019-04-12 18:43:16,280 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_nuenoms (rowNum numeric (20), "NUM_SERIE" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-12 18:43:16,280 - root - WARNING - Going to insert to table: nuenoms
+2019-04-12 18:43:24,510 - root - WARNING - insert finished
+2019-04-12 18:43:24,511 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:43:24,511 - root - INFO - Processing: orinoms.DBF
+2019-04-12 18:43:24,515 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_orinoms (rowNum numeric (20), "NUM_SERIE" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-12 18:43:24,515 - root - WARNING - Going to insert to table: orinoms
+2019-04-12 18:43:44,181 - root - WARNING - insert finished
+2019-04-12 18:43:44,181 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:43:44,181 - root - INFO - Processing: peticion.DBF
+2019-04-12 18:43:44,202 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_peticion (rowNum numeric (20), "NUM_SERIE" varchar(max), "SOLICITADA" date, "HORA" varchar(max), "TIPO_PETI" varchar(max), "STATUS_RES" varchar(max), "STAT_DESDE" date, "AGENTE" varchar(max), "CALIDAD" varchar(max), "QUIEN" varchar(max), "CUAL" varchar(max), "NRO_RESOL" varchar(max), "OBSERVACIO" varchar(max), "LEY" varchar(max), "CAMBREP" integer, DELETED varchar (5))"
+2019-04-12 18:43:44,203 - root - WARNING - Going to insert to table: peticion
+2019-04-12 18:44:26,985 - root - WARNING - insert finished
+2019-04-12 18:44:26,985 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:44:26,985 - root - INFO - Processing: petireg.DBF
+2019-04-12 18:44:27,005 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_petireg (rowNum numeric (20), "NRO_SOLICI" varchar(max), "NUM_SERIE" varchar(max), DELETED varchar (5))"
+2019-04-12 18:44:27,005 - root - WARNING - Going to insert to table: petireg
+2019-04-12 18:44:52,877 - root - WARNING - insert finished
+2019-04-12 18:44:52,877 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:44:52,877 - root - INFO - Processing: PODER.DBF
+2019-04-12 18:44:52,893 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_poder (rowNum numeric (20), "TITULAR1" varchar(max), "TITULAR2" varchar(max), "TITULAR3" varchar(max), "APODERADO1" varchar(max), "APODERADO2" varchar(max), "APODERADO3" varchar(max), "APODERADO4" varchar(max), "APODERADO5" varchar(max), "DOMICILIO1" varchar(max), "DOMICILIO2" varchar(max), "DOMICILIO3" varchar(max), "TIPOPODER1" varchar(max), "TIPOPODER2" varchar(max), "TIPOPODER3" varchar(max), "MARCA" varchar(max), "CLASES" real, "NRO_SOLIC1" real, "NRO_SOLIC2" real, "REGISTRO" real, "ASIENTO" real, DELETED varchar (5))"
+2019-04-12 18:44:52,893 - root - WARNING - Going to insert to table: PODER
+2019-04-12 18:44:53,674 - root - WARNING - insert finished
+2019-04-12 18:44:53,674 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:44:53,674 - root - INFO - Processing: poderes.dbf
+2019-04-12 18:44:53,696 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_poderes (rowNum numeric (20), "NUM_PODER" varchar(max), "NOMBRE" varchar(max), "DOMICILIO" varchar(max), "APODERADOS" varchar(max), "TIPO_REF" varchar(max), "REFERENCIA" varchar(max), "DENOMINA" varchar(max), "TIPO_PODER" varchar(max), DELETED varchar (5))"
+2019-04-12 18:44:53,696 - root - WARNING - Going to insert to table: poderes
+2019-04-12 18:44:53,696 - root - WARNING - insert finished
+2019-04-12 18:44:53,696 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:44:53,696 - root - INFO - Processing: PRIORIDA.DBF
+2019-04-12 18:44:53,712 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_priorida (rowNum numeric (20), "NRO_SOLICI" varchar(max), "FECHA" date, "NUMERO" varchar(max), "PAIS" varchar(max), "TIPO" varchar(max), DELETED varchar (5))"
+2019-04-12 18:44:53,712 - root - WARNING - Going to insert to table: PRIORIDA
+2019-04-12 18:44:55,215 - root - WARNING - insert finished
+2019-04-12 18:44:55,216 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:44:55,216 - root - INFO - Processing: producto.DBF
+2019-04-12 18:44:55,237 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_producto (rowNum numeric (20), "NRO_SOLICI" varchar(max), "CLASE" real, "PROD_SERV" varchar(max), "CL_TYPE" varchar(max), DELETED varchar (5))"
+2019-04-12 18:44:55,237 - root - WARNING - Going to insert to table: producto
+2019-04-12 18:45:32,973 - root - WARNING - insert finished
+2019-04-12 18:45:32,973 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:45:32,973 - root - INFO - Processing: status.DBF
+2019-04-12 18:45:32,989 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_status (rowNum numeric (20), "STATUS" varchar(max), "DESC_STAT" varchar(max), "PLAZO" real, "TIPO_PLAZO" varchar(max), "NOTIFIC" varchar(max), "TRAMITE" varchar(max), DELETED varchar (5))"
+2019-04-12 18:45:32,989 - root - WARNING - Going to insert to table: status
+2019-04-12 18:45:33,004 - root - WARNING - insert finished
+2019-04-12 18:45:33,004 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:45:33,004 - root - INFO - Processing: titular.DBF
+2019-04-12 18:45:33,004 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_titular (rowNum numeric (20), "TITULAR" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "PAIS" varchar(max), "LUGAR" varchar(max), "BANDERA" bit, DELETED varchar (5))"
+2019-04-12 18:45:33,021 - root - WARNING - Going to insert to table: titular
+2019-04-12 18:45:55,263 - root - WARNING - insert finished
+2019-04-12 18:45:55,263 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:45:55,263 - root - INFO - Processing: titumar.DBF
+2019-04-12 18:45:55,284 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_titumar (rowNum numeric (20), "NRO_SOLICI" varchar(max), "TITULAR" varchar(max), DELETED varchar (5))"
+2019-04-12 18:45:55,300 - root - WARNING - Going to insert to table: titumar
+2019-04-12 18:46:28,606 - root - WARNING - insert finished
+2019-04-12 18:46:28,606 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:46:28,606 - root - INFO - Processing: users.DBF
+2019-04-12 18:46:28,638 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_users (rowNum numeric (20), "CODE_USER" varchar(max), "NAME" varchar(max), "CAPACITY" varchar(max), "PASSW" varchar(max), "POST" varchar(max), DELETED varchar (5))"
+2019-04-12 18:46:28,638 - root - WARNING - Going to insert to table: users
+2019-04-12 18:46:28,669 - root - WARNING - insert finished
+2019-04-12 18:46:28,669 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:46:28,669 - root - INFO - wrong query:ALTER TABLE HN1.dbo.vw_origin_titular DROP COLUMN tipo_persoupdating table
+2019-04-12 18:46:28,669 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]ALTER TABLE DROP COLUMN failed because column 'tipo_perso' does not exist in table 'vw_origin_titular'. (4924) (SQLExecDirectW)")
+2019-04-12 18:46:28,669 - root - WARNING - Updating original tables with correction script.
+2019-04-12 18:51:05,613 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 18:51:05,613 - root - WARNING - Updating orignal tables with additional correction.
+2019-04-12 18:51:05,613 - root - INFO - wrong query:ALTER TABLE dbo.vw_origin_movimi DROP COLUMN ACTION_DATE_IPASrunning statementALTER TABLE dbo.vw_origin_movimi DROP COLUMN ACTION_DATE_IPAS
+2019-04-12 18:51:05,613 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]ALTER TABLE DROP COLUMN failed because column 'ACTION_DATE_IPAS' does not exist in table 'vw_origin_movimi'. (4924) (SQLExecDirectW)")
+2019-04-12 18:51:21,460 - root - WARNING - Regenerating intermediate tables.
+2019-04-12 18:51:21,577 - root - WARNING - creating views.
+2019-04-12 18:51:21,587 - root - INFO - wrong query: create view dbo.vw_PETIREG as SELECT rowNum,NR create or alter view dbo.vw_PETIREG as  SELECT rowNum,NRO_SOLICI,NUM_SERIE,cast(case when ISNUMERIC(nro_solici)= 0 then right(NRO_SOLICI,1) else '1'  end as varchar) FILE_SEQ,'M' FILE_TYPE, cast(left(nro_solici,4) as numeric(4,0)) file_ser, cast( substring(NRO_SOLICI,5,len(NRO_SOLICI)-(case when ISNUMERIC(nro_solici)=0 then 5 else 4 end)) as numeric(10,0))  FILE_NBR,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq,cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,Deleted FROM HN1.dbo.vw_origin_petireg where NRO_SOLICI is not null and num_serie is not null and isnumeric(left(nro_solici,4))=1union allSELECT  [rowNum],nro_solici,  	documento num_serie, 	cast(case when ISNUMERIC(nro_solici)= 0 then right(NRO_SOLICI,1) else '1'  end as varchar) FILE_SEQ,'M' FILE_TYPE, left(nro_solici,4) file_ser, cast( substring(NRO_SOLICI,5,len(NRO_SOLICI)-(case when ISNUMERIC(nro_solici)=0 then 5 else 4 end)) as numeric(10,0))  FILE_NBR,	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,      [DELETED]   FROM [HN1].[dbo].[vw_origin_movimi] where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N'running statement create view dbo.vw_PETIREG as SELECT rowNum,NR create or alter view dbo.vw_PETIREG as  SELECT rowNum,NRO_SOLICI,NUM_SERIE,cast(case when ISNUMERIC(nro_solici)= 0 then right(NRO_SOLICI,1) else '1'  end as varchar) FILE_SEQ,'M' FILE_TYPE, cast(left(nro_solici,4) as numeric(4,0)) file_ser, cast( substring(NRO_SOLICI,5,len(NRO_SOLICI)-(case when ISNUMERIC(nro_solici)=0 then 5 else 4 end)) as numeric(10,0))  FILE_NBR,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq,cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,Deleted FROM HN1.dbo.vw_origin_petireg where NRO_SOLICI is not null and num_serie is not null and isnumeric(left(nro_solici,4))=1union allSELECT  [rowNum],nro_solici,  	documento num_serie, 	cast(case when ISNUMERIC(nro_solici)= 0 then right(NRO_SOLICI,1) else '1'  end as varchar) FILE_SEQ,'M' FILE_TYPE, left(nro_solici,4) file_ser, cast( substring(NRO_SOLICI,5,len(NRO_SOLICI)-(case when ISNUMERIC(nro_solici)=0 then 5 else 4 end)) as numeric(10,0))  FILE_NBR,	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,      [DELETED]   FROM [HN1].[dbo].[vw_origin_movimi] where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N'
+2019-04-12 18:51:21,587 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'create'. (156) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'CREATE VIEW' must be the first statement in a query batch. (111); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'allSELECT'. (102); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'doc_seq'. (102)")
+2019-04-12 18:51:21,588 - root - INFO - wrong query:       create or alter view  dbo.vw_PETICI as  SELECT  rowNum,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq,cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,NUM_SERIE,SOLICITADA,hora,case when tipo_peti='RN' then 'ESC007'when tipo_peti='FU' then 'ESC056'when tipo_peti='LU' then 'ESC057'when tipo_peti='TR' then 'ESC067'when tipo_peti='CN' then 'ESC069'when tipo_peti='CD' then 'ESC096'when tipo_peti='NU' then 'ESC013'when tipo_peti='CC' then 'ESC016'when tipo_peti='RH' then 'ESC094'else tipo_petiendTIPO_PETI,STATUS_RES,STAT_DESDE,AGENTE,CALIDAD,qUien,CUAL,NRO_RESOL,case when OBSERVACIO='None' then '' else OBSERVACIO end OBSERVACIO,LEY,cambrep,Deleted FROM HN1.dbo.vw_origin_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')union allSELECT  [rowNum],	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,	documento num_serie      ,[F_EVENTO] solicitada	  ,[HORA]      ,case when evento='MO' then 'ESC099'when evento='US' then 'ESC061'when evento='DC' then 'ESC036'when evento='CO' then 'ESC012'when evento='CP' then 'ESC011'when evento='IP' then 'ESC063'when evento='DS' then 'ESC006'when evento='DO' then 'ESC022'when evento='PU' then 'ESC002'when evento='AP' then 'ESC003'when evento='EO' then 'ESC001'when evento='AI' then 'ESC090'when evento='RR' then 'ESC037'when evento='EL' then 'ESC030'when evento='MA' then 'ESC023'when evento='OT' then 'ESC066'when evento='PE' then 'ESC025'when evento='PP' then 'ESC085'when evento='C1' then 'ESC043'when evento='ST' then 'ESC021'when evento='DP' then 'ESC102'when evento='RM' then 'ESC104'when evento='CE' then 'ESC051'when evento='MS' then 'ESC074'when evento='SP' then 'ESC027'when evento='SC' then 'ESC041'when evento='EM' then 'ESC066'when evento='LE' then 'ESC106'when evento='CL' then 'ESC066'when evento='NU' then 'ESC013'when evento='CC' then 'ESC016'when evento='RH' then 'ESC094'else evento end TIPO_PETI      ,null status_res	  , null stat_desde	  ,null agente	  , null calidad	  ,null quien	  ,null cual	  ,null nro_resol	  ,[COMENTARIO] observacio      ,null ley, null cambrep      ,[DELETED]        FROM dbo.vw_origin_movimi where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N'running statement       create or alter view  dbo.vw_PETICI as  SELECT  rowNum,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq,cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,NUM_SERIE,SOLICITADA,hora,case when tipo_peti='RN' then 'ESC007'when tipo_peti='FU' then 'ESC056'when tipo_peti='LU' then 'ESC057'when tipo_peti='TR' then 'ESC067'when tipo_peti='CN' then 'ESC069'when tipo_peti='CD' then 'ESC096'when tipo_peti='NU' then 'ESC013'when tipo_peti='CC' then 'ESC016'when tipo_peti='RH' then 'ESC094'else tipo_petiendTIPO_PETI,STATUS_RES,STAT_DESDE,AGENTE,CALIDAD,qUien,CUAL,NRO_RESOL,case when OBSERVACIO='None' then '' else OBSERVACIO end OBSERVACIO,LEY,cambrep,Deleted FROM HN1.dbo.vw_origin_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')union allSELECT  [rowNum],	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,	documento num_serie      ,[F_EVENTO] solicitada	  ,[HORA]      ,case when evento='MO' then 'ESC099'when evento='US' then 'ESC061'when evento='DC' then 'ESC036'when evento='CO' then 'ESC012'when evento='CP' then 'ESC011'when evento='IP' then 'ESC063'when evento='DS' then 'ESC006'when evento='DO' then 'ESC022'when evento='PU' then 'ESC002'when evento='AP' then 'ESC003'when evento='EO' then 'ESC001'when evento='AI' then 'ESC090'when evento='RR' then 'ESC037'when evento='EL' then 'ESC030'when evento='MA' then 'ESC023'when evento='OT' then 'ESC066'when evento='PE' then 'ESC025'when evento='PP' then 'ESC085'when evento='C1' then 'ESC043'when evento='ST' then 'ESC021'when evento='DP' then 'ESC102'when evento='RM' then 'ESC104'when evento='CE' then 'ESC051'when evento='MS' then 'ESC074'when evento='SP' then 'ESC027'when evento='SC' then 'ESC041'when evento='EM' then 'ESC066'when evento='LE' then 'ESC106'when evento='CL' then 'ESC066'when evento='NU' then 'ESC013'when evento='CC' then 'ESC016'when evento='RH' then 'ESC094'else evento end TIPO_PETI      ,null status_res	  , null stat_desde	  ,null agente	  , null calidad	  ,null quien	  ,null cual	  ,null nro_resol	  ,[COMENTARIO] observacio      ,null ley, null cambrep      ,[DELETED]        FROM dbo.vw_origin_movimi where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N'
+2019-04-12 18:51:21,588 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OBSERVACIO'. (102); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'doc_seq'. (102); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'TIPO_PETI'. (102)")
+2019-04-12 18:51:21,591 - root - INFO - wrong query:         create or alter view  dbo.vw_userdoc as with cte as (select aaa.[rowNum]      ,[doc_seq]      ,[doc_ser]      ,[doc_nbr]      ,aaa.[NUM_SERIE]	  ,0 as ind_import	  ,TIPO_PETI userdoc_TYPE	  ,1 as law_code      ,convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) FILING_DATE,convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) RECEPTION_DATE       ,case when isnumeric(NRO_RESOL)=1 then 'Nro. resolucion: '+ NRO_RESOL else '' end +          case when len(observacio)>0 then 'observaciones: '+ cast( OBSERVACIO as varchar(max)) else '' end  notes         , NOMBRE PERSON_NAME ,case when (pais is null or pais='') then 'HN' else  PAIS end NATIONALITY_COUNTRY_CODE ,case when(len( LUGAR)>2 and len(pais)=2 ) then pais when len(lugar)=2 then lugar else 'HN' end RESIDENCE_COUNTRY_CODE ,case when (direccion is null or direccion='') then 'Falta direccion' else  DIRECCION end ADDRESS_STREET ,4 capture_user_id ,getdate() capture_date, STATUS_RES, STAT_DESDE, AGENTE	  	  ,aaa.[Deleted] 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)  	  	  from (SELECT  rowNum,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq,cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,NUM_SERIE,SOLICITADA,hora,case when tipo_peti='RN' then 'ESC007'when tipo_peti='FU' then 'ESC056'when tipo_peti='LU' then 'ESC057'when tipo_peti='TR' then 'ESC067'when tipo_peti='CN' then 'ESC069'when tipo_peti='CD' then 'ESC096'when tipo_peti='NU' then 'ESC013'when tipo_peti='CC' then 'ESC016'when tipo_peti='RH' then 'ESC094'else tipo_petiendTIPO_PETI,STATUS_RES,STAT_DESDE,AGENTE,CALIDAD,qUien,CUAL,NRO_RESOL,case when OBSERVACIO='None' then '' else OBSERVACIO end OBSERVACIO,LEY,cambrep,Deleted FROM HN1.dbo.vw_origin_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')union allSELECT  [rowNum],	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,	documento num_serie      ,[F_EVENTO] solicitada	  ,[HORA]      ,case when evento='MO' then 'ESC099'when evento='US' then 'ESC061'when evento='DC' then 'ESC036'when evento='CO' then 'ESC012'when evento='CP' then 'ESC011'when evento='IP' then 'ESC063'when evento='DS' then 'ESC006'when evento='DO' then 'ESC022'when evento='PU' then 'ESC002'when evento='AP' then 'ESC003'when evento='EO' then 'ESC001'when evento='AI' then 'ESC090'when evento='RR' then 'ESC037'when evento='EL' then 'ESC030'when evento='MA' then 'ESC023'when evento='OT' then 'ESC066'when evento='PE' then 'ESC025'when evento='PP' then 'ESC085'when evento='C1' then 'ESC043'when evento='ST' then 'ESC021'when evento='DP' then 'ESC102'when evento='RM' then 'ESC104'when evento='CE' then 'ESC051'when evento='MS' then 'ESC074'when evento='SP' then 'ESC027'when evento='SC' then 'ESC041'when evento='EM' then 'ESC066'when evento='LE' then 'ESC106'when evento='CL' then 'ESC066'when evento='NU' then 'ESC013'when evento='CC' then 'ESC016'when evento='RH' then 'ESC094'else evento end TIPO_PETI      ,null status_res	  , null stat_desde	  ,null agente	  , null calidad	  ,null quien	  ,null cual	  ,null nro_resol	  ,[COMENTARIO] observacio      ,null ley, null cambrep      ,[DELETED]        FROM dbo.vw_origin_movimi where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N' ) aaa  left join HN1.dbo.vw_origin_nuenoms nom on aaa.num_serie=nom.NUM_SERIE left join  HN1.dbo.vw_origin_TITULAR titu on  nom.titular=titu.TITULAR   where aaa.num_serie is not null        )  select   case when rn=1 then DOC_SEQ else doc_seq +'-'+cast(rn as varchar) end userdoc_seq,  cast(doc_ser as numeric(4,0)) USERDOC_SERIES,  cast(doc_nbr as numeric(10,0)) USERDOC_NBR, IND_IMPORT      , USERDOC_TYPE, LAW_CODE, FILING_DATE, RECEPTION_DATE, NOTES, case when PERSON_NAME is null then 'falta capturar nombre' else person_name end person_name  , NATIONALITY_COUNTRY_CODE, RESIDENCE_COUNTRY_CODE      , ADDRESS_STREET, CAPTURE_USER_ID, CAPTURE_DATE from cte running statement         create or alter view  dbo.vw_userdoc as with cte as (select aaa.[rowNum]      ,[doc_seq]      ,[doc_ser]      ,[doc_nbr]      ,aaa.[NUM_SERIE]	  ,0 as ind_import	  ,TIPO_PETI userdoc_TYPE	  ,1 as law_code      ,convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) FILING_DATE,convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) RECEPTION_DATE       ,case when isnumeric(NRO_RESOL)=1 then 'Nro. resolucion: '+ NRO_RESOL else '' end +          case when len(observacio)>0 then 'observaciones: '+ cast( OBSERVACIO as varchar(max)) else '' end  notes         , NOMBRE PERSON_NAME ,case when (pais is null or pais='') then 'HN' else  PAIS end NATIONALITY_COUNTRY_CODE ,case when(len( LUGAR)>2 and len(pais)=2 ) then pais when len(lugar)=2 then lugar else 'HN' end RESIDENCE_COUNTRY_CODE ,case when (direccion is null or direccion='') then 'Falta direccion' else  DIRECCION end ADDRESS_STREET ,4 capture_user_id ,getdate() capture_date, STATUS_RES, STAT_DESDE, AGENTE	  	  ,aaa.[Deleted] 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)  	  	  from (SELECT  rowNum,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq,cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,NUM_SERIE,SOLICITADA,hora,case when tipo_peti='RN' then 'ESC007'when tipo_peti='FU' then 'ESC056'when tipo_peti='LU' then 'ESC057'when tipo_peti='TR' then 'ESC067'when tipo_peti='CN' then 'ESC069'when tipo_peti='CD' then 'ESC096'when tipo_peti='NU' then 'ESC013'when tipo_peti='CC' then 'ESC016'when tipo_peti='RH' then 'ESC094'else tipo_petiendTIPO_PETI,STATUS_RES,STAT_DESDE,AGENTE,CALIDAD,qUien,CUAL,NRO_RESOL,case when OBSERVACIO='None' then '' else OBSERVACIO end OBSERVACIO,LEY,cambrep,Deleted FROM HN1.dbo.vw_origin_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')union allSELECT  [rowNum],	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,	documento num_serie      ,[F_EVENTO] solicitada	  ,[HORA]      ,case when evento='MO' then 'ESC099'when evento='US' then 'ESC061'when evento='DC' then 'ESC036'when evento='CO' then 'ESC012'when evento='CP' then 'ESC011'when evento='IP' then 'ESC063'when evento='DS' then 'ESC006'when evento='DO' then 'ESC022'when evento='PU' then 'ESC002'when evento='AP' then 'ESC003'when evento='EO' then 'ESC001'when evento='AI' then 'ESC090'when evento='RR' then 'ESC037'when evento='EL' then 'ESC030'when evento='MA' then 'ESC023'when evento='OT' then 'ESC066'when evento='PE' then 'ESC025'when evento='PP' then 'ESC085'when evento='C1' then 'ESC043'when evento='ST' then 'ESC021'when evento='DP' then 'ESC102'when evento='RM' then 'ESC104'when evento='CE' then 'ESC051'when evento='MS' then 'ESC074'when evento='SP' then 'ESC027'when evento='SC' then 'ESC041'when evento='EM' then 'ESC066'when evento='LE' then 'ESC106'when evento='CL' then 'ESC066'when evento='NU' then 'ESC013'when evento='CC' then 'ESC016'when evento='RH' then 'ESC094'else evento end TIPO_PETI      ,null status_res	  , null stat_desde	  ,null agente	  , null calidad	  ,null quien	  ,null cual	  ,null nro_resol	  ,[COMENTARIO] observacio      ,null ley, null cambrep      ,[DELETED]        FROM dbo.vw_origin_movimi where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N' ) aaa  left join HN1.dbo.vw_origin_nuenoms nom on aaa.num_serie=nom.NUM_SERIE left join  HN1.dbo.vw_origin_TITULAR titu on  nom.titular=titu.TITULAR   where aaa.num_serie is not null        )  select   case when rn=1 then DOC_SEQ else doc_seq +'-'+cast(rn as varchar) end userdoc_seq,  cast(doc_ser as numeric(4,0)) USERDOC_SERIES,  cast(doc_nbr as numeric(10,0)) USERDOC_NBR, IND_IMPORT      , USERDOC_TYPE, LAW_CODE, FILING_DATE, RECEPTION_DATE, NOTES, case when PERSON_NAME is null then 'falta capturar nombre' else person_name end person_name  , NATIONALITY_COUNTRY_CODE, RESIDENCE_COUNTRY_CODE      , ADDRESS_STREET, CAPTURE_USER_ID, CAPTURE_DATE from cte 
+2019-04-12 18:51:21,591 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'OBSERVACIO'. (102); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'doc_seq'. (102); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'TIPO_PETI'. (102)")
+2019-04-12 18:51:21,591 - root - INFO - wrong query:    create or alter view  dbo.vw_userdoc_files as with cte as (select aaa.[rowNum]      ,[doc_seq]      ,[doc_ser]      ,[doc_nbr]      ,aaa.[NUM_SERIE] 	  ,aaa.[Deleted] 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)  	  	  from (SELECT  rowNum,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq,cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,NUM_SERIE,deletedFROM HN1.dbo.vw_origin_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')union allSELECT  [rowNum],	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,	documento num_serie      ,[DELETED]     FROM dbo.vw_origin_movimi where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N' ) aaa  where aaa.num_serie is not null        )    select   pp.nro_solici,pp.file_ser,pp.file_seq,pp.file_nbr, cc.num_serie,  case when cc.doc_seq is not null then case  when rn=1 then cc.DOC_SEQ else cc.doc_seq +'-'+cast(rn as varchar) end   else pp.doc_seq end userdoc_seq,  case when cc.doc_ser is not null then cast(cc.doc_ser as numeric(4,0)) else cast(pp.doc_ser as numeric(4,0)) end USERDOC_SERIES,  case when cc.doc_nbr is not null then cast(cc.doc_nbr as numeric(10,0)) else cast(pp.doc_nbr as numeric(10,0)) end USERDOC_NBR   from cte cc right join (SELECT  rowNum      ,NRO_SOLICI      ,file_ser      ,file_seq      ,file_nbr      ,NUM_SERIE      ,doc_ser      ,doc_seq      ,doc_nbr      FROM dbo.vw_PETIREG ) pp on cc.num_serie=pp.num_serie where cc.deleted='N'running statement    create or alter view  dbo.vw_userdoc_files as with cte as (select aaa.[rowNum]      ,[doc_seq]      ,[doc_ser]      ,[doc_nbr]      ,aaa.[NUM_SERIE] 	  ,aaa.[Deleted] 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)  	  	  from (SELECT  rowNum,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq,cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,NUM_SERIE,deletedFROM HN1.dbo.vw_origin_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')union allSELECT  [rowNum],	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,	documento num_serie      ,[DELETED]     FROM dbo.vw_origin_movimi where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N' ) aaa  where aaa.num_serie is not null        )    select   pp.nro_solici,pp.file_ser,pp.file_seq,pp.file_nbr, cc.num_serie,  case when cc.doc_seq is not null then case  when rn=1 then cc.DOC_SEQ else cc.doc_seq +'-'+cast(rn as varchar) end   else pp.doc_seq end userdoc_seq,  case when cc.doc_ser is not null then cast(cc.doc_ser as numeric(4,0)) else cast(pp.doc_ser as numeric(4,0)) end USERDOC_SERIES,  case when cc.doc_nbr is not null then cast(cc.doc_nbr as numeric(10,0)) else cast(pp.doc_nbr as numeric(10,0)) end USERDOC_NBR   from cte cc right join (SELECT  rowNum      ,NRO_SOLICI      ,file_ser      ,file_seq      ,file_nbr      ,NUM_SERIE      ,doc_ser      ,doc_seq      ,doc_nbr      FROM dbo.vw_PETIREG ) pp on cc.num_serie=pp.num_serie where cc.deleted='N'
+2019-04-12 18:51:21,591 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '.'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'doc_seq'. (102)")
+2019-04-12 18:51:21,592 - root - INFO - wrong query:  /*with cte as (SELECT  rowNum      ,NRO_SOLICI      ,file_ser      ,file_seq      ,file_nbr      ,NUM_SERIE      ,doc_ser      ,doc_seq      ,doc_nbr      ,Deleted	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)  FROM dbo.vw_PETIREG)  select jj.USERDOC_SEQ,jj.USERDOC_SERIES,jj.USERDOC_NBR,file_seq      ,file_TYPE,file_series    ,file_nbr from ( select     case when rn=1 then DOC_SEQ else doc_seq +'-'+cast(rn as varchar) end userdoc_seq       ,  cast(doc_ser as numeric) USERDOC_SERIES       ,cast(doc_nbr as numeric) USERDOC_NBR      ,file_seq	  ,'M' FILE_TYPE	  ,cast(file_ser as numeric)  FILE_SERIES    ,cast(file_nbr as numeric) FILE_NBR from cte where num_serie!='0000000000' and isnumeric(file_ser)=1 ) jj running statement  /*with cte as (SELECT  rowNum      ,NRO_SOLICI      ,file_ser      ,file_seq      ,file_nbr      ,NUM_SERIE      ,doc_ser      ,doc_seq      ,doc_nbr      ,Deleted	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)  FROM dbo.vw_PETIREG)  select jj.USERDOC_SEQ,jj.USERDOC_SERIES,jj.USERDOC_NBR,file_seq      ,file_TYPE,file_series    ,file_nbr from ( select     case when rn=1 then DOC_SEQ else doc_seq +'-'+cast(rn as varchar) end userdoc_seq       ,  cast(doc_ser as numeric) USERDOC_SERIES       ,cast(doc_nbr as numeric) USERDOC_NBR      ,file_seq	  ,'M' FILE_TYPE	  ,cast(file_ser as numeric)  FILE_SERIES    ,cast(file_nbr as numeric) FILE_NBR from cte where num_serie!='0000000000' and isnumeric(file_ser)=1 ) jj 
+2019-04-12 18:51:21,592 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Missing end comment mark '*/'. (113) (SQLExecDirectW)")
+2019-04-12 18:51:21,592 - root - INFO - wrong query:   */running statement   */
+2019-04-12 18:51:21,592 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '*'. (102) (SQLExecDirectW)")
+2019-04-12 18:51:21,593 - root - INFO - wrong query:  create or alter view  dbo.vw_userdoc_owners as with cte as (SELECT pet.rowNum,cast(doc_ser as numeric(4,0))  doc_ser, doc_seq       , cast(doc_nbr as numeric(10,0))  doc_nbr     ,pet. NUM_SERIE       , 0 as ind_import , TIPO_PETI userdoc_TYPE , 1 as law_code       ,       convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) FILING_DATE      ,'1' ind_service,  convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) RECEPTION_DATE 		,case when isnumeric(NRO_RESOL)=1 then 'Nro. resolucion: '+ NRO_RESOL else '' end +          case when len(observacio)>0 then 'observaciones: '+ cast( OBSERVACIO as varchar(max)) else '' end  notes   , NOMBRE PERSON_NAME ,case when (pais is null or pais='') then 'HN' else  PAIS end NATIONALITY_COUNTRY_CODE ,case when(len( LUGAR)>2 and len(pais)=2 ) then pais when len(lugar)=2 then lugar else 'HN' end RESIDENCE_COUNTRY_CODE ,case when (direccion is null or direccion='') then 'Falta direccion' else  DIRECCION end ADDRESS_STREET ,4 capture_user_id ,getdate() capture_date       , STATUS_RES       , STAT_DESDE       , AGENTE       , CALIDAD       , qUien       , CUAL       , NRO_RESOL       , OBSERVACIO       , LEY       , cambrep       ,pet. Deleted 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)   FROM   dbo.vw_PETICI pet,   HN1.dbo.vw_origin_nuenoms nom ,  HN1.dbo.vw_origin_TITULAR titu     where pet.num_serie is not null and pet.num_serie !='' and len(pet.num_serie)>5   and pet.num_serie=nom.NUM_SERIE and nom.titular=titu.TITULAR)   select jj.userdoc_SEQ,jj.userdoc_SERIES,jj.userdoc_NBR,jj.IND_SERVICE      ,jj.PERSON_NAME      ,jj.NATIONALITY_COUNTRY_CODE      ,jj.RESIDENCE_COUNTRY_CODE      ,jj.ADDRESS_STREET from (select case when rn=1 then DOC_SEQ else doc_seq +'-'+cast(rn as varchar) end userdoc_seq,doc_ser USERDOC_SERIES,doc_nbr USERDOC_NBR      ,IND_SERVICE      ,PERSON_NAME      ,NATIONALITY_COUNTRY_CODE      ,RESIDENCE_COUNTRY_CODE      ,ADDRESS_STREET from  cte ) jj running statement  create or alter view  dbo.vw_userdoc_owners as with cte as (SELECT pet.rowNum,cast(doc_ser as numeric(4,0))  doc_ser, doc_seq       , cast(doc_nbr as numeric(10,0))  doc_nbr     ,pet. NUM_SERIE       , 0 as ind_import , TIPO_PETI userdoc_TYPE , 1 as law_code       ,       convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) FILING_DATE      ,'1' ind_service,  convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) RECEPTION_DATE 		,case when isnumeric(NRO_RESOL)=1 then 'Nro. resolucion: '+ NRO_RESOL else '' end +          case when len(observacio)>0 then 'observaciones: '+ cast( OBSERVACIO as varchar(max)) else '' end  notes   , NOMBRE PERSON_NAME ,case when (pais is null or pais='') then 'HN' else  PAIS end NATIONALITY_COUNTRY_CODE ,case when(len( LUGAR)>2 and len(pais)=2 ) then pais when len(lugar)=2 then lugar else 'HN' end RESIDENCE_COUNTRY_CODE ,case when (direccion is null or direccion='') then 'Falta direccion' else  DIRECCION end ADDRESS_STREET ,4 capture_user_id ,getdate() capture_date       , STATUS_RES       , STAT_DESDE       , AGENTE       , CALIDAD       , qUien       , CUAL       , NRO_RESOL       , OBSERVACIO       , LEY       , cambrep       ,pet. Deleted 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)   FROM   dbo.vw_PETICI pet,   HN1.dbo.vw_origin_nuenoms nom ,  HN1.dbo.vw_origin_TITULAR titu     where pet.num_serie is not null and pet.num_serie !='' and len(pet.num_serie)>5   and pet.num_serie=nom.NUM_SERIE and nom.titular=titu.TITULAR)   select jj.userdoc_SEQ,jj.userdoc_SERIES,jj.userdoc_NBR,jj.IND_SERVICE      ,jj.PERSON_NAME      ,jj.NATIONALITY_COUNTRY_CODE      ,jj.RESIDENCE_COUNTRY_CODE      ,jj.ADDRESS_STREET from (select case when rn=1 then DOC_SEQ else doc_seq +'-'+cast(rn as varchar) end userdoc_seq,doc_ser USERDOC_SERIES,doc_nbr USERDOC_NBR      ,IND_SERVICE      ,PERSON_NAME      ,NATIONALITY_COUNTRY_CODE      ,RESIDENCE_COUNTRY_CODE      ,ADDRESS_STREET from  cte ) jj 
+2019-04-12 18:51:21,593 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'dbo.vw_PETICI'. (208) (SQLExecDirectW)")
+2019-04-12 18:51:21,593 - root - INFO - wrong query:   create or alter view  dbo.vw_userdoc_reprs as with cte as (SELECT pet. rowNum       , cast(doc_ser as numeric(4,0))  doc_ser    , doc_seq       , cast(doc_nbr as numeric(10,0))  doc_nbr     ,pet. NUM_SERIE       , 0 as ind_import , TIPO_PETI userdoc_TYPE , 1 as law_code       ,        convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) FILING_DATE       ,'1' ind_service,    convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) RECEPTION_DATE 	,case when isnumeric(NRO_RESOL)=1 then 'Nro. resolucion: '+ NRO_RESOL else '' end +          case when len(observacio)>0 then 'observaciones: '+ cast( OBSERVACIO as varchar(max)) else '' end  notes   , titu.PERSON_NAME ,titu.NATIONALITY_COUNTRY_CODE ,titu.RESIDENCE_COUNTRY_CODE ,titu.ADDRESS_STREET ,4 capture_user_id ,getdate() capture_date       , STATUS_RES       , STAT_DESDE       , AGENTE       , OBSERVACIO       , LEY       , cambrep       ,pet. Deleted 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)   FROM   dbo.vw_PETICI pet,  dbo.vw_IMPORT_AGENT_PERSONS titu     where pet.num_serie is not null and pet.num_serie !='' and len(pet.num_serie)>5   and AGENTE IS NOT NULL and agente!='' AND ISNUMERIC(AGENTE)=1 AND   CAST(PET.AGENTE AS NUMERIC)=titu.agent_code)  select jj.userdoc_seq,jj.userdoc_series,jj.userdoc_nbr, jj.IND_SERVICE	  ,jj.REPRESENTATIVE_TYPE      ,jj.PERSON_NAME      ,jj.NATIONALITY_COUNTRY_CODE      ,jj.RESIDENCE_COUNTRY_CODE      ,jj.ADDRESS_STREET from (select case when rn=1 then DOC_SEQ else doc_seq +'-'+cast(rn as varchar) end userdoc_seq      ,doc_ser  USERDOC_SERIES      ,doc_nbr  USERDOC_NBR      ,IND_SERVICE	  ,'AG' REPRESENTATIVE_TYPE      ,PERSON_NAME      ,NATIONALITY_COUNTRY_CODE      ,RESIDENCE_COUNTRY_CODE      ,ADDRESS_STREET from  cte ) jj inner join dbo.vw_import_userdoc mm on   jj.USERDOC_SEQ=mm.USERDOC_SEQ and jj.USERDOC_SERIES=mm.USERDOC_SERIES and jj.userdoc_NBR = mm.userdoc_NBRrunning statement   create or alter view  dbo.vw_userdoc_reprs as with cte as (SELECT pet. rowNum       , cast(doc_ser as numeric(4,0))  doc_ser    , doc_seq       , cast(doc_nbr as numeric(10,0))  doc_nbr     ,pet. NUM_SERIE       , 0 as ind_import , TIPO_PETI userdoc_TYPE , 1 as law_code       ,        convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) FILING_DATE       ,'1' ind_service,    convert(datetime,cast(solicitada as varchar)+' '+case when substring(HORA,1,2)<24 then substring(HORA,1,2) else '00' end+':'+case when substring(HORA,3,2)<60 then substring(HORA,3,2) else '59' end+':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end+'.000',120) RECEPTION_DATE 	,case when isnumeric(NRO_RESOL)=1 then 'Nro. resolucion: '+ NRO_RESOL else '' end +          case when len(observacio)>0 then 'observaciones: '+ cast( OBSERVACIO as varchar(max)) else '' end  notes   , titu.PERSON_NAME ,titu.NATIONALITY_COUNTRY_CODE ,titu.RESIDENCE_COUNTRY_CODE ,titu.ADDRESS_STREET ,4 capture_user_id ,getdate() capture_date       , STATUS_RES       , STAT_DESDE       , AGENTE       , OBSERVACIO       , LEY       , cambrep       ,pet. Deleted 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)   FROM   dbo.vw_PETICI pet,  dbo.vw_IMPORT_AGENT_PERSONS titu     where pet.num_serie is not null and pet.num_serie !='' and len(pet.num_serie)>5   and AGENTE IS NOT NULL and agente!='' AND ISNUMERIC(AGENTE)=1 AND   CAST(PET.AGENTE AS NUMERIC)=titu.agent_code)  select jj.userdoc_seq,jj.userdoc_series,jj.userdoc_nbr, jj.IND_SERVICE	  ,jj.REPRESENTATIVE_TYPE      ,jj.PERSON_NAME      ,jj.NATIONALITY_COUNTRY_CODE      ,jj.RESIDENCE_COUNTRY_CODE      ,jj.ADDRESS_STREET from (select case when rn=1 then DOC_SEQ else doc_seq +'-'+cast(rn as varchar) end userdoc_seq      ,doc_ser  USERDOC_SERIES      ,doc_nbr  USERDOC_NBR      ,IND_SERVICE	  ,'AG' REPRESENTATIVE_TYPE      ,PERSON_NAME      ,NATIONALITY_COUNTRY_CODE      ,RESIDENCE_COUNTRY_CODE      ,ADDRESS_STREET from  cte ) jj inner join dbo.vw_import_userdoc mm on   jj.USERDOC_SEQ=mm.USERDOC_SEQ and jj.USERDOC_SERIES=mm.USERDOC_SERIES and jj.userdoc_NBR = mm.userdoc_NBR
+2019-04-12 18:51:21,594 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'dbo.vw_PETICI'. (208) (SQLExecDirectW)")
+2019-04-12 18:51:21,594 - root - INFO - wrong query:         create or alter view  dbo.vw_MOVIMI_USERDOC as select aaa.rowNum,aaa.userdoc_seq,aaa.userdoc_series,aaa.userdoc_nbr,N_ENTRADA,ACTION_DATE,ACTION_TYPE,RESPONSIBLE_USER,ACTION_NOTES1,ACTION_NOTES2,ACTION_USER,ACTION_CATERY from (select movi.rowNum,case when (ISNUMERIC(movi.N_ENTRADA)=0) then right(movi.N_ENTRADA,1) else 'M' end userdoc_seq,convert(numeric,case when isnumeric(left(movi.N_ENTRADA,4))=1 then left(movi.N_ENTRADA,4) else '1' end) userdoc_series,cast(case when (ISNUMERIC(movi.N_ENTRADA)=0) then substring(movi.N_ENTRADA,5,len(movi.N_ENTRADA)-5) else substring(movi.N_ENTRADA,5,len(movi.N_ENTRADA)-4) end as numeric )  userdoc_nbr , movi.N_ENTRADA,evento ACTION_TYPE, action_date_ipas ACTION_DATE,case when us.rowNum is not null then us.rowNum else null end RESPONSIBLE_USER,case when COMENTARIO='None' then '' else COMENTARIO end ACTION_NOTES1, case when documento is not null and documento !='' then 'Refiere a documento: '+ DOCUMENTO else '' end ACTION_NOTES2 ,case when us.rowNum is not null then us.rowNum else '4' end ACTION_USER ,'N' ACTION_CATERY  FROM dbo.vw_origin_movimi movi  left join dbo.vw_origin_users us on movi.USUARIO=us.CODE_USER   where   ISNUMERIC(n_entrada)=1 and  action_date_ipas is not null and movi.N_ENTRADA is not null and movi.evento is not null ) aaa   inner join dbo.vw_userdoc ud on aaa.userdoc_seq = ud.userdoc_seq and aaa.userdoc_series=ud.USERDOC_SERIES and aaa.userdoc_nbr=ud.USERDOC_NBR  running statement         create or alter view  dbo.vw_MOVIMI_USERDOC as select aaa.rowNum,aaa.userdoc_seq,aaa.userdoc_series,aaa.userdoc_nbr,N_ENTRADA,ACTION_DATE,ACTION_TYPE,RESPONSIBLE_USER,ACTION_NOTES1,ACTION_NOTES2,ACTION_USER,ACTION_CATERY from (select movi.rowNum,case when (ISNUMERIC(movi.N_ENTRADA)=0) then right(movi.N_ENTRADA,1) else 'M' end userdoc_seq,convert(numeric,case when isnumeric(left(movi.N_ENTRADA,4))=1 then left(movi.N_ENTRADA,4) else '1' end) userdoc_series,cast(case when (ISNUMERIC(movi.N_ENTRADA)=0) then substring(movi.N_ENTRADA,5,len(movi.N_ENTRADA)-5) else substring(movi.N_ENTRADA,5,len(movi.N_ENTRADA)-4) end as numeric )  userdoc_nbr , movi.N_ENTRADA,evento ACTION_TYPE, action_date_ipas ACTION_DATE,case when us.rowNum is not null then us.rowNum else null end RESPONSIBLE_USER,case when COMENTARIO='None' then '' else COMENTARIO end ACTION_NOTES1, case when documento is not null and documento !='' then 'Refiere a documento: '+ DOCUMENTO else '' end ACTION_NOTES2 ,case when us.rowNum is not null then us.rowNum else '4' end ACTION_USER ,'N' ACTION_CATERY  FROM dbo.vw_origin_movimi movi  left join dbo.vw_origin_users us on movi.USUARIO=us.CODE_USER   where   ISNUMERIC(n_entrada)=1 and  action_date_ipas is not null and movi.N_ENTRADA is not null and movi.evento is not null ) aaa   inner join dbo.vw_userdoc ud on aaa.userdoc_seq = ud.userdoc_seq and aaa.userdoc_series=ud.USERDOC_SERIES and aaa.userdoc_nbr=ud.USERDOC_NBR  
+2019-04-12 18:51:21,594 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'dbo.vw_userdoc'. (208) (SQLExecDirectW)")
+2019-04-12 18:51:21,598 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:51:21,600 - root - WARNING - connected to Sqlserver.
+2019-04-12 18:51:21,600 - root - WARNING - starting migration to intermed.
+2019-04-12 18:51:21,602 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_AGENT
+2019-04-12 18:51:24,195 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_AGENT_PERSONS
+2019-04-12 18:51:27,310 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK
+2019-04-12 18:53:42,488 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_ACTIONS
+2019-04-12 19:06:23,296 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_NICE_CLASSES
+2019-04-12 19:07:31,577 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_OWNERS
+2019-04-12 19:08:56,590 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_PRIORITIES
+2019-04-12 19:08:58,807 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_REPRS
+2019-04-12 19:09:57,588 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_VIENNA_CLASSES
+2019-04-12 19:10:05,660 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.vw_userdoc'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with get cursor('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.vw_userdoc'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object has no attribute 'fetchone'
+2019-04-12 19:10:05,660 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_ACTIONS
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.VW_MOVIMI_USERDOC'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with get cursor('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.VW_MOVIMI_USERDOC'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object has no attribute 'fetchone'
+2019-04-12 19:10:05,660 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_FILES
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.vw_userdoc_files'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with get cursor('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.vw_userdoc_files'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object has no attribute 'fetchone'
+2019-04-12 19:10:05,660 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_OWNERS
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.vw_userdoc_owners'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with get cursor('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.vw_userdoc_owners'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object has no attribute 'fetchone'
+2019-04-12 19:10:05,660 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_REPRS
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.vw_userdoc_reprs'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue with get cursor('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'HN1.dbo.vw_userdoc_reprs'. (208) (SQLExecDirectW)")
+2019-04-12 19:10:05,660 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object has no attribute 'fetchone'
+2019-04-12 19:10:05,676 - root - WARNING - connected to Sqlserver.
+2019-04-12 19:10:05,707 - root - INFO - Connections to database severed
+2019-04-12 19:10:05,945 - root - INFO - database dropped
+2019-04-12 19:10:05,961 - root - INFO - user ready
+2019-04-12 19:10:05,961 - root - INFO - access granted
+2019-04-12 19:10:05,961 - root - INFO - access granted
+2019-04-12 19:10:05,961 - root - INFO - password changed
+2019-04-12 19:10:06,810 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:06,830 - root - WARNING - connected to Sqlserver.
+2019-04-12 19:10:06,861 - root - INFO - repository synced
+2019-04-12 19:10:06,861 - root - INFO - repository synced
+2019-04-12 19:10:06,861 - root - WARNING - connected to Sqlserver.
+2019-04-12 19:10:06,992 - root - INFO - changing database to intermed
+2019-04-12 19:10:06,992 - root - WARNING - connected to Sqlserver.
+2019-04-12 19:10:07,477 - root - INFO - admin user connected
+2019-04-12 19:10:07,477 - root - INFO - access granted
+2019-04-12 19:10:07,477 - root - INFO - access granted
+2019-04-12 19:10:09,370 - root - WARNING - Running initial updates to intermed.
+2019-04-12 19:10:09,370 - root - INFO - changing database to intermed
+2019-04-12 19:10:12,404 - root - INFO - changing database to ipas
+2019-04-12 19:10:12,408 - root - WARNING - connected to Sqlserver.
+2019-04-12 19:10:12,408 - root - WARNING - Creating store procedures and wrk tables.
+2019-04-12 19:10:12,536 - root - INFO - cleanning manual validation tables
+2019-04-12 19:10:12,536 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-04-12 19:10:12,623 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:12,624 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-04-12 19:10:12,690 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:12,690 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-04-12 19:10:12,748 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:12,748 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-04-12 19:10:12,849 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:12,849 - root - INFO - creating store procedure12-userdocImport-1
+2019-04-12 19:10:12,918 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:12,918 - root - INFO - creating store procedure13-userdocImport-2
+2019-04-12 19:10:12,996 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:12,996 - root - INFO - creating store procedure2-PatentDateValidationPROC
+2019-04-12 19:10:13,065 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:13,065 - root - INFO - creating store procedure3-UserDocDateValidationPROC
+2019-04-12 19:10:13,141 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:13,141 - root - INFO - creating store procedure4-CallToDateValidationPROC
+2019-04-12 19:10:13,208 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:13,209 - root - INFO - creating store procedure5-ImportAgentValidate
+2019-04-12 19:10:13,274 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:13,274 - root - INFO - creating store procedure6-ImportMarkValidate
+2019-04-12 19:10:13,374 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:13,374 - root - INFO - creating store procedure8-ImportUserdocValidate
+2019-04-12 19:10:13,485 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:13,485 - root - INFO - creating store procedure9-ImportWorkTablesCreate
+2019-04-12 19:10:13,881 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 19:10:13,881 - root - WARNING - Running validation and migration.
+2019-04-12 19:10:14,051 - root - WARNING - Migrating agents.
+2019-04-12 19:10:18,686 - root - WARNING - Validation TM .
+2019-04-12 19:11:03,088 - root - WARNING - Validation TM post correction.
+2019-04-12 19:11:26,475 - root - WARNING - Migrating trademarks.
+2019-04-12 19:12:29,134 - root - INFO - From SQLCMD: b'Msg 3701, Level 11, State 5, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 1651\r\n'
+2019-04-12 19:12:29,134 - root - INFO - From SQLCMD: b"Cannot drop the table 'SYS_SEC_DENOMINACION', because it does not exist or you do not have permission.\r\n"
+2019-04-12 19:12:29,134 - root - INFO - From SQLCMD: b'Msg 3701, Level 11, State 5, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 1652\r\n'
+2019-04-12 19:12:29,134 - root - INFO - From SQLCMD: b"Cannot drop the table 'SYS_SEC_BUSQ_DENOMINACION', because it does not exist or you do not have permission.\r\n"
+2019-04-12 19:45:15,782 - root - INFO - changing database to intermed
+2019-04-12 19:45:15,785 - root - WARNING - connected to Sqlserver.
+2019-04-12 19:45:15,785 - root - WARNING - 
+
+2019-04-12 19:45:15,785 - root - WARNING - Validation UD post correction.
+2019-04-12 19:45:16,194 - root - WARNING - Validation UD post correction.
+2019-04-12 19:45:16,429 - root - WARNING - importing UD.
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,613 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'USERDOC_SEQ  USERDOC_SERIES USERDOC_NBR       PROCESS_FILE_SEQ PROCESS_FILE_TYPE PROCESS_FILE_SERIES PROCESS_FILE_NBR ACTION_TYPE ACTION_DATE             MANUAL_DUE_DATE         RESPONSIBLE_USER ACTION_NOTES1                                                                                                                                                                                                                                                    ACTION_NOTES2                                                                                                                                                                                                                                                  ACTION_NOTES3                                                                                                                                                                                                                                                  ACTION_NOTES4                                                                                                                                                                                                                                                  ACTION_NOTES5                                                                                                                                                                                                                                                  GENERAL_NOTES                                                                                                                                                                                                                                                  SELECTED_OPTIONS_TEXT                                                                                                                                                                                                                                            ACTION_USER ACTION_CATEGORY SPECIAL_FINAL_STATUS JOURNAL_CODE PUBLICATION_DATE        IPAS_PROC_TYP IPAS_PROC_NBR IPAS_ACTION_NBR ACTION_NBR  \r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'------------ -------------- ----------------- ---------------- ----------------- ------------------- ---------------- ----------- ----------------------- ----------------------- ---------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------- --------------- -------------------- ------------ ----------------------- ------------- ------------- --------------- ------------\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,628 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,929 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,930 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,931 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,932 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,932 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,932 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,932 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,932 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,932 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:16,932 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:16,932 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'USERDOC_SEQ  USERDOC_SERIES USERDOC_NBR       PROCESS_FILE_SEQ PROCESS_FILE_TYPE PROCESS_FILE_SERIES PROCESS_FILE_NBR ACTION_TYPE ACTION_DATE             MANUAL_DUE_DATE         RESPONSIBLE_USER ACTION_NOTES1                                                                                                                                                                                                                                                    ACTION_NOTES2                                                                                                                                                                                                                                                  ACTION_NOTES3                                                                                                                                                                                                                                                  ACTION_NOTES4                                                                                                                                                                                                                                                  ACTION_NOTES5                                                                                                                                                                                                                                                  GENERAL_NOTES                                                                                                                                                                                                                                                  SELECTED_OPTIONS_TEXT                                                                                                                                                                                                                                            ACTION_USER ACTION_CATEGORY SPECIAL_FINAL_STATUS JOURNAL_CODE PUBLICATION_DATE        IPAS_PROC_TYP IPAS_PROC_NBR IPAS_ACTION_NBR ACTION_NBR  \r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'------------ -------------- ----------------- ---------------- ----------------- ------------------- ---------------- ----------- ----------------------- ----------------------- ---------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------- --------------- -------------------- ------------ ----------------------- ------------- ------------- --------------- ------------\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,077 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'\r\n'
+2019-04-12 19:45:17,214 - root - INFO - From SQLCMD: b'(0 rows affected)\r\n'

@@ -1,0 +1,58 @@
+2019-04-12 17:10:11,332 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:10:11,336 - root - INFO - Connections to database severed
+2019-04-12 17:10:11,380 - root - INFO - database dropped
+2019-04-12 17:10:11,382 - root - INFO - user ready
+2019-04-12 17:10:11,383 - root - INFO - access granted
+2019-04-12 17:10:11,383 - root - INFO - access granted
+2019-04-12 17:10:11,384 - root - INFO - password changed
+2019-04-12 17:10:12,120 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:12,136 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:10:12,165 - root - INFO - repository synced
+2019-04-12 17:10:12,170 - root - INFO - repository synced
+2019-04-12 17:10:12,174 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:10:12,292 - root - INFO - changing database to intermed
+2019-04-12 17:10:12,297 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:10:13,169 - root - INFO - access granted
+2019-04-12 17:10:13,170 - root - INFO - access granted
+2019-04-12 17:10:15,453 - root - WARNING - Running initial updates to intermed.
+2019-04-12 17:10:15,453 - root - INFO - changing database to intermed
+2019-04-12 17:10:17,000 - root - INFO - changing database to ipas
+2019-04-12 17:10:17,005 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:10:17,005 - root - WARNING - Creating store procedures and wrk tables.
+2019-04-12 17:10:17,180 - root - INFO - cleanning manual validation tables
+2019-04-12 17:10:17,181 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-04-12 17:10:17,266 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,267 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-04-12 17:10:17,343 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,344 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-04-12 17:10:17,416 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,416 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-04-12 17:10:17,509 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,510 - root - INFO - creating store procedure12-userdocImport-1
+2019-04-12 17:10:17,587 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,587 - root - INFO - creating store procedure13-userdocImport-2
+2019-04-12 17:10:17,665 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,666 - root - INFO - creating store procedure2-PatentDateValidationPROC
+2019-04-12 17:10:17,745 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,745 - root - INFO - creating store procedure3-UserDocDateValidationPROC
+2019-04-12 17:10:17,819 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,820 - root - INFO - creating store procedure4-CallToDateValidationPROC
+2019-04-12 17:10:17,889 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,890 - root - INFO - creating store procedure5-ImportAgentValidate
+2019-04-12 17:10:17,963 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:17,963 - root - INFO - creating store procedure6-ImportMarkValidate
+2019-04-12 17:10:18,084 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:18,085 - root - INFO - creating store procedure8-ImportUserdocValidate
+2019-04-12 17:10:18,187 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:18,187 - root - INFO - creating store procedure9-ImportWorkTablesCreate
+2019-04-12 17:10:18,578 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:10:18,578 - root - WARNING - Running validation and migration.
+2019-04-12 17:10:18,698 - root - WARNING - Migrating agents.
+2019-04-12 17:10:23,616 - root - WARNING - Validation TM .
+2019-04-12 17:10:55,907 - root - INFO - wrong query:/*INSERT INTO HNMARCAS.HNADMIN.CF_DOC_SEQUENCE (ROW_VERSION  ,DOC_SEQ_TYP   ,DOC_SEQ_NAME     ,IND_ANNUAL_SERIES   ,FIXED_SERIES    ,IND_CONT_NBR_FOR_FILE) SELECT DISTINCT 1,USERDOC_SEQ,'SEQ ALTERNATIVA USERDOCS'+USERDOC_SEQ,'S',NULL,'N' FROM HN1.dbo.VW_IMPORT_USERDOC WHERE USERDOC_SEQ!='M'running TM updates
+2019-04-12 17:10:55,907 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Missing end comment mark '*/'. (113) (SQLExecDirectW)")
+2019-04-12 17:10:55,909 - root - INFO - wrong query:INSERT INTO HNMARCAS.HNADMIN.CF_DOC_SEQUENCE (ROW_VERSION  ,DOC_SEQ_TYP   ,DOC_SEQ_NAME     ,IND_ANNUAL_SERIES   ,FIXED_SERIES    ,IND_CONT_NBR_FOR_FILE) VALUES(1,'M-A', 'SEQ ALTERNATIVA OVERLAP','S',NULL,'N')running TM updates
+2019-04-12 17:10:55,909 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'SECUENCIA_PROMOCION_PK'. Cannot insert duplicate key in object 'HNADMIN.CF_DOC_SEQUENCE'. The duplicate key value is (M-A). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2019-04-12 17:10:55,910 - root - INFO - wrong query:*/running TM updates
+2019-04-12 17:10:55,910 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '*'. (102) (SQLExecDirectW)")
+2019-04-12 17:10:55,910 - root - WARNING - Validation TM post correction.

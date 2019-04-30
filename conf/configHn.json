@@ -1,0 +1,42 @@
+{
+  "_comment": " check driver here https://github.com/mkleehammer/pyodbc/wiki/Connecting-to-SQL-Server-from-Windows",
+  "SERVERDATA": {
+    "SERVER_TYPE": "ODBC Driver 17 for SQL Server",
+    "HOST_IP": "127.0.0.1",
+    "ADMIN_USER": "sa",
+    "ADMIN_PASSWORD": "W1P0w1p0",
+	"FILES_LOCATION": "C:\\Program Files\\Microsoft SQL Server\\MSSQL14.MSSQLSERVER\\MSSQL\\DATA\\",
+    "TOOL_LOCATION": "C:\\Dropbox\\WIPO\\WIPOTools\\PhonAndTransli\\",
+    "TEMP_FOLDER" : " E:/Temp"
+
+  },
+  "INTERMED": {
+    "DB_NAME": "HN1"
+  },
+  "SOURCEDATA": {
+    "FILE_LOCATION": "E:\\TestData\\Honduras\\Basedato\\",
+    "TABLES_IGNORE": "'MARCATEMP','petic'",
+    "TABLES_LOAD":    "'agentes', 'ccvs', 'codigos', 'eventab', 'marca', 'migracio', 'movimi', 'nuenoms', 'orinoms', 'Pago','peticion','petireg', 'PODER', 'poderes', 'priorida', 'producto', 'status', 'titular', 'titumar', 'users'",
+    "IGNORE_LOAD": "LOAD"
+  },
+  "IPASDB": {
+    "DB_NAME": "HNMARCAS",
+	"USER_NAME": "HNADMIN",
+	"USER_PASSWORD": "HNADMIN",
+    "BK_LOC": "backup\\HNMARCAS.bak",
+    "LOGOS_LOCATION": "E:\\TestData\\Honduras\\Graficos\\"
+  },
+  "SCRIPTS" : {
+    "QUERIES_IMPORT_FOLDER": "C:\\GitRepositories\\PythonProj\\scripts\\HN\\import\\",
+    "VISTAS_ESPECIFICAS": "C:\\GitRepositories\\PythonProj\\scripts\\HN\\vistas.sql",
+    "CORRECCIONES_ESPECIFICAS": "C:\\GitRepositories\\PythonProj\\scripts\\HN\\updatesOrigin.sql",
+	"CORRECCIONES_OFICINA": "C:\\GitRepositories\\PythonProj\\scripts\\HN\\IPAS-Inconsistencias-Marcas.sql",
+    "INSERTS_INTERMED": "C:\\GitRepositories\\PythonProj\\scripts\\HN\\inserts.sql",
+    "INTERMED_UPDATE": "C:\\GitRepositories\\PythonProj\\scripts\\HN\\intermUpdates.sql",
+    "TM_UPDATE_VALIDATION": "C:\\GitRepositories\\PythonProj\\scripts\\HN\\tmUpdates.sql",
+    "UD_UPDATE_VALIDATION": "C:\\GitRepositories\\PythonProj\\scripts\\HN\\userdocUpdates.sql"
+  },
+  "IGNORE" : {
+     "VW_ORIGIN_MARCA":"97012,99218,108055,108921,108934,114363,118123,195550"
+  }
+}

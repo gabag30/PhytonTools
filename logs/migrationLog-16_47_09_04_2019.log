@@ -1,0 +1,25 @@
+2019-04-09 16:47:23,389 - root - WARNING - connected to Sqlserver.
+2019-04-09 16:47:23,393 - root - INFO - Connections to database severed
+2019-04-09 16:47:23,415 - root - INFO - database dropped
+2019-04-09 16:47:23,704 - root - INFO - New Intermediate databas created
+2019-04-09 16:47:23,722 - root - WARNING - connected to Sqlserver.
+2019-04-09 16:47:23,722 - root - INFO - Processing: agentes.DBF
+2019-04-09 16:47:58,659 - root - INFO - Processing: agentes.DBF
+2019-04-09 16:47:58,661 - root - INFO - Processing: ccvs.DBF
+2019-04-09 16:47:58,662 - root - INFO - Processing: codigos.dbf
+2019-04-09 16:47:58,665 - root - INFO - Processing: eventab.dbf
+2019-04-09 16:47:58,666 - root - INFO - Processing: marca.DBF
+2019-04-09 16:47:58,667 - root - INFO - Processing: migracio.dbf
+2019-04-09 16:47:58,668 - root - INFO - Processing: movimi.DBF
+2019-04-09 16:47:58,670 - root - INFO - Processing: nuenoms.DBF
+2019-04-09 16:47:58,671 - root - INFO - Processing: orinoms.DBF
+2019-04-09 16:47:58,672 - root - INFO - Processing: Pago.DBF
+2019-04-09 16:47:58,692 - root - INFO - Processing: peticion.DBF
+2019-04-09 16:47:58,694 - root - INFO - Processing: petireg.DBF
+2019-04-09 16:47:58,695 - root - INFO - Processing: PODER.DBF
+2019-04-09 16:47:58,696 - root - INFO - Processing: poderes.dbf
+2019-04-09 16:47:58,698 - root - INFO - Processing: producto.DBF
+2019-04-09 16:47:58,700 - root - INFO - Processing: status.DBF
+2019-04-09 16:47:58,701 - root - INFO - Processing: titular.DBF
+2019-04-09 16:47:58,702 - root - INFO - Processing: titumar.DBF
+2019-04-09 16:47:58,703 - root - INFO - Processing: users.DBF

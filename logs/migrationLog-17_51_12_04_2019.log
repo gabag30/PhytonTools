@@ -1,0 +1,139 @@
+2019-04-12 17:51:30,352 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:51:30,357 - root - INFO - Connections to database severed
+2019-04-12 17:51:30,393 - root - INFO - database dropped
+2019-04-12 17:51:30,394 - root - INFO - user ready
+2019-04-12 17:51:30,395 - root - INFO - access granted
+2019-04-12 17:51:30,396 - root - INFO - access granted
+2019-04-12 17:51:30,397 - root - INFO - password changed
+2019-04-12 17:51:31,102 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:31,116 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:51:31,147 - root - INFO - repository synced
+2019-04-12 17:51:31,153 - root - INFO - repository synced
+2019-04-12 17:51:31,157 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:51:31,275 - root - INFO - changing database to intermed
+2019-04-12 17:51:31,279 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:51:32,224 - root - INFO - access granted
+2019-04-12 17:51:32,225 - root - INFO - access granted
+2019-04-12 17:51:34,486 - root - WARNING - Running initial updates to intermed.
+2019-04-12 17:51:34,486 - root - INFO - changing database to intermed
+2019-04-12 17:51:35,943 - root - INFO - changing database to ipas
+2019-04-12 17:51:35,948 - root - WARNING - connected to Sqlserver.
+2019-04-12 17:51:35,948 - root - WARNING - Creating store procedures and wrk tables.
+2019-04-12 17:51:36,097 - root - INFO - cleanning manual validation tables
+2019-04-12 17:51:36,098 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-04-12 17:51:36,173 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,174 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-04-12 17:51:36,242 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,242 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-04-12 17:51:36,311 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,312 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-04-12 17:51:36,401 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,401 - root - INFO - creating store procedure12-userdocImport-1
+2019-04-12 17:51:36,474 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,474 - root - INFO - creating store procedure13-userdocImport-2
+2019-04-12 17:51:36,547 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,547 - root - INFO - creating store procedure2-PatentDateValidationPROC
+2019-04-12 17:51:36,618 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,618 - root - INFO - creating store procedure3-UserDocDateValidationPROC
+2019-04-12 17:51:36,685 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,686 - root - INFO - creating store procedure4-CallToDateValidationPROC
+2019-04-12 17:51:36,751 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,751 - root - INFO - creating store procedure5-ImportAgentValidate
+2019-04-12 17:51:36,823 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,824 - root - INFO - creating store procedure6-ImportMarkValidate
+2019-04-12 17:51:36,933 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:36,933 - root - INFO - creating store procedure8-ImportUserdocValidate
+2019-04-12 17:51:37,032 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:37,032 - root - INFO - creating store procedure9-ImportWorkTablesCreate
+2019-04-12 17:51:37,423 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-12 17:51:37,423 - root - WARNING - Running validation and migration.
+2019-04-12 17:51:37,541 - root - WARNING - Migrating agents.
+2019-04-12 17:51:42,298 - root - WARNING - Validation TM .
+2019-04-12 17:52:16,018 - root - WARNING - Validation TM post correction.
+2019-04-12 17:52:32,554 - root - WARNING - Migrating trademarks.
+2019-04-12 17:52:32,821 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:32,821 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:32,821 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:32,821 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:32,932 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:32,932 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:32,932 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:32,932 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:33,039 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,039 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:33,039 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,040 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:33,152 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,152 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:33,152 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,153 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:33,293 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,293 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:33,293 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,293 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:33,418 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,419 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:33,419 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,419 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:33,546 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,546 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:33,547 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,547 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:33,739 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,739 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:33,739 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,739 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:33,900 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,900 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:33,900 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:33,900 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:34,039 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,039 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:34,040 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,040 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:34,186 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,186 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:34,186 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,187 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:34,338 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,338 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:34,338 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,338 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:34,515 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,515 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:34,515 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,515 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:34,677 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,678 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:34,678 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,678 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:34,852 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,852 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:34,852 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:34,852 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:35,035 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,036 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:35,036 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,036 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:35,240 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,240 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:35,240 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,240 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:35,430 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,430 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:35,430 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,430 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:35,615 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,615 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:35,615 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,615 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:35,776 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,776 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:35,776 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,776 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:35,938 - root - INFO - From SQLCMD: b'Msg 208, Level 16, State 1, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,938 - root - INFO - From SQLCMD: b'Invalid object name \'"+ context.intermediateDB + ".dbo.VW_IMPORT_MARK\'.\r\n'
+2019-04-12 17:52:35,938 - root - INFO - From SQLCMD: b'Msg 266, Level 16, State 2, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 117\r\n'
+2019-04-12 17:52:35,938 - root - INFO - From SQLCMD: b'Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.\r\n'
+2019-04-12 17:52:35,948 - root - INFO - changing database to intermed
+2019-04-12 17:52:35,948 - root - WARNING - connected to Sqlserver.

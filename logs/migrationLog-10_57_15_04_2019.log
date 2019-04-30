@@ -1,0 +1,81 @@
+2019-04-15 10:57:16,988 - root - WARNING - connected to Sqlserver.
+2019-04-15 10:57:16,993 - root - WARNING - Updating original tables with correction script.
+2019-04-15 11:02:15,477 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:02:15,477 - root - WARNING - Updating orignal tables with additional correction.
+2019-04-15 11:02:24,986 - root - WARNING - Regenerating intermediate tables.
+2019-04-15 11:02:25,175 - root - WARNING - creating views.
+2019-04-15 11:02:25,210 - root - WARNING - connected to Sqlserver.
+2019-04-15 11:02:25,212 - root - WARNING - connected to Sqlserver.
+2019-04-15 11:02:25,213 - root - WARNING - starting migration to intermed.
+2019-04-15 11:02:25,213 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_AGENT
+2019-04-15 11:02:27,776 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_AGENT_PERSONS
+2019-04-15 11:02:31,064 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK
+2019-04-15 11:04:45,262 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_ACTIONS
+2019-04-15 11:17:29,905 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_NICE_CLASSES
+2019-04-15 11:18:39,372 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_OWNERS
+2019-04-15 11:20:10,034 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_PRIORITIES
+2019-04-15 11:20:12,149 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_REPRS
+2019-04-15 11:21:10,921 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_MARK_VIENNA_CLASSES
+2019-04-15 11:21:18,698 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC
+2019-04-15 11:22:54,715 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_ACTIONS
+2019-04-15 11:23:05,655 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_FILES
+2019-04-15 11:29:11,529 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_OWNERS
+2019-04-15 11:29:48,166 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_REPRS
+2019-04-15 11:35:30,610 - root - WARNING - connected to Sqlserver.
+2019-04-15 11:35:30,645 - root - INFO - Connections to database severed
+2019-04-15 11:35:31,396 - root - INFO - database dropped
+2019-04-15 11:35:31,396 - root - INFO - user ready
+2019-04-15 11:35:31,411 - root - INFO - access granted
+2019-04-15 11:35:31,411 - root - INFO - access granted
+2019-04-15 11:35:31,411 - root - INFO - password changed
+2019-04-15 11:35:32,180 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:32,196 - root - WARNING - connected to Sqlserver.
+2019-04-15 11:35:32,227 - root - INFO - repository synced
+2019-04-15 11:35:32,227 - root - INFO - repository synced
+2019-04-15 11:35:32,243 - root - WARNING - connected to Sqlserver.
+2019-04-15 11:35:32,373 - root - INFO - changing database to intermed
+2019-04-15 11:35:32,376 - root - WARNING - connected to Sqlserver.
+2019-04-15 11:35:33,428 - root - INFO - admin user connected
+2019-04-15 11:35:33,428 - root - INFO - access granted
+2019-04-15 11:35:33,428 - root - INFO - access granted
+2019-04-15 11:35:36,682 - root - WARNING - Running initial updates to intermed.
+2019-04-15 11:35:36,682 - root - INFO - changing database to intermed
+2019-04-15 11:35:39,637 - root - INFO - changing database to ipas
+2019-04-15 11:35:39,642 - root - WARNING - connected to Sqlserver.
+2019-04-15 11:35:39,643 - root - WARNING - Creating store procedures and wrk tables.
+2019-04-15 11:35:39,770 - root - INFO - cleanning manual validation tables
+2019-04-15 11:35:39,770 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-04-15 11:35:39,855 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:39,855 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-04-15 11:35:39,923 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:39,923 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-04-15 11:35:40,008 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,008 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-04-15 11:35:40,093 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,093 - root - INFO - creating store procedure12-userdocImport-1
+2019-04-15 11:35:40,171 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,171 - root - INFO - creating store procedure13-userdocImport-2
+2019-04-15 11:35:40,239 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,239 - root - INFO - creating store procedure2-PatentDateValidationPROC
+2019-04-15 11:35:40,308 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,308 - root - INFO - creating store procedure3-UserDocDateValidationPROC
+2019-04-15 11:35:40,393 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,393 - root - INFO - creating store procedure4-CallToDateValidationPROC
+2019-04-15 11:35:40,456 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,456 - root - INFO - creating store procedure5-ImportAgentValidate
+2019-04-15 11:35:40,527 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,527 - root - INFO - creating store procedure6-ImportMarkValidate
+2019-04-15 11:35:40,650 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,650 - root - INFO - creating store procedure8-ImportUserdocValidate
+2019-04-15 11:35:40,740 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:40,740 - root - INFO - creating store procedure9-ImportWorkTablesCreate
+2019-04-15 11:35:41,356 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-04-15 11:35:41,356 - root - WARNING - Running validation and migration.
+2019-04-15 11:35:41,510 - root - WARNING - Migrating agents.
+2019-04-15 11:35:46,277 - root - WARNING - Validation TM .
+2019-04-15 11:36:30,683 - root - WARNING - Validation TM post correction.
+2019-04-15 11:36:50,778 - root - WARNING - Migrating trademarks.
+2019-04-15 11:39:02,550 - root - INFO - From SQLCMD: b'Msg 3701, Level 11, State 5, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 1651\r\n'
+2019-04-15 11:39:02,550 - root - INFO - From SQLCMD: b"Cannot drop the table 'SYS_SEC_DENOMINACION', because it does not exist or you do not have permission.\r\n"
+2019-04-15 11:39:02,550 - root - INFO - From SQLCMD: b'Msg 3701, Level 11, State 5, Server WS538539, Procedure HNMARCAS.dbo.ImportMarkProcess, Line 1652\r\n'
+2019-04-15 11:39:02,550 - root - INFO - From SQLCMD: b"Cannot drop the table 'SYS_SEC_BUSQ_DENOMINACION', because it does not exist or you do not have permission.\r\n"

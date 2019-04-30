@@ -1,0 +1,330 @@
+2019-04-10 11:34:12,172 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:34:12,212 - root - INFO - Connections to database severed
+2019-04-10 11:34:12,234 - root - INFO - database dropped
+2019-04-10 11:34:12,456 - root - INFO - New Intermediate databas created
+2019-04-10 11:34:12,474 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:34:12,474 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:34:12,476 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:34:12,478 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:34:12,502 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,502 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,522 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,522 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,541 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,541 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,561 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,562 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,582 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,582 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,602 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,602 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,622 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,623 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,642 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,642 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,661 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,661 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,681 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,681 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,700 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:12,700 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,703 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:34:12,703 - root - WARNING - insert finished
+2019-04-10 11:34:12,706 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:34:12,706 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:34:12,707 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:34:12,710 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:34:12,722 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,722 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,732 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,732 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,740 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,740 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,749 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,749 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,759 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,759 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,768 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,768 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,777 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,777 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,787 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,787 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,796 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,796 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,805 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,805 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,814 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,814 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,823 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,823 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,833 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,833 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,842 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,842 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,850 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,850 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,858 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,858 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,867 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,867 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,875 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,875 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,883 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,883 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,893 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,893 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,903 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,903 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,912 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,912 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,921 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,921 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,930 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,930 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,939 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,939 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,948 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,948 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,956 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,956 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,965 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,965 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,974 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,974 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,983 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,983 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:12,993 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:12,993 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,002 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,002 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,010 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,010 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,024 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,024 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,033 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,033 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,045 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,045 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,055 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,055 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,064 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,064 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,074 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,074 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,083 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,083 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,097 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,097 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,106 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,106 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,115 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,115 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,124 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,124 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,133 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,134 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,143 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,143 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,156 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,156 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,165 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,165 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,175 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,175 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,184 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,184 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,194 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,194 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,208 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,208 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,217 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,217 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,225 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,225 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,235 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,235 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,243 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,243 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,253 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,253 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,262 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,262 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,271 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,271 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,280 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,280 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,294 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,294 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,303 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,303 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,311 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:13,311 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,316 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:34:13,316 - root - WARNING - insert finished
+2019-04-10 11:34:13,316 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:34:13,316 - root - INFO - Processing: codigos.dbf
+2019-04-10 11:34:13,317 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_codigos (rowNum numeric (20), "ID_CODIGO" varchar(max), "CODIGO" varchar(max), "DESCRIPCOD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:34:13,320 - root - WARNING - Going to insert to table: codigos
+2019-04-10 11:34:13,321 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:34:13,321 - root - WARNING - insert finished
+2019-04-10 11:34:13,321 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:34:13,321 - root - INFO - Processing: eventab.dbf
+2019-04-10 11:34:13,322 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_eventab (rowNum numeric (20), "EVENTO" varchar(max), "DESCRIP" varchar(max), "TIPO_EVENT" varchar(max), "INFO_ADI" varchar(max), "ETI_COMENT" varchar(max), "ETI_NUMERO" varchar(max), DELETED varchar (5))"
+2019-04-10 11:34:13,323 - root - WARNING - Going to insert to table: eventab
+2019-04-10 11:34:13,326 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:34:13,326 - root - WARNING - insert finished
+2019-04-10 11:34:13,327 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:34:13,327 - root - INFO - Processing: marca.DBF
+2019-04-10 11:34:13,329 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" varchar(max), "TIPO_MARCA" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" varchar(max), "RENUEVA" varchar(max), "EXPIRA" varchar(max), "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" varchar(max), "PESO_RASGO" varchar(max), "LARFON" varchar(max), "PESO_R" varchar(max), "PUBLICADA" varchar(max), "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" varchar(max), "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" varchar(max), "MODIFICADO" varchar(max), "ANUALIDAD" varchar(max), "NRO_RESOL" varchar(max), "LEY" varchar(max), "CLASES_TXT" varchar(max), DELETED varchar (5))"
+2019-04-10 11:34:13,331 - root - WARNING - Going to insert to table: marca
+2019-04-10 11:34:13,444 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:13,444 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,584 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:13,584 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,723 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:13,723 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,836 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:13,836 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:13,945 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:13,945 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:14,058 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:14,058 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:14,170 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:14,171 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:14,280 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:14,281 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:14,396 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:14,396 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:14,506 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:14,506 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:14,613 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:14,613 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:14,729 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_marca (rownum, NRO_SOLICI, SOLICITADA, TIPO_MARCA, SIGNO, NOM_MARCA, REGISTRO, REGISTRADA, RENUEVA, EXPIRA, AGENTE, STATUS, STAT_DESDE, PESO_RASGO, LARFON, PESO_R, PUBLICADA, DIARIO, LIMITACION, HORA, RTOMO, RFOLIO, RESERVA, NRO_PODER, MODIFICA, NRO_GACETA, QUIEN, CALIDAD, CLASE, MODIFICADO, ANUALIDAD, NRO_RESOL, LEY, CLASES_TXT,deleted) values (?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:14,729 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,119 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:34:19,181 - root - INFO - Connections to database severed
+2019-04-10 11:34:19,203 - root - INFO - database dropped
+2019-04-10 11:34:19,409 - root - INFO - New Intermediate databas created
+2019-04-10 11:34:19,425 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:34:19,425 - root - INFO - Processing: agentes.DBF
+2019-04-10 11:34:19,427 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 11:34:19,429 - root - WARNING - Going to insert to table: agentes
+2019-04-10 11:34:19,451 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,451 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,467 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,468 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,485 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,485 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,505 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,505 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,523 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,524 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,540 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,541 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,560 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,560 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,579 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,579 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,599 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,599 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,620 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,620 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,639 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_agentes (rownum, AGENTE, NOMBRE, DIRECCION, CONTACTO, CALIDAD,deleted) values (?,?, ?, ?, ?, ?, ?)inserting data
+2019-04-10 11:34:19,639 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,641 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "tuple") to str
+2019-04-10 11:34:19,642 - root - WARNING - insert finished
+2019-04-10 11:34:19,644 - root - WARNING - connected to Sqlserver.
+2019-04-10 11:34:19,644 - root - INFO - Processing: ccvs.DBF
+2019-04-10 11:34:19,645 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 11:34:19,648 - root - WARNING - Going to insert to table: ccvs
+2019-04-10 11:34:19,660 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,660 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,673 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,673 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,683 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,683 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,692 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,692 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,701 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,701 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,710 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,710 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,719 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,719 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,727 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,727 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,736 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,736 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,745 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,745 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,754 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,754 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,764 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,764 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,772 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,772 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,780 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,780 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,793 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,793 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,801 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,802 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,810 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,810 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,818 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,819 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,828 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,828 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,841 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,841 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,850 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,850 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,859 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,859 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,869 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,869 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,881 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,881 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,890 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,890 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,899 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,899 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,909 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,909 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,922 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,922 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,931 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,931 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,939 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,939 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,948 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,948 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,958 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,958 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,967 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,967 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,980 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,980 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,988 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,988 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:19,996 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:19,996 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:20,009 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:20,009 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:20,022 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:20,022 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:20,031 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:20,031 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:20,039 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:20,039 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:20,048 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:20,049 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:20,057 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:20,057 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:20,065 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:20,065 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:20,074 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:20,075 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')
+2019-04-10 11:34:20,089 - root - INFO - wrong query:insert into HN1.dbo.vw_origin_ccvs (rownum, CCV, NRO_SOLICI,deleted) values (?,?, ?, ?)inserting data
+2019-04-10 11:34:20,089 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('HY010', '[HY010] [Microsoft][ODBC Driver 17 for SQL Server]Function sequence error (0) (SQLParamData)')

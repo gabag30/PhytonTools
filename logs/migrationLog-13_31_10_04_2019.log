@@ -1,0 +1,14 @@
+2019-04-10 13:31:26,916 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:31:29,980 - root - INFO - Connections to database severed
+2019-04-10 13:31:30,029 - root - INFO - database dropped
+2019-04-10 13:31:30,318 - root - INFO - New Intermediate databas created
+2019-04-10 13:31:30,334 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:31:30,335 - root - INFO - Processing: agentes.DBF
+2019-04-10 13:31:30,337 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar(max), "CALIDAD" varchar(max), DELETED varchar (5))"
+2019-04-10 13:31:30,339 - root - WARNING - Going to insert to table: agentes
+2019-04-10 13:31:30,339 - root - ERROR - >>>>>>>>>>>>>>> issue with table creation:can only concatenate str (not "NoneType") to str
+2019-04-10 13:31:30,339 - root - WARNING - insert finished
+2019-04-10 13:31:30,342 - root - WARNING - connected to Sqlserver.
+2019-04-10 13:31:30,342 - root - INFO - Processing: ccvs.DBF
+2019-04-10 13:31:30,343 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_ccvs (rowNum numeric (20), "CCV" varchar(max), "NRO_SOLICI" varchar(max), DELETED varchar (5))"
+2019-04-10 13:31:30,344 - root - WARNING - Going to insert to table: ccvs
