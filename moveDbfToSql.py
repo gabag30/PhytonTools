@@ -154,6 +154,7 @@ for file in glob.glob("*.dbf"):
 
                 recordValue += 1
             q1 += '(' + str(i) + ',' + query1 + ' \'N\' )'
+
             if i % 999 == 0 and i != 0:
                 queryinsert(conex,statement2 + q1, 'inserting data')
                 q1 = ''

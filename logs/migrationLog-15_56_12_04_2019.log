@@ -1,9 +1,0 @@
-2019-04-12 15:56:22,289 - root - WARNING - connected to Sqlserver.
-2019-04-12 15:56:22,292 - root - WARNING - connected to Sqlserver.
-2019-04-12 15:56:22,292 - root - WARNING - starting migration to intermed.
-2019-04-12 15:56:22,395 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_ACTIONS
-2019-04-12 15:56:32,795 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_FILES
-2019-04-12 15:56:32,799 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'DOC_SER'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'DOC_NBR'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'DOC_SER'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'DOC_NBR'. (207)")
-2019-04-12 15:56:32,802 - root - ERROR - >>>>>>>>>>>>>>> issue with get cursor('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'DOC_SER'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'DOC_NBR'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'DOC_SER'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'DOC_NBR'. (207)")
-2019-04-12 15:56:32,802 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object has no attribute 'fetchone'
-2019-04-12 15:56:32,805 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_OWNERS

@@ -1,6 +1,0 @@
-2019-04-09 16:45:16,462 - root - WARNING - connected to Sqlserver.
-2019-04-09 16:45:19,498 - root - INFO - Connections to database severed
-2019-04-09 16:45:20,149 - root - INFO - database dropped
-2019-04-09 16:45:20,377 - root - INFO - New Intermediate databas created
-2019-04-09 16:45:20,393 - root - WARNING - connected to Sqlserver.
-2019-04-09 16:45:20,393 - root - INFO - Processing: agentes.DBF

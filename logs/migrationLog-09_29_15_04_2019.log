@@ -1,7 +1,0 @@
-2019-04-15 09:29:07,595 - root - WARNING - connected to Sqlserver.
-2019-04-15 09:29:07,600 - root - WARNING - Updating original tables with correction script.
-2019-04-15 09:29:07,665 - root - INFO - From SQLCMD: b'Msg 102, Level 15, State 1, Server WS538539, Line 1\r\n'
-2019-04-15 09:29:07,665 - root - INFO - From SQLCMD: b"Incorrect syntax near '\\'.\r\n"
-2019-04-15 09:29:07,674 - root - WARNING - Updating orignal tables with additional correction.
-2019-04-15 09:29:17,512 - root - WARNING - Regenerating intermediate tables.
-2019-04-15 09:29:17,702 - root - WARNING - creating views.

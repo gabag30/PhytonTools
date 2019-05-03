@@ -1,7 +1,0 @@
-2019-04-11 11:36:52,608 - root - WARNING - connected to Sqlserver.
-2019-04-11 11:36:52,645 - root - INFO - wrong query:truncate table  vw_import_agentupdating table
-2019-04-11 11:36:52,645 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot truncate table 'vw_import_agent' because it is being referenced by a FOREIGN KEY constraint. (4712) (SQLExecDirectW)")
-2019-04-11 11:36:52,648 - root - WARNING - connected to Sqlserver.
-2019-04-11 11:36:52,648 - root - WARNING - starting migration to intermed.
-2019-04-11 11:36:52,650 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_AGENT
-2019-04-11 11:36:55,299 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_AGENT_PERSONS

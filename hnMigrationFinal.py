@@ -4,6 +4,7 @@ import loadConfig
 from basicTools import silentremove, logger, cmdtool, changeDatabase, queryinsert, queryselectOne, querygetcursor
 import dbfToSqlAllTables
 
+exit(0)
 import prepareTablesAndViews
 
 

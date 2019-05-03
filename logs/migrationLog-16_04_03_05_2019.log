@@ -1,0 +1,30 @@
+2019-05-03 16:04:31,036 - root - WARNING - connected to Sqlserver.
+2019-05-03 16:04:31,039 - root - INFO - Connections to database severed
+2019-05-03 16:04:31,066 - root - INFO - database dropped
+2019-05-03 16:04:31,434 - root - INFO - New Intermediate databas created
+2019-05-03 16:04:31,450 - root - WARNING - connected to Sqlserver.
+2019-05-03 16:04:31,450 - root - INFO - Processing: marca.dbf
+2019-05-03 16:04:31,453 - root - INFO - new table to create: "create table NI_MARCAS.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "MULTICLASE" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" real, "LARFON" real, "PESO_R" real, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" real, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" real, "MODIFICADO" varchar(max), "ANUALIDAD" real, "NRO_RESOL" varchar(max), "LEY" varchar(max), "LIBRO" varchar(max), "FECHAINI" date, "FECHAPAG" date, "GRUPO" varchar(max), "REVISADA" bit, "SONIDO" varchar(max), "FOLIOTEMP" varchar(max), "NRO_GACE2" real, "PUBLI2" date, "TOMOFIN" varchar(max), "FOLIOFIN" varchar(max), "LIBROFIN" varchar(max), "NOMBREMAR2" TEXT, "USUARIO" varchar(max), "RECIBIDA" date, "HORAREC" varchar(max), DELETED varchar (5))"
+2019-05-03 16:04:31,455 - root - WARNING - Going to insert to table: marca
+2019-05-03 16:04:31,457 - root - INFO - records[2]['PESO_RASGO'] == InvalidValue(b'\x00\x108\x00')
+2019-05-03 16:04:31,457 - root - INFO - records[2]['PUBLICADA'] == InvalidValue(b'\xfe\x18\x00\x00\x08\x00\x00\x00')
+2019-05-03 16:04:46,451 - root - WARNING - connected to Sqlserver.
+2019-05-03 16:04:46,454 - root - INFO - Connections to database severed
+2019-05-03 16:04:46,485 - root - INFO - database dropped
+2019-05-03 16:04:46,789 - root - INFO - New Intermediate databas created
+2019-05-03 16:04:46,806 - root - WARNING - connected to Sqlserver.
+2019-05-03 16:04:46,806 - root - INFO - Processing: marca.dbf
+2019-05-03 16:04:46,809 - root - INFO - new table to create: "create table NI_MARCAS.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "MULTICLASE" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" real, "LARFON" real, "PESO_R" real, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" real, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" real, "MODIFICADO" varchar(max), "ANUALIDAD" real, "NRO_RESOL" varchar(max), "LEY" varchar(max), "LIBRO" varchar(max), "FECHAINI" date, "FECHAPAG" date, "GRUPO" varchar(max), "REVISADA" bit, "SONIDO" varchar(max), "FOLIOTEMP" varchar(max), "NRO_GACE2" real, "PUBLI2" date, "TOMOFIN" varchar(max), "FOLIOFIN" varchar(max), "LIBROFIN" varchar(max), "NOMBREMAR2" TEXT, "USUARIO" varchar(max), "RECIBIDA" date, "HORAREC" varchar(max), DELETED varchar (5))"
+2019-05-03 16:04:46,812 - root - WARNING - Going to insert to table: marca
+2019-05-03 16:04:46,813 - root - INFO - records[2]['PESO_RASGO'] == InvalidValue(b'\x00\x108\x00')
+2019-05-03 16:04:46,813 - root - INFO - records[2]['PUBLICADA'] == InvalidValue(b'\xfe\x18\x00\x00\x08\x00\x00\x00')
+2019-05-03 16:04:55,841 - root - WARNING - connected to Sqlserver.
+2019-05-03 16:04:55,843 - root - INFO - Connections to database severed
+2019-05-03 16:04:55,872 - root - INFO - database dropped
+2019-05-03 16:04:56,158 - root - INFO - New Intermediate databas created
+2019-05-03 16:04:56,174 - root - WARNING - connected to Sqlserver.
+2019-05-03 16:04:56,175 - root - INFO - Processing: marca.dbf
+2019-05-03 16:04:56,178 - root - INFO - new table to create: "create table NI_MARCAS.dbo.vw_origin_marca (rowNum numeric (20), "NRO_SOLICI" varchar(max), "SOLICITADA" date, "TIPO_MARCA" varchar(max), "MULTICLASE" varchar(max), "SIGNO" varchar(max), "NOM_MARCA" varchar(max), "REGISTRO" varchar(max), "REGISTRADA" date, "EXPIRA" date, "AGENTE" varchar(max), "STATUS" varchar(max), "STAT_DESDE" date, "PESO_RASGO" real, "LARFON" real, "PESO_R" real, "PUBLICADA" date, "DIARIO" varchar(max), "LIMITACION" varchar(max), "HORA" varchar(max), "RTOMO" varchar(max), "RFOLIO" varchar(max), "RESERVA" varchar(max), "NRO_PODER" varchar(max), "MODIFICA" varchar(max), "NRO_GACETA" real, "QUIEN" varchar(max), "CALIDAD" varchar(max), "CLASE" real, "MODIFICADO" varchar(max), "ANUALIDAD" real, "NRO_RESOL" varchar(max), "LEY" varchar(max), "LIBRO" varchar(max), "FECHAINI" date, "FECHAPAG" date, "GRUPO" varchar(max), "REVISADA" bit, "SONIDO" varchar(max), "FOLIOTEMP" varchar(max), "NRO_GACE2" real, "PUBLI2" date, "TOMOFIN" varchar(max), "FOLIOFIN" varchar(max), "LIBROFIN" varchar(max), "NOMBREMAR2" TEXT, "USUARIO" varchar(max), "RECIBIDA" date, "HORAREC" varchar(max), DELETED varchar (5))"
+2019-05-03 16:04:56,180 - root - WARNING - Going to insert to table: marca
+2019-05-03 16:04:56,181 - root - INFO - records[2]['PESO_RASGO'] == InvalidValue(b'\x00\x108\x00')
+2019-05-03 16:04:56,181 - root - INFO - records[2]['PUBLICADA'] == InvalidValue(b'\xfe\x18\x00\x00\x08\x00\x00\x00')

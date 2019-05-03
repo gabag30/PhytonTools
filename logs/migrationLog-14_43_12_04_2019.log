@@ -1,8 +1,0 @@
-2019-04-12 14:43:30,355 - root - WARNING - connected to Sqlserver.
-2019-04-12 14:43:30,358 - root - WARNING - connected to Sqlserver.
-2019-04-12 14:43:30,358 - root - WARNING - starting migration to intermed.
-2019-04-12 14:43:30,360 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_ACTIONS
-2019-04-12 14:43:30,364 - root - ERROR - >>>>>>>>>>>>>>> issue with select one query('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ACTION_DATE'. (207) (SQLExecDirectW)")
-2019-04-12 14:43:30,365 - root - ERROR - >>>>>>>>>>>>>>> issue with get cursor('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ACTION_DATE'. (207) (SQLExecDirectW)")
-2019-04-12 14:43:30,365 - root - ERROR - >>>>>>>>>>>>>>> issue 5 'NoneType' object has no attribute 'fetchone'
-2019-04-12 14:43:30,366 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_FILES

@@ -1,7 +1,0 @@
-2019-04-09 17:05:34,370 - root - WARNING - connected to Sqlserver.
-2019-04-09 17:05:34,375 - root - INFO - Connections to database severed
-2019-04-09 17:05:34,395 - root - INFO - database dropped
-2019-04-09 17:05:34,603 - root - INFO - New Intermediate databas created
-2019-04-09 17:05:34,620 - root - WARNING - connected to Sqlserver.
-2019-04-09 17:05:34,620 - root - INFO - Processing: agentes.DBF
-2019-04-09 17:05:34,622 - root - INFO - new table to create: "create table HN1.dbo.vw_origin_agentes (rowNum numeric (20), "AGENTE" varchar(max), "NOMBRE" varchar(max), "DIRECCION" varchar(max), "CONTACTO" varchar, "CALIDAD" varchar(max), DELETED varchar (5))"

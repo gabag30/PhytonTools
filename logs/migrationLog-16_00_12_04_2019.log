@@ -1,6 +1,0 @@
-2019-04-12 16:00:59,073 - root - WARNING - connected to Sqlserver.
-2019-04-12 16:00:59,076 - root - WARNING - connected to Sqlserver.
-2019-04-12 16:00:59,076 - root - WARNING - starting migration to intermed.
-2019-04-12 16:01:00,779 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_FILES
-2019-04-12 16:07:24,690 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_OWNERS
-2019-04-12 16:07:49,155 - root - WARNING - Going to insert to table: HN1.dbo.VW_IMPORT_USERDOC_REPRS

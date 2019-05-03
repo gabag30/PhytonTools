@@ -6,38 +6,37 @@
     "ADMIN_USER": "sa",
     "ADMIN_PASSWORD": "W1P0w1p0",
 	"FILES_LOCATION": "C:\\Program Files\\Microsoft SQL Server\\MSSQL14.MSSQLSERVER\\MSSQL\\DATA\\",
-    "TOOL_LOCATION": "C:\\Dropbox\\WIPO\\WIPOTools\\PhonAndTransli\\"
+    "TOOL_LOCATION": "C:\\Dropbox\\WIPO\\WIPOTools\\PhonAndTransli\\",
+    "TEMP_FOLDER" : " E:/Temp"
 
   },
   "INTERMED": {
-    "DB_NAME": "NI1"
+    "DB_NAME": "NI_MARCAS"
   },
   "SOURCEDATA": {
-    "FILE_LOCATION": "C:/WIPO/NicaraguaFoxPro/marcas",
-    "TABLES_IGNORE": "'do','fi','actualizar','Bitacoraexp','controlreg','eliminados','extremo','ident','martemp','movimielim','oms','palelim','recepcion','viena'",
-    "TABLES_LOAD":    "'producto','marca','movimi','martemp','bitacoraexp','actualizar','batfon','recepcion','titumar','busfig','logos','batexa','titular','eliminados','movimielim','movimimar','priorida','ccvs','viena','renova','agentes','petireg','peticion','nuenoms','orinoms','batbus','bustit','resbatbus','regtemp','examen','extremo','ident','solicitante','controlreg','oposiciones','movimipeti','useroles','users','palelim','resoluciones','status','migracio','peticion05032018','eventab','ccvs','codigos','concepreci','conceptos','migracio'",
+    "FILE_LOCATION": "E:\\TestData\\Nicaragua\\Marcas\\Basedato0212\\Datos\\",
+    "TABLES_IGNORE": "'logos'",
+    "TABLES_LOAD":    "'marca'",
     "IGNORE_LOAD": "LOAD"
   },
   "IPASDB": {
-    "DB_NAME": "NIMARCAS",
-	"USER_NAME": "NIADMIN",
-	"USER_PASSWORD": "NIADMIN",
-	 "BK_LOC": "backup\\HNMARCAS.bak",
-    "LOGOS_LOCATION": "C:\\myCloud\\WIPOIPOBSD\\IpasDumps\\Honduras\\Graficos\\"
+    "DB_NAME": "NI_MARCAS",
+	"USER_NAME": "HNADMIN",
+	"USER_PASSWORD": "HNADMIN",
+    "BK_LOC": "backup\\HNMARCAS.bak",
+    "LOGOS_LOCATION": "E:\\TestData\\Honduras\\Graficos\\"
   },
   "SCRIPTS" : {
-    "QUERIES_IMPORT_FOLDER": "",
-    "VISTAS_ESPECIFICAS": "scripts/NI/vistas.sql",
-    "CORRECCIONES_ESPECIFICAS": "scripts/NI/updatesOrigin.sql",
-    "CORRECCIONES_OFICINA": "",
-    "INSERTS_INTERMED": "",
-    "INTERMED_UPDATE": "",
-    "TM_UPDATE_VALIDATION": "",
-    "UD_UPDATE_VALIDATION": ""
+    "QUERIES_IMPORT_FOLDER": "C:\\GitRepositories\\PhytonTools\\scripts\\HN\\import\\",
+    "VISTAS_ESPECIFICAS": "C:\\GitRepositories\\PhytonTools\\scripts\\HN\\vistas.sql",
+    "CORRECCIONES_ESPECIFICAS": "C:\\GitRepositories\\PhytonTools\\scripts\\HN\\updatesOrigin.sql",
+	"CORRECCIONES_OFICINA": "C:\\GitRepositories\\PhytonTools\\scripts\\HN\\IPAS-Inconsistencias-Marcas.sql",
+    "INSERTS_INTERMED": "C:\\GitRepositories\\PhytonTools\\scripts\\HN\\inserts.sql",
+    "INTERMED_UPDATE": "C:\\GitRepositories\\PhytonTools\\scripts\\HN\\intermUpdates.sql",
+    "TM_UPDATE_VALIDATION": "C:\\GitRepositories\\PhytonTools\\scripts\\HN\\tmUpdates.sql",
+    "UD_UPDATE_VALIDATION": "C:\\GitRepositories\\PhytonTools\\scripts\\HN\\userdocUpdates.sql"
   },
-  "IGNORE": {
-    "VW_ORIGIN_MARCA": ""
+  "IGNORE" : {
+     "VW_ORIGIN_MARCA":"97012,99218,108055,108921,108934,114363,118123,195550"
   }
-  
-  
 }

@@ -112,7 +112,7 @@ for file in glob.glob("*.dbf"):
 
                 valu+=1
             listoflists.append(tuple([i]+a_list+['N']))
-            if i % 9999 == 0 and i != 0 and listoflists:
+            if i % 29 == 0 and i != 0 and listoflists:
                 queryInsertBig(conex,sql,listoflists, 'inserting data')
                 listoflists=list()
         if listoflists:
