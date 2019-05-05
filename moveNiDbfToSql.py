@@ -1,4 +1,5 @@
-import glob,pyodbc
+import glob,psycopg2
+
 import os,sys
 import re,errno
 from dbfread import DBF,FieldParser, InvalidValue

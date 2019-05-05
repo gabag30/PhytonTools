@@ -5,375 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db6f3e9-07d1-419b-86e0-0e0123e05142" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/moveNiDbfToBcpFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moveNiDbfToSql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moveNiDbfToPostgre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moveNiDbfToPostgre2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonProj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/configHn.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/configHn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/configNi.json" beforeDir="false" afterPath="$PROJECT_DIR$/conf/configNi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbfToSqlAllTables.py" beforeDir="false" afterPath="$PROJECT_DIR$/dbfToSqlAllTables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hnMigrationFinal.py" beforeDir="false" afterPath="$PROJECT_DIR$/hnMigrationFinal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_08_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_10_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_11_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_13_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_17_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_20_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_20_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_21_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_21_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_22_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_28_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_29_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_30_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_30_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_31_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_35_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_37_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_40_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_42_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-09_50_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_01_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_02_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_02_12_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_10_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_14_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_17_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_17_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_18_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_19_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_20_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_21_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_24_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_25_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_27_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_28_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_28_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_31_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_32_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_33_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_34_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_35_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_39_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_40_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_42_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_43_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_44_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_47_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_48_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_52_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_54_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_56_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_56_10_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_57_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_57_10_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_57_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_58_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-10_59_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_00_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_00_10_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_00_10_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_01_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_01_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_02_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_02_12_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_02_12_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_02_12_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_02_12_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_02_12_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_02_12_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_02_12_04_2019.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_03_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_04_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_04_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_05_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_06_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_07_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_08_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_08_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_10_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_11_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_12_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_14_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_15_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_22_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_22_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_24_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_26_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_27_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_29_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_29_11_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_30_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_31_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_31_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_31_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_32_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_32_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_32_11_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_32_11_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_32_11_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_32_11_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_32_11_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_32_11_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_32_11_04_2019.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_34_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_35_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_35_11_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_35_11_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_35_11_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_35_11_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_35_11_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_35_11_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_35_11_04_2019.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_36_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_37_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_38_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_40_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_41_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_41_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_43_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_44_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_48_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_49_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_50_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_52_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_53_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_55_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_58_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_59_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_59_11_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_59_11_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_59_11_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_59_11_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_59_11_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_59_11_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-11_59_11_04_2019.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-12_01_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-12_04_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-12_07_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-12_07_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-12_07_15_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-12_07_15_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-12_07_15_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_00_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_01_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_01_15_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_01_15_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_01_15_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_01_15_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_02_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_03_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_04_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_05_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_06_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_10_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_11_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_12_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_15_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_17_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_19_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_25_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_31_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_35_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_35_11_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_42_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_43_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_43_09_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_43_09_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_43_09_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_43_09_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_43_09_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_43_09_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_43_09_04_2019.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_44_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_46_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_47_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_48_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_49_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_51_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_52_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_55_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_57_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-13_58_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_01_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_01_11_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_01_11_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_01_11_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_01_11_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_01_11_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_01_11_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_01_11_04_2019.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_04_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_08_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_10_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_10_11_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_11_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_12_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_13_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_13_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_17_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_21_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_23_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_25_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_27_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_28_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_29_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_32_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_36_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_38_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_39_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_40_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_41_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_43_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_44_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_45_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_53_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_53_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_55_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_55_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_56_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_58_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-14_59_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_00_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_02_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_03_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_09_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_10_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_11_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_15_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_16_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_18_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_19_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_26_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_27_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_29_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_30_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_32_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_34_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_34_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_35_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_35_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_36_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_37_15_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_38_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_39_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_40_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_41_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_47_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_47_09_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_47_09_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_47_09_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_47_09_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_47_09_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_47_09_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_47_09_04_2019.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_51_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_52_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_54_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_55_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_56_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_56_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_57_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_58_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-15_59_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_00_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_09_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_20_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_20_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_22_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_24_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_24_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_26_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_27_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_30_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_30_09_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_30_09_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_30_09_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_30_09_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_30_09_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_30_09_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_31_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_32_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_33_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_33_09_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_33_09_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_35_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_36_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_36_09_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_36_09_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_36_09_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_36_09_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_36_09_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_36_09_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_36_09_04_2019.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_39_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_40_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_45_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_46_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_47_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_49_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_58_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_59_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_59_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-16_59_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_00_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_00_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_01_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_02_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_03_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_03_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_04_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_04_09_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_05_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_08_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_08_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_10_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_14_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_15_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_16_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_17_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_19_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_21_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_22_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_22_09_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_23_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_24_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_25_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_25_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_27_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_31_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_31_11_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_32_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_33_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_34_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_34_11_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_34_11_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_34_11_04_2019.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_34_11_04_2019.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_34_11_04_2019.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_34_11_04_2019.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_34_11_04_2019.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_35_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_35_09_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_36_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_37_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_46_10_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_47_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_48_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_49_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_49_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_51_11_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_51_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_52_09_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_52_09_04_2019.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_52_09_04_2019.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_54_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_57_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-17_59_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-18_03_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-18_05_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/migrationLog-18_32_12_04_2019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moveDbfToSql.py" beforeDir="false" afterPath="$PROJECT_DIR$/moveDbfToSql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moveNiDbfToSql.py" beforeDir="false" afterPath="$PROJECT_DIR$/moveNiDbfToSql.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -390,21 +27,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hnMigrationFinal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbfToSqlAllTables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="1785">
               <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -416,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basicTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
+            <state relative-caret-position="1751">
               <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -437,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/configNi.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
+            <state relative-caret-position="306">
               <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
@@ -446,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moveDbfToSql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="154" column="19" lean-forward="true" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
+            <state relative-caret-position="2516">
+              <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -455,13 +80,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/moveNiDbfToSql.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moveNiDbfToPostgre.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="216" column="13" selection-start-line="216" selection-start-column="13" selection-end-line="216" selection-end-column="13" />
+            <state relative-caret-position="3757">
+              <caret line="233" column="8" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="23" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/moveNiDbfToPostgre2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -478,9 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>os</find>
-      <find>if</find>
-      <find>capi</find>
       <find>via</find>
       <find>changed database</find>
       <find>.sql</find>
@@ -508,6 +142,9 @@
       <find>PythonProj</find>
       <find>loadConfig</find>
       <find>datetime.</find>
+      <find>.dbo.</find>
+      <find>changeDatabase</find>
+      <find>migration.</find>
     </findStrings>
     <replaceStrings>
       <replace>vw_origin_&quot;+fileName+&quot;</replace>
@@ -522,6 +159,7 @@
       <replace>PhytonTools</replace>
       <replace>args</replace>
       <replace>datetime.</replace>
+      <replace>.migration.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -594,14 +232,16 @@
         <option value="$PROJECT_DIR$/dbfToSqlAllTables.py" />
         <option value="$PROJECT_DIR$/moveDbfToSql.py" />
         <option value="$PROJECT_DIR$/moveNiDbfToSql.py" />
+        <option value="$PROJECT_DIR$/moveNiDbfToPostgre.py" />
+        <option value="$PROJECT_DIR$/moveNiDbfToPostgre2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="136" />
-    <option name="y" value="47" />
-    <option name="width" value="1940" />
-    <option name="height" value="719" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="760" />
+    <option name="y" value="205" />
+    <option name="width" value="1389" />
+    <option name="height" value="1081" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -615,7 +255,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/moveNiDbfToSql.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -631,11 +271,11 @@
       <recent name="F:\Dropbox\Dropbox\Public\PythonProj\OldStuff" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\PhytonTools" />
       <recent name="C:\GitRepositories\PhytonTools\conf" />
       <recent name="C:\GitRepositories\PhytonTools" />
       <recent name="C:\GitRepositories\PythonProj" />
       <recent name="C:\GitRepository\PythonProj" />
-      <recent name="C:\Dropbox\Public\PythonProj\conf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -658,14 +298,14 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python37\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moveNiDbfToSql.py" />
-      <option name="PARAMETERS" value="&quot;ODBC Driver 17 for SQL Server&quot; 127.0.0.1 sa W1P0w1p0 NI_MARCAS &quot;E:/TestData/Nicaragua/Marcas/Basedato0212/Datos/&quot; &quot;do,logos&quot; &quot;producto,marca,movimi,martemp,bitacoraexp,actualizar,batfon,recepcion,titumar,busfig,logos,batexa,titular,eliminados,movimielim,movimimar,priorida,ccvs,viena,renova,agentes,petireg,peticion,nuenoms,orinoms,batbus,bustit,resbatbus,regtemp,examen,extremo,ident,solicitante,controlreg,oposiciones,movimipeti,useroles,users,palelim,resoluciones,status,migracio,peticion05032018,eventab,ccvs,codigos,concepreci,conceptos,migracio&quot; &quot;E:/TEMP&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moveNiDbfToPostgre2.py" />
+      <option name="PARAMETERS" value="127.0.0.1 postgres W1P0w1p0 ni_marcas &quot;C:/WIPO/Nicaragua/Marcas/Datos/&quot; &quot;do,logos&quot; &quot;producto,marca,movimi,martemp,bitacoraexp,actualizar,batfon,recepcion,titumar,busfig,logos,batexa,titular,eliminados,movimielim,movimimar,priorida,ccvs,viena,renova,agentes,petireg,peticion,nuenoms,orinoms,batbus,bustit,resbatbus,regtemp,examen,extremo,ident,solicitante,controlreg,oposiciones,movimipeti,useroles,users,palelim,resoluciones,status,migracio,peticion05032018,eventab,ccvs,codigos,concepreci,conceptos,migracio&quot; &quot;C:/TEMP&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -808,6 +448,13 @@
       <workItem from="1556807416247" duration="3425000" />
       <workItem from="1556877554966" duration="3141000" />
       <workItem from="1556882219445" duration="10253000" />
+      <workItem from="1556906128543" duration="1777000" />
+      <workItem from="1556912866389" duration="607000" />
+      <workItem from="1556920878053" duration="2889000" />
+      <workItem from="1557032075467" duration="3822000" />
+      <workItem from="1557039628658" duration="3321000" />
+      <workItem from="1557051989476" duration="2432000" />
+      <workItem from="1557065756747" duration="6064000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1530539027050</created>
@@ -981,10 +628,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139266000" />
+    <option name="totallyTimeSpent" value="160178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="760" y="205" width="1389" height="1081" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="top" content_ui="combo" id="Project" order="0" weight="0.032930844" />
@@ -997,7 +644,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49946523" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.6140725" weight="0.28869376" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.6140725" visible="true" weight="0.20518358" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39921466" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -1121,13 +768,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PhytonTools$Nicaragua.coverage" NAME="Nicaragua Coverage Results" MODIFIED="1556893520555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PhytonTools$honduras.coverage" NAME="honduras Coverage Results" MODIFIED="1556892311876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhytonTools$Nicaragua.coverage" NAME="Nicaragua Coverage Results" MODIFIED="1557072696929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OldStuff/example of functions.txt" />
-    <entry file="file://$PROJECT_DIR$/OldStuff/testDbf.bak" />
-    <entry file="file://C:/Program Files/Python36/Lib/os.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/dbfread/field_parser.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/dbfread/memo.py" />
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/dbfread/field_parser.py" />
@@ -1291,16 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loadConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moveDbfToSql2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
@@ -1315,13 +949,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basicTools.py">
+    <entry file="file://$PROJECT_DIR$/moveNiDbfToSql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="148">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/logging/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="137" column="19" lean-forward="true" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1335,6 +973,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loadConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbfToSqlAllTables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicTools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conf/configHn.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1344,37 +1012,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/configNi.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
+        <state relative-caret-position="306">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbfToSqlAllTables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/moveDbfToSql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="154" column="19" lean-forward="true" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
+        <state relative-caret-position="2516">
+          <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moveNiDbfToSql.py">
+    <entry file="file://$PROJECT_DIR$/moveNiDbfToPostgre.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="216" column="13" selection-start-line="216" selection-start-column="13" selection-end-line="216" selection-end-column="13" />
+        <state relative-caret-position="3757">
+          <caret line="233" column="8" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="23" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moveNiDbfToPostgre2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
