@@ -1,5 +1,8 @@
+
 import glob
 import dataset
+import psycopg2
+from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT # <-- ADD THIS LINE
 
 import os,sys
 import re,errno
@@ -62,6 +65,7 @@ def conectServer(hostIp,adminUser,adminPass):
     try:
 
         conex = dataset.connect('postgresql://'+adminUser+':'+adminPass+'@'+hostIp+':5432/')
+        conex.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
         logger.warning('connected to Sqlserver.')
         return conex
     except Exception as e1:
@@ -92,12 +96,49 @@ def silentremove(filename):
         if e.errno != errno.ENOENT: # errno.ENOENT = no such file or directory
             raise # re-raise exception if a different error occurred
 #--------------------------------------------------------------------------------------------------------
-con = conectServer( args.hostIp,  args.adminUser,args.adminPass)
-con.autocommit=True
-con.query("DROP DATABASE IF EXISTS "+args.interMedDb)
-con.query("CREATE DATABASE "+args.interMedDb)
+con = psycopg2.connect(dbname='postgres',
+      user=args.adminUser, host=args.hostIp,
+      password=args.adminPass)
 
-exit(0)
+con.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT) # <-- ADD THIS LINE
+
+cur = con.cursor()
+try:
+    cur.execute("DROP DATABASE IF EXISTS %s  ;" % args.interMedDb)
+except psycopg2.Error:
+    raise SystemExit(
+        'Failed to setup Postgres environment.\n{0}'.format(sys.exc_info())
+    )
+try:
+    cur.execute("CREATE DATABASE %s  ;" % args.interMedDb)
+except psycopg2.Error:
+    raise SystemExit(
+        'Failed to setup Postgres environment.\n{0}'.format(sys.exc_info())
+    )
+cur.close()
+con.close()
+con2 = psycopg2.connect(dbname=args.interMedDb,
+      user=args.adminUser, host=args.hostIp,
+      password=args.adminPass)
+
+con2.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT) # <-- ADD THIS LINE
+
+cur2 = con2.cursor()
+try:
+    cur2.execute("CREATE SCHEMA %s  ;" % args.schemaDb)
+except psycopg2.Error:
+    raise SystemExit(
+        'Failed to crete schema.\n{0}'.format(sys.exc_info())
+    )
+try:
+    cur2.execute("COMMIT")
+except psycopg2.Error:
+    raise SystemExit(
+        'Failed to commit.\n{0}'.format(sys.exc_info())
+    )
+
+cur2.close()
+con2.close()
 
 conex = connectSchemaPostgre( args.hostIp, args.interMedDb, args.adminUser,args.adminPass,args.schemaDb)
 dirpath = os.getcwd()
