@@ -1,4 +1,4 @@
-import glob,psycopg2
+import glob
 import dataset
 
 import os,sys
@@ -18,6 +18,7 @@ parser.add_argument("hostIp", default=True,  help="ip address sqlserver")
 parser.add_argument("adminUser", default=True, help="user with admin rights sqlserver")
 parser.add_argument("adminPass",  default=True,  help="pass admin user sqlserver")
 parser.add_argument("interMedDb",  default=True,  help="name of the intermed database")
+parser.add_argument("schemaDb",  default=True,  help="name of the intermed schema")
 parser.add_argument("dbfFilesLocation",  default=True,   help="Location of the dbf files")
 parser.add_argument("tablesIgnore", default=True,   help="List of dbf files to ignore")
 parser.add_argument("tablesLoad", default=True,   help="List of dbf files to Load")
@@ -57,10 +58,20 @@ typemap = {
 }
 
 #--------------------------------------------------------------------------------------------------------
-def changeDatabase(hostIp,database,adminUser,adminPass):
+def conectServer(hostIp,adminUser,adminPass):
     try:
 
-        conex = dataset.connect('postgresql://'+adminUser+':'+adminPass+'@'+hostIp+':5432/'+database,schema='migration')
+        conex = dataset.connect('postgresql://'+adminUser+':'+adminPass+'@'+hostIp+':5432/')
+        logger.warning('connected to Sqlserver.')
+        return conex
+    except Exception as e1:
+        logger.error(">>>>>>>>>>>>>>> issue with database change" + str(e1))
+        sys.exit()
+#--------------------------------------------------------------------------------------------------------
+def connectSchemaPostgre(hostIp,database,adminUser,adminPass,schemaDb):
+    try:
+
+        conex = dataset.connect('postgresql://'+adminUser+':'+adminPass+'@'+hostIp+':5432/'+database,schema=schemaDb)
         logger.warning('connected to Sqlserver.')
         return conex
     except Exception as e1:
@@ -81,9 +92,14 @@ def silentremove(filename):
         if e.errno != errno.ENOENT: # errno.ENOENT = no such file or directory
             raise # re-raise exception if a different error occurred
 #--------------------------------------------------------------------------------------------------------
-#--------------------------------------------------------------------------------------------------------
+con = conectServer( args.hostIp,  args.adminUser,args.adminPass)
+con.autocommit=True
+con.query("DROP DATABASE IF EXISTS "+args.interMedDb)
+con.query("CREATE DATABASE "+args.interMedDb)
 
-conex = changeDatabase( args.hostIp, args.interMedDb, args.adminUser,args.adminPass)
+exit(0)
+
+conex = connectSchemaPostgre( args.hostIp, args.interMedDb, args.adminUser,args.adminPass,args.schemaDb)
 dirpath = os.getcwd()
 os.chdir(args.dbfFilesLocation)
 
@@ -112,7 +128,6 @@ for file in glob.glob("*.dbf"):
             for i,rec in enumerate(table):
 
                 rec.update({'deleted':'N'})
-                rec.update({'rownum': i})
                 for name, value in rec.items():
                     #print('\''+name+'\'')
                     if isinstance(value, InvalidValue):
@@ -156,16 +171,12 @@ for file in glob.glob("*.dbf"):
                         tablePg.insert_many(listoflists)
                     except Exception as e:
                         logger.error(">>>>>>>>>>>>>>> issue with inserts into table:" + str(e))
-                        logger.error(">>>>>>>>>>>>>>> issue with inserts into table:" + str(listoflists))
-                        print(str(listoflists))
                     listoflists = list()
             if listoflists:
                 try:
                     tablePg.insert_many(listoflists)
                 except Exception as e:
                     logger.error(">>>>>>>>>>>>>>> issue with inserts into table:" + str(e))
-                    logger.error(">>>>>>>>>>>>>>> issue with inserts into table:" + str(listoflists))
-                    print(str(listoflists))
                 listoflists = list()
 
             # for i,rec in enumerate(table.deleted):

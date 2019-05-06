@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db6f3e9-07d1-419b-86e0-0e0123e05142" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/moveNiDbfToPostgre.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moveNiDbfToPostgre2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moveNiDbfToSql.py" beforeDir="false" afterPath="$PROJECT_DIR$/moveNiDbfToSql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moveNiDbfToPostgre2.py" beforeDir="false" afterPath="$PROJECT_DIR$/moveNiDbfToPostgre2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/moveNiDbfToPostgre2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+            <state relative-caret-position="85">
+              <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -119,7 +115,6 @@
       <find>changed database</find>
       <find>.sql</find>
       <find>sile</find>
-      <find>conex</find>
       <find>selec</find>
       <find>insert</find>
       <find>queryinser</find>
@@ -145,6 +140,7 @@
       <find>.dbo.</find>
       <find>changeDatabase</find>
       <find>migration.</find>
+      <find>conex</find>
     </findStrings>
     <replaceStrings>
       <replace>vw_origin_&quot;+fileName+&quot;</replace>
@@ -305,7 +301,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moveNiDbfToPostgre2.py" />
-      <option name="PARAMETERS" value="127.0.0.1 postgres W1P0w1p0 ni_marcas &quot;C:/WIPO/Nicaragua/Marcas/Datos/&quot; &quot;do,logos&quot; &quot;producto,marca,movimi,martemp,bitacoraexp,actualizar,batfon,recepcion,titumar,busfig,logos,batexa,titular,eliminados,movimielim,movimimar,priorida,ccvs,viena,renova,agentes,petireg,peticion,nuenoms,orinoms,batbus,bustit,resbatbus,regtemp,examen,extremo,ident,solicitante,controlreg,oposiciones,movimipeti,useroles,users,palelim,resoluciones,status,migracio,peticion05032018,eventab,ccvs,codigos,concepreci,conceptos,migracio&quot; &quot;C:/TEMP&quot;" />
+      <option name="PARAMETERS" value="127.0.0.1 postgres W1P0w1p0 ni_m migration &quot;C:/WIPO/Nicaragua/Marcas/Datos/&quot; &quot;do,logos&quot; &quot;producto,marca,movimi,martemp,bitacoraexp,actualizar,batfon,recepcion,titumar,busfig,logos,batexa,titular,eliminados,movimielim,movimimar,priorida,ccvs,viena,renova,agentes,petireg,peticion,nuenoms,orinoms,batbus,bustit,resbatbus,regtemp,examen,extremo,ident,solicitante,controlreg,oposiciones,movimipeti,useroles,users,palelim,resoluciones,status,migracio,peticion05032018,eventab,ccvs,codigos,concepreci,conceptos,migracio&quot; &quot;C:/TEMP&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -454,7 +450,8 @@
       <workItem from="1557032075467" duration="3822000" />
       <workItem from="1557039628658" duration="3321000" />
       <workItem from="1557051989476" duration="2432000" />
-      <workItem from="1557065756747" duration="6064000" />
+      <workItem from="1557065756747" duration="7381000" />
+      <workItem from="1557075918458" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1530539027050</created>
@@ -628,11 +625,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160178000" />
+    <option name="totallyTimeSpent" value="163674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="760" y="205" width="1389" height="1081" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="top" content_ui="combo" id="Project" order="0" weight="0.032930844" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -644,7 +640,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49946523" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.6140725" visible="true" weight="0.20518358" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.6140725" weight="0.6760259" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39921466" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -769,7 +765,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PhytonTools$honduras.coverage" NAME="honduras Coverage Results" MODIFIED="1556892311876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PhytonTools$Nicaragua.coverage" NAME="Nicaragua Coverage Results" MODIFIED="1557072696929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PhytonTools$Nicaragua.coverage" NAME="Nicaragua Coverage Results" MODIFIED="1557078058499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/dbfread/field_parser.py" />
@@ -1039,8 +1035,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/moveNiDbfToPostgre2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+        <state relative-caret-position="85">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
