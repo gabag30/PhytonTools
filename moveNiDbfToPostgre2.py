@@ -17,21 +17,20 @@ from pathlib import Path
 
 parser = ArgumentParser()
 
-parser.add_argument("hostIp", default=True,  help="ip address sqlserver")
-parser.add_argument("adminUser", default=True, help="user with admin rights sqlserver")
-parser.add_argument("adminPass",  default=True,  help="pass admin user sqlserver")
-parser.add_argument("interMedDb",  default=True,  help="name of the intermed database")
-parser.add_argument("schemaDb",  default=True,  help="name of the intermed schema")
-parser.add_argument("dbfFilesLocation",  default=True,   help="Location of the dbf files")
-parser.add_argument("tablesIgnore", default=True,   help="List of dbf files to ignore")
-parser.add_argument("tablesLoad", default=True,   help="List of dbf files to Load")
-parser.add_argument("logsFolder", default=True,   help="folder for logs")
+parser.add_argument("hostIp",default=True,help="ip address sqlserver")
+parser.add_argument("adminUser",default=True,help="user with admin rights sqlserver")
+parser.add_argument("adminPass",default=True,help="pass admin user sqlserver")
+parser.add_argument("interMedDb",default=True,help="name of the intermed database")
+parser.add_argument("schemaDb",default=True,help="name of the intermed schema")
+parser.add_argument("dbfFilesLocation",default=True,help="Location of the dbf files")
+parser.add_argument("tablesIgnore",default=True,help="List of dbf files to ignore")
+parser.add_argument("tablesLoad",default=True,help="List of dbf files to Load")
+parser.add_argument("logsFolder",default=True,help="folder for logs")
 
 args = parser.parse_args()
 
 print( args.hostIp + "_" + args.adminUser + "_" + args.adminPass + "_" + args.interMedDb + "_" + args.dbfFilesLocation  + "_" + args.tablesIgnore + "_" + args.tablesLoad)
 
-#exit(0)
 logger = logging.getLogger('')
 logger.setLevel(logging.DEBUG)
 format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
@@ -180,9 +179,14 @@ for file in glob.glob("*.dbf"):
                         elif str(name) == 'HORA':
                             if len(value.replace(' ', '')) < 6 or not value.replace(' ', '').strip():
                                 rec[name] = '000000'
-                        elif str(name) == 'NRO_SOLICI' or str(name) == 'NUM_SERIE':
+                        elif str(name) == 'NRO_SOLICI':
                             # print(len(value.replace(' ', '')))
                             rec[name] = value.replace(' ', '').strip()
+
+                        elif str(name) == 'NUM_SERIE':
+                            # print(len(value.replace(' ', '')))
+                            rec[name] = value.replace(' ', '').strip()
+
                         else:
                             rec[name] = re.sub('\x00','',re.sub(' +', ' ',value)).strip()
                     elif isinstance(value, date):
@@ -220,6 +224,10 @@ for file in glob.glob("*.dbf"):
                     logger.error(">>>>>>>>>>>>>>> issue with inserts into table:" + str(e))
                 listoflists = list()
 
+            if 'NRO_SOLICI' in table.field_names:
+                tablePg.create_index(['NRO_SOLICI'])
+            elif 'NUM_SERIE' in table.field_names:
+                tablePg.create_index(['NUM_SERIE'])
             # for i,rec in enumerate(table.deleted):
             #     rec.update({'deleted': 'N'})
             #     for name, value in rec.items():
