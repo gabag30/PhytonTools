@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/intermedToIpas.py" line="53" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db6f3e9-07d1-419b-86e0-0e0123e05142" name="Default" comment="update">
-      <change beforePath="$PROJECT_DIR$/moveNiDbfToPostgre2.py" beforeDir="false" afterPath="$PROJECT_DIR$/moveNiDbfToPostgre2.py" afterDir="false" />
-    </list>
+    <list default="true" id="7db6f3e9-07d1-419b-86e0-0e0123e05142" name="Default" comment="update" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -576,7 +574,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49946523" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.6140725" visible="true" weight="0.26564217" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.6140725" weight="0.26564217" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39921466" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
