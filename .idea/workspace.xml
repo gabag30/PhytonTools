@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/intermedToIpas.py" line="53" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db6f3e9-07d1-419b-86e0-0e0123e05142" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/generatePropertiesFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7db6f3e9-07d1-419b-86e0-0e0123e05142" name="Default" comment="update" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moveNiDbfToPostgre2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="306">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#1#12#0" expanded="true" />
@@ -38,7 +35,6 @@
         <entry file="file://$PROJECT_DIR$/hnMigrationFinal.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -62,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/basicTools.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="12" />
+              <caret selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -204,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="760" />
     <option name="y" value="205" />
     <option name="width" value="1390" />
@@ -218,7 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,6 +225,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,6 +435,7 @@
       <workItem from="1557169064828" duration="4266000" />
       <workItem from="1557477614369" duration="4597000" />
       <workItem from="1557849470957" duration="1770000" />
+      <workItem from="1557919593090" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1530539027050</created>
@@ -612,7 +609,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174307000" />
+    <option name="totallyTimeSpent" value="174906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -997,35 +994,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-991083293/errno.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moveNiDbfToPostgre2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hnMigrationFinal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-991083293/errno.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/basicTools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="12" />
+          <caret selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moveNiDbfToPostgre2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#1#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
