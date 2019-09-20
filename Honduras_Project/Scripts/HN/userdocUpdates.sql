@@ -130,3 +130,13 @@ select oo.*
  
 from VW_IMPORT_USERDOC_owners oo)
 delete from cte where rn>1
+
+;;
+With cte as (
+select oo.*
+                 ,rn=row_number() over(partition by oo.userdoc_type,FILING_DATE,RECEPTION_DATE
+      )
+
+
+from VW_IMPORT_USERDOC oo)
+delete from cte where rn>1 ;;

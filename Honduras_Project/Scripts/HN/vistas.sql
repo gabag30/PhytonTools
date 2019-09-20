@@ -89,12 +89,12 @@ convert(datetime,cast(solicitada as varchar)+
 
 	  SIGNO sign_type,
    NOM_MARCA mark_name, 
-   cast(LIMITACION as varchar(2000)) disclaimer ,   
+   cast(RESERVA as varchar(max)) disclaimer ,   
    (case when (len(rtomo)>0) then 'Tomo: ' + cast(rtomo as varchar) + ' -- ' else '' end ) + 
    (case when len(rfolio)>0 then 'Folio: ' + cast(rfolio as varchar) + ' -- ' else '' end) + 
    (case when len(NRO_RESOL)>0 then 'Resolucion: ' + cast(NRO_RESOL as varchar) + ' -- ' else '' end) +
-   (case when (len(reserva)>0) then 'Reserva: ' + cast(RESERVA as varchar(max)) else '' end)  notes,   
-  4 as capture_user_id,   
+   (case when (len(LIMITACION)>0) then 'Reserva: ' + cast(LIMITACION as varchar(3000)) else '' end)  notes,   
+  4 as capture_user_id,  
    getdate() as capture_date, rowNum,NRO_SOLICI ,
    RN = ROW_NUMBER()OVER(PARTITION BY cast(case when ISNUMERIC(nro_solici)= 0 then right(NRO_SOLICI,1) else '1'  end as varchar),
    cast(left(NRO_SOLICI,4) as numeric(4,0)) ,
@@ -202,7 +202,7 @@ cast(left(num_serie,4) as numeric(4,0)) doc_ser,
 cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,
 NUM_SERIE,
 SOLICITADA,hora,
-case when tipo_peti='RN' then 'ESC007' when tipo_peti='FU' then 'ESC056' when tipo_peti='LU' then 'ESC057' when tipo_peti='TR' then 'ESC067' when tipo_peti='CN' then 'ESC069' when tipo_peti='CD' then 'ESC096' when tipo_peti='NU' then 'ESC013' when tipo_peti='CC' then 'ESC016' when tipo_peti='RH' then 'ESC094' else tipo_peti end TIPO_PETI
+case when tipo_peti='RN' then 'ESC007' when tipo_peti='FU' then 'ESC067' when tipo_peti='LU' then 'ESC069' when tipo_peti='TR' then 'ESC096' when tipo_peti='CN' then 'ESC057' when tipo_peti='CD' then 'ESC056' when tipo_peti='NU' then 'ESC016' when tipo_peti='CC' then 'ESC013' when tipo_peti='RH' then 'ESC094' else tipo_peti end TIPO_PETI
 ,STATUS_RES,STAT_DESDE,AGENTE,CALIDAD,qUien,CUAL,NRO_RESOL,case when OBSERVACIO='None' then '' else OBSERVACIO end OBSERVACIO,LEY,cambrep,Deleted 
 FROM VW_ORIGIN_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')
 union all SELECT  [rowNum],
@@ -216,7 +216,7 @@ union all SELECT  [rowNum],
 when evento='US' then 'ESC061'
 when evento='DC' then 'ESC036'
 when evento='CO' then 'ESC012'
-when evento='CP' then 'ESC011'
+when evento='CP' then 'ESC020'
 when evento='IP' then 'ESC063'
 when evento='DS' then 'ESC006'
 when evento='DO' then 'ESC022'
@@ -241,8 +241,8 @@ when evento='SC' then 'ESC041'
 when evento='EM' then 'ESC066'
 when evento='LE' then 'ESC106'
 when evento='CL' then 'ESC066'
-when evento='NU' then 'ESC013'
-when evento='CC' then 'ESC016'
+when evento='NU' then 'ESC016'
+when evento='CC' then 'ESC013'
 when evento='RH' then 'ESC094'
 else evento end TIPO_PETI      ,null status_res
 	  , null stat_desde
@@ -321,7 +321,7 @@ cast(left(num_serie,4) as numeric(4,0)) doc_ser,
 cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr,
 NUM_SERIE,
 SOLICITADA,hora,
-case when tipo_peti='RN' then 'ESC007' when tipo_peti='FU' then 'ESC056' when tipo_peti='LU' then 'ESC057' when tipo_peti='TR' then 'ESC067' when tipo_peti='CN' then 'ESC069' when tipo_peti='CD' then 'ESC096' when tipo_peti='NU' then 'ESC013' when tipo_peti='CC' then 'ESC016' when tipo_peti='RH' then 'ESC094' else tipo_peti end TIPO_PETI,STATUS_RES,STAT_DESDE,AGENTE,CALIDAD,qUien,CUAL,NRO_RESOL,case when OBSERVACIO='None' then '' else OBSERVACIO end OBSERVACIO,LEY,cambrep,Deleted 
+case when tipo_peti='RN' then 'ESC007' when tipo_peti='FU' then 'ESC067' when tipo_peti='LU' then 'ESC069' when tipo_peti='TR' then 'ESC096' when tipo_peti='CN' then 'ESC057' when tipo_peti='CD' then 'ESC056' when tipo_peti='NU' then 'ESC016' when tipo_peti='CC' then 'ESC013' when tipo_peti='RH' then 'ESC094' else tipo_peti end TIPO_PETI,STATUS_RES,STAT_DESDE,AGENTE,CALIDAD,qUien,CUAL,NRO_RESOL,case when OBSERVACIO='None' then '' else OBSERVACIO end OBSERVACIO,LEY,cambrep,Deleted
 FROM VW_ORIGIN_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')
 union all SELECT  [rowNum],
 	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,
@@ -334,7 +334,7 @@ union all SELECT  [rowNum],
 when evento='US' then 'ESC061'
 when evento='DC' then 'ESC036'
 when evento='CO' then 'ESC012'
-when evento='CP' then 'ESC011'
+when evento='CP' then 'ESC020'
 when evento='IP' then 'ESC063'
 when evento='DS' then 'ESC006'
 when evento='DO' then 'ESC022'
@@ -359,8 +359,8 @@ when evento='SC' then 'ESC041'
 when evento='EM' then 'ESC066'
 when evento='LE' then 'ESC106'
 when evento='CL' then 'ESC066'
-when evento='NU' then 'ESC013'
-when evento='CC' then 'ESC016'
+when evento='NU' then 'ESC016'
+when evento='CC' then 'ESC013'
 when evento='RH' then 'ESC094'
 else evento end TIPO_PETI      ,null status_res
 	  , null stat_desde
@@ -487,6 +487,17 @@ case when COMENTARIO='None' then '' else COMENTARIO end ACTION_NOTES1,
   
  inner join vw_userdoc ud on aaa.userdoc_seq = ud.userdoc_seq
  and aaa.userdoc_series=ud.USERDOC_SERIES and aaa.userdoc_nbr=ud.USERDOC_NBR  ;;  
+
+
+;;
+With cte as (
+select oo.*
+                 ,rn=row_number() over(partition by oo.userdoc_type,FILING_DATE,RECEPTION_DATE
+      )
+
+
+from VW_IMPORT_USERDOC oo)
+delete from cte where rn>1 ;;
 
  
   
