@@ -77,6 +77,8 @@ for file in glob.glob("*.dbf"):
     elif 'NUM_SERIE' in table.field_names:
         queryinsert(conex, 'create index NSER_'+table.name+' on '+loadConfig.interMedDb + '.dbo.vw_origin_'+table.name+'(NUM_SERIE)',
                     'Indexing Vw_origin_' + fileName + ' table')
+
+
     try:
         logger.warning("Going to insert to table: " + fileName)
         statement2 = "INSERT INTO " + loadConfig.interMedDb + \

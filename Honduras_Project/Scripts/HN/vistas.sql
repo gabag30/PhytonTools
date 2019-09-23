@@ -63,9 +63,7 @@ convert(datetime,cast(solicitada as varchar)+
 
    case 
    when  (registro is null or registro='0' or len(replace(registro,' ',''))=0) then null
-   when  isnumeric(registro)=1 then registro else 
-   LEFT(SUBSTRING(REGISTRO, PATINDEX('%[0-9.-]%', REGISTRO), 8000),
-           PATINDEX('%[^0-9.-]%', SUBSTRING(REGISTRO, PATINDEX('%[0-9.-]%', REGISTRO), 8000) + 'X') -1) end
+   when  isnumeric(registro)=1 then registro else Replace(REGISTRO, Substring(REGISTRO, PatIndex('%[^0-9.-]%', REGISTRO), 1), '') end
 		
 		   registration_nbr,
 		   case when  (registro is null or registro='0' or len(replace(registro,' ',''))=0) then null else case when registrada is null then cast('1900-01-01' as date) else registrada end end registration_date,
@@ -89,11 +87,12 @@ convert(datetime,cast(solicitada as varchar)+
 
 	  SIGNO sign_type,
    NOM_MARCA mark_name, 
-   cast(RESERVA as varchar(max)) disclaimer ,   
-   (case when (len(rtomo)>0) then 'Tomo: ' + cast(rtomo as varchar) + ' -- ' else '' end ) + 
-   (case when len(rfolio)>0 then 'Folio: ' + cast(rfolio as varchar) + ' -- ' else '' end) + 
-   (case when len(NRO_RESOL)>0 then 'Resolucion: ' + cast(NRO_RESOL as varchar) + ' -- ' else '' end) +
-   (case when (len(LIMITACION)>0) then 'Reserva: ' + cast(LIMITACION as varchar(3000)) else '' end)  notes,   
+   case when RESERVA is not null then 'RESERVA: '+cast(RESERVA as varchar(max)) else '' end +
+   case when LIMITACION is not null and len(LIMITACION)>0 then 'LIMITACION: ' + cast(LIMITACION as varchar(3000)) else '' end notes,   
+   case when (len(rtomo)>0) then 'Tomo: ' + cast(rtomo as varchar) + ' -- ' else '' end  tomo,
+   case when len(rfolio)>0 then 'Folio: ' + cast(rfolio as varchar) + ' -- ' else '' end folio,
+   case when len(NRO_RESOL)>0 then 'Resolucion: ' + cast(NRO_RESOL as varchar) + ' -- ' else '' end nro_resoluc,
+      
   4 as capture_user_id,  
    getdate() as capture_date, rowNum,NRO_SOLICI ,
    RN = ROW_NUMBER()OVER(PARTITION BY cast(case when ISNUMERIC(nro_solici)= 0 then right(NRO_SOLICI,1) else '1'  end as varchar),
@@ -125,8 +124,8 @@ convert(datetime,cast(solicitada as varchar)+
    ,expiration_date
       ,sign_type
       ,mark_name
-      ,disclaimer
       ,notes
+      ,tomo,folio,nro_resoluc
       ,capture_user_id
       ,capture_date
       ,rowNum
@@ -176,7 +175,7 @@ cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie
 Deleted FROM VW_ORIGIN_petireg 
 where NRO_SOLICI is not null and num_serie is not null and isnumeric(left(nro_solici,4))=1
 
-union all SELECT  [rowNum],nro_solici,  	documento num_serie, 
+union all SELECT  rowNum,nro_solici,  	documento num_serie, 
 	cast(case when ISNUMERIC(nro_solici)= 0 then right(NRO_SOLICI,1) else '1'  end as varchar) FILE_SEQ,
 'M' FILE_TYPE, 
 left(nro_solici,4) file_ser, 
@@ -185,8 +184,8 @@ cast( substring(NRO_SOLICI,5,len(NRO_SOLICI)-(case when ISNUMERIC(nro_solici)=0 
 	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,
 	cast(left(documento,4) as numeric(4,0)) doc_ser, 
 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,
-      [DELETED] 
-  FROM [HN1].[dbo].[vw_origin_movimi] where evento in ('MO','US','DC','CO',
+      DELETED 
+  FROM vw_origin_movimi where evento in ('MO','US','DC','CO',
   'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')
   and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N';;   
 
@@ -205,13 +204,13 @@ SOLICITADA,hora,
 case when tipo_peti='RN' then 'ESC007' when tipo_peti='FU' then 'ESC067' when tipo_peti='LU' then 'ESC069' when tipo_peti='TR' then 'ESC096' when tipo_peti='CN' then 'ESC057' when tipo_peti='CD' then 'ESC056' when tipo_peti='NU' then 'ESC016' when tipo_peti='CC' then 'ESC013' when tipo_peti='RH' then 'ESC094' else tipo_peti end TIPO_PETI
 ,STATUS_RES,STAT_DESDE,AGENTE,CALIDAD,qUien,CUAL,NRO_RESOL,case when OBSERVACIO='None' then '' else OBSERVACIO end OBSERVACIO,LEY,cambrep,Deleted 
 FROM VW_ORIGIN_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')
-union all SELECT  [rowNum],
+union all SELECT  rowNum,
 	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,
 	cast(left(documento,4) as numeric(4,0)) doc_ser, 
 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,
 	documento num_serie
-      ,[F_EVENTO] solicitada
-	  ,[HORA]
+      ,F_EVENTO solicitada
+	  ,HORA
       ,case when evento='MO' then 'ESC099'
 when evento='US' then 'ESC061'
 when evento='DC' then 'ESC036'
@@ -251,9 +250,9 @@ else evento end TIPO_PETI      ,null status_res
 	  ,null quien
 	  ,null cual
 	  ,null nro_resol
-	  ,[COMENTARIO] observacio
+	  ,COMENTARIO observacio
       ,null ley, null cambrep
-      ,[DELETED]
+      ,DELETED
       
   FROM vw_origin_movimi where evento in ('MO','US','DC','CO',
   'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')
@@ -280,14 +279,13 @@ titular,Deleted FROM VW_ORIGIN_nuenoms where len(num_SERIE)>0;;
   
   
    
-
 create  view  vw_userdoc as 
 with cte as (
-select aaa.[rowNum]
-      ,[doc_seq]
-      ,[doc_ser]
-      ,[doc_nbr]
-      ,aaa.[NUM_SERIE]
+select aaa.rowNum
+      ,doc_seq
+      ,doc_ser
+      ,doc_nbr
+      ,aaa.NUM_SERIE
 	  ,0 as ind_import
 	  ,TIPO_PETI userdoc_TYPE
 	  ,1 as law_code
@@ -311,7 +309,7 @@ RESIDENCE_COUNTRY_CODE ,case when (direccion is null or direccion='') then 'Falt
 , STATUS_RES, 
 STAT_DESDE, AGENTE
 	  
-	  ,aaa.[Deleted] 
+	  ,aaa.Deleted 
 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)  
 	  
 	  from (
@@ -322,14 +320,14 @@ cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie
 NUM_SERIE,
 SOLICITADA,hora,
 case when tipo_peti='RN' then 'ESC007' when tipo_peti='FU' then 'ESC067' when tipo_peti='LU' then 'ESC069' when tipo_peti='TR' then 'ESC096' when tipo_peti='CN' then 'ESC057' when tipo_peti='CD' then 'ESC056' when tipo_peti='NU' then 'ESC016' when tipo_peti='CC' then 'ESC013' when tipo_peti='RH' then 'ESC094' else tipo_peti end TIPO_PETI,STATUS_RES,STAT_DESDE,AGENTE,CALIDAD,qUien,CUAL,NRO_RESOL,case when OBSERVACIO='None' then '' else OBSERVACIO end OBSERVACIO,LEY,cambrep,Deleted
-FROM VW_ORIGIN_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')
-union all SELECT  [rowNum],
+ FROM vw_origin_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH')
+union all SELECT  rowNum,
 	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,
 	cast(left(documento,4) as numeric(4,0)) doc_ser, 
 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,
 	documento num_serie
-      ,[F_EVENTO] solicitada
-	  ,[HORA]
+      ,F_EVENTO solicitada
+	  ,HORA
       ,case when evento='MO' then 'ESC099'
 when evento='US' then 'ESC061'
 when evento='DC' then 'ESC036'
@@ -369,16 +367,16 @@ else evento end TIPO_PETI      ,null status_res
 	  ,null quien
 	  ,null cual
 	  ,null nro_resol
-	  ,[COMENTARIO] observacio
+	  ,COMENTARIO observacio
       ,null ley, null cambrep
-      ,[DELETED]
+      ,DELETED
       
   FROM vw_origin_movimi where evento in ('MO','US','DC','CO',
   'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')
   and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N' ) aaa
-  left join VW_ORIGIN_nuenoms nom 
+  left join vw_origin_nuenoms nom 
 on aaa.num_serie=nom.NUM_SERIE 
-left join  VW_ORIGIN_TITULAR titu on  nom.titular=titu.TITULAR   
+left join  vw_origin_TITULAR titu on  nom.titular=titu.TITULAR   
 where aaa.num_serie is not null
   
   
@@ -393,6 +391,7 @@ where aaa.num_serie is not null
 , USERDOC_TYPE, LAW_CODE, FILING_DATE, RECEPTION_DATE, NOTES, case when PERSON_NAME is null then 'falta capturar nombre' else person_name end person_name  , NATIONALITY_COUNTRY_CODE, RESIDENCE_COUNTRY_CODE      
 , ADDRESS_STREET, CAPTURE_USER_ID, CAPTURE_DATE from cte ;;
  
+
    
 
 
@@ -400,15 +399,15 @@ where aaa.num_serie is not null
 
 create  view  vw_userdoc_files as 
 with cte as (
-select aaa.[rowNum]
-      ,[doc_seq]
-      ,[doc_ser]
-      ,[doc_nbr]
-      ,aaa.[NUM_SERIE] 
-	  ,aaa.[Deleted] 
+select aaa.rowNum
+      ,doc_seq
+      ,doc_ser
+      ,doc_nbr
+      ,aaa.NUM_SERIE 
+	  ,aaa.Deleted 
 	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbr ORDER BY doc_ser,doc_nbr)  
 	  
-	  from (SELECT  rowNum,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq, cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr, NUM_SERIE,deleted FROM VW_ORIGIN_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH') union all SELECT  [rowNum],	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,	documento num_serie      ,[DELETED]     FROM vw_origin_movimi where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N' ) aaa where aaa.num_serie is not null  )  
+	  from (SELECT  rowNum,case when (ISNUMERIC(num_serie)=0) then right(num_serie,1) else 'M' end doc_seq, cast(left(num_serie,4) as numeric(4,0)) doc_ser, cast(case when (ISNUMERIC(num_serie)=0) then substring(num_serie,5,len(num_serie)-5) else substring(num_serie,5,len(num_serie)-4)  end as numeric(10,0)) doc_nbr, NUM_SERIE,deleted FROM VW_ORIGIN_peticion where len(num_serie)>=4 and TIPO_PETI in ('RN','FU','LU','TR','CN','CD','NU','CC','RH') union all SELECT  rowNum,	case when (ISNUMERIC(documento)=0) then right(documento,1) else 'M' end doc_seq,	cast(left(documento,4) as numeric(4,0)) doc_ser, 	cast( substring(documento,5,len(documento)-4) as numeric(10,0)) doc_nbr,	documento num_serie      ,DELETED     FROM vw_origin_movimi where evento in ('MO','US','DC','CO',  'CP','IP','DS','DO','PU','AP','EO','AI','RR','EL','MA','OT','PE','PP','C1','ST','DP','RM','CE','MS','SP','SC','EM','LE','CL')  and documento is not null and len(documento)>4 and isnumeric(documento)=1 and deleted='N' ) aaa where aaa.num_serie is not null  )  
 	select   pp.nro_solici,pp.file_ser,pp.file_seq,pp.file_nbr, cc.num_serie,  case when cc.doc_seq is not null then case  when rn=1 then cc.DOC_SEQ else cc.doc_seq +'-'+cast(rn as varchar) end   else pp.doc_seq end userdoc_seq,  case when cc.doc_ser is not null then cast(cc.doc_ser as numeric(4,0)) else cast(pp.doc_ser as numeric(4,0)) end USERDOC_SERIES,  case when cc.doc_nbr is not null then cast(cc.doc_nbr as numeric(10,0)) else cast(pp.doc_nbr as numeric(10,0)) end USERDOC_NBR   from cte cc right join (SELECT  rowNum      ,NRO_SOLICI      ,file_ser      ,file_seq      ,file_nbr      ,NUM_SERIE      ,doc_ser      ,doc_seq      ,doc_nbr      FROM vw_PETIREG ) pp on cc.num_serie=pp.num_serie where cc.deleted='N'
 
 ;;  
@@ -490,14 +489,7 @@ case when COMENTARIO='None' then '' else COMENTARIO end ACTION_NOTES1,
 
 
 ;;
-With cte as (
-select oo.*
-                 ,rn=row_number() over(partition by oo.userdoc_type,FILING_DATE,RECEPTION_DATE
-      )
-
-
-from VW_IMPORT_USERDOC oo)
-delete from cte where rn>1 ;;
+With cte as (select oo.*,rn=row_number() over(partition by oo.userdoc_type,FILING_DATE,RECEPTION_DATE order by oo.userdoc_type,FILING_DATE,RECEPTION_DATE) from VW_IMPORT_USERDOC oo) delete from cte where rn>1 ;;
 
  
   

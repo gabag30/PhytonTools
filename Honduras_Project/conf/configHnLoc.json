@@ -5,9 +5,9 @@
     "HOST_IP": "127.0.0.1",
     "ADMIN_USER": "sa",
     "ADMIN_PASSWORD": "W1P0w1p0",
-	"FILES_LOCATION": "C:\\Program Files\\Microsoft SQL Server\\MSSQL14.MSSQLSERVER\\MSSQL\\DATA\\",
+	"FILES_LOCATION": "/var/opt/mssql/data/",
     "TOOL_LOCATION": "C:\\Dropbox\\WIPO\\WIPOBasic\\PhAndTr\\",
-    "TEMP_FOLDER" : " E:/Temp/"
+    "TEMP_FOLDER" : " E:/Temp"
 
   },
   "INTERMED": {
@@ -23,7 +23,7 @@
     "DB_NAME": "HNMARCAS",
 	"USER_NAME": "HNADMIN",
 	"USER_PASSWORD": "HNADMIN",
-    "BK_LOC": "E:\\Docker\\Backups\\HNMARCAS.bak",
+    "BK_LOC": "/var/opt/mssql/data/backups/HNMARCAS.bak",
     "LOGOS_LOCATION": "E:\\WP2\\Migraciones\\Honduras\\Graficos\\"
   },
   "SCRIPTS" : {

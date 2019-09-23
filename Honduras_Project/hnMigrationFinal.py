@@ -2,17 +2,16 @@ import os
 
 import loadConfig
 from basicTools import silentremove, logger, cmdtool, changeDatabase, queryinsert, queryselectOne, querygetcursor
-import dbfToSqlAllTables
+#import dbfToSqlAllTables
+#import prepareTables
+import restoreIpasDatabase
 
-exit(0)
-import prepareTablesAndViews
-
+import prepareViews
 
 import originToIntermed
 
-import restoreIpasDatabase
+exit(0)
 import intermedToIpas
-
 import logosUploader
 
 
