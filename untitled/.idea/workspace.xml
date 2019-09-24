@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb000b98-fe10-4e08-bf6f-1a7543e88c3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/postMigration.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/postMigration.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/tmUpdates.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/tmUpdates.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/updatesOrigin.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/updatesOrigin.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/userdocUpdates.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/userdocUpdates.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/usersCorrection.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/usersCorrection.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/vistas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Honduras_Project/Scripts/HN/vistas.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Honduras_Project/hnMigrationFinal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Honduras_Project/hnMigrationFinal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Honduras_Project/restoreIpasDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Honduras_Project/restoreIpasDatabase.py" afterDir="false" />
-    </list>
+    <list default="true" id="eb000b98-fe10-4e08-bf6f-1a7543e88c3a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Honduras_Project/hnMigrationFinal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+            <state relative-caret-position="729">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -61,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/../Honduras_Project/conf/configHn.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -91,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="760" />
     <option name="y" value="205" />
     <option name="width" value="1390" />
@@ -205,7 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568895371547</updated>
       <workItem from="1568895374086" duration="2331000" />
-      <workItem from="1568965329185" duration="27094000" />
+      <workItem from="1568965329185" duration="27696000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <created>1568968636276</created>
@@ -232,7 +223,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29425000" />
+    <option name="totallyTimeSpent" value="30027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,7 +243,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6055734" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6055734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,14 +367,14 @@
     <entry file="file://$PROJECT_DIR$/../Honduras_Project/conf/configHn.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Honduras_Project/hnMigrationFinal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        <state relative-caret-position="729">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
