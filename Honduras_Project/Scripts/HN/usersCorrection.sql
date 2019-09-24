@@ -2,14 +2,9 @@
 	update CF_OFFICE_DIVISION set SIGNATURE_USER_ID=null,SIGNATURE_USER_ID_SECONDARY=null;;
 	update CF_OFFICE_DEPARTMENT set SIGNATURE_USER_ID=null,SIGNATURE_USER_ID_SECONDARY=null;;
   
- with cte as (
-  SELECT rowNum
-      ,CODE_USER
-      ,NAME
-      ,DELETED
-	  ,row_Number() over (partition by code_user,name order by rowNum) rn
-  FROM VW_ORIGIN_USERS where rowNum !=4)
-  delete from cte where rn >1;;
+ 
+  
+  
    
    with cte as (
   SELECT login,user_id
@@ -41,4 +36,13 @@ WHERE
 	 table_a.user_id!=4 ;;
 
 delete from IP_USER where user_ID >999;;
+delete from DO_USER where user_id not in (select USER_ID from IP_USER);;
 
+insert into IP_USER(ROW_VERSION,USER_ID,LOGIN,USER_NAME,IND_EXAMINER,IND_ADMINISTRATOR,IND_INACTIVE,OFFICE_DIVISION_CODE,OFFICE_DEPARTMENT_CODE,OFFICE_SECTION_CODE,INITIALS 
+
+)
+SELECT distinct 1,[rowNum]
+      ,[CODE_USER]
+      ,[NAME],'N','N','S','01',null,null,[CODE_USER]
+      
+  FROM VW_ORIGIN_USERS where rowNum not in (select USER_ID from IP_USER);;

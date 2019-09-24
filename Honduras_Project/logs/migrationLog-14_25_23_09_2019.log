@@ -1,0 +1,34 @@
+2019-09-23 14:25:09,918 - root - WARNING - connected to Sqlserver.
+2019-09-23 14:25:09,922 - root - INFO - Connections to database severed
+2019-09-23 14:25:09,959 - root - INFO - database dropped
+2019-09-23 14:25:09,960 - root - INFO - user ready
+2019-09-23 14:25:09,961 - root - INFO - access granted
+2019-09-23 14:25:09,961 - root - INFO - access granted
+2019-09-23 14:25:09,962 - root - INFO - password changed
+2019-09-23 14:25:10,731 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 14:25:10,744 - root - WARNING - connected to Sqlserver.
+2019-09-23 14:25:10,773 - root - INFO - repository synced
+2019-09-23 14:25:10,779 - root - INFO - repository synced
+2019-09-23 14:25:10,784 - root - WARNING - connected to Sqlserver.
+2019-09-23 14:25:10,925 - root - INFO - wrong query:
+
+UPDATE HNMARCAS.HNADMIN.IP_USER set user_id=1000+user_id where user_id!=4running sql file
+2019-09-23 14:25:10,925 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The UPDATE statement conflicted with the SAME TABLE REFERENCE constraint "IP_USER_FK_USER2". The conflict occurred in database "HNMARCAS", table "HNADMIN.IP_USER", column \'LAST_UPDATE_USER_ID\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+2019-09-23 14:25:10,964 - root - INFO - wrong query:
+
+update Table_A   
+SET
+    Table_A.user_id = Table_B.rowNum
+FROM
+    HNMARCAS.HNADMIN.IP_USER AS Table_A
+    INNER JOIN (SELECT rowNum
+      ,CODE_USER
+      ,NAME
+
+      ,DELETED
+  FROM HN_MARCAS.dbo.VW_ORIGIN_USERS where DELETED='N' and rowNum !=4)  AS Table_B
+        ON Table_A.login = Table_B.CODE_USER and Table_B.DELETED = 'N' and Table_b.rowNum !=4 
+WHERE
+    
+	 table_a.user_id!=4 running sql file
+2019-09-23 14:25:10,964 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'USUARIO_PK'. Cannot insert duplicate key in object 'HNADMIN.IP_USER'. The duplicate key value is (40). (2627) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")

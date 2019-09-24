@@ -1,0 +1,54 @@
+2019-09-23 17:32:01,446 - root - WARNING - connected to Sqlserver.
+2019-09-23 17:32:01,449 - root - INFO - Connections to database severed
+2019-09-23 17:32:01,527 - root - INFO - database dropped
+2019-09-23 17:32:01,528 - root - INFO - user ready
+2019-09-23 17:32:01,529 - root - INFO - access granted
+2019-09-23 17:32:01,529 - root - INFO - access granted
+2019-09-23 17:32:01,530 - root - INFO - password changed
+2019-09-23 17:32:02,364 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:02,378 - root - WARNING - connected to Sqlserver.
+2019-09-23 17:32:02,407 - root - INFO - repository synced
+2019-09-23 17:32:02,413 - root - INFO - repository synced
+2019-09-23 17:32:02,418 - root - WARNING - connected to Sqlserver.
+2019-09-23 17:32:02,683 - root - INFO - changing database to intermed
+2019-09-23 17:32:02,687 - root - WARNING - connected to Sqlserver.
+2019-09-23 17:32:03,630 - root - INFO - access granted
+2019-09-23 17:32:03,630 - root - INFO - access granted
+2019-09-23 17:32:05,978 - root - WARNING - Running initial updates to intermed.
+2019-09-23 17:32:05,978 - root - INFO - changing database to intermed
+2019-09-23 17:32:07,666 - root - INFO - changing database to ipas
+2019-09-23 17:32:07,670 - root - WARNING - connected to Sqlserver.
+2019-09-23 17:32:07,670 - root - WARNING - Creating store procedures and wrk tables.
+2019-09-23 17:32:07,816 - root - INFO - cleanning manual validation tables
+2019-09-23 17:32:07,817 - root - INFO - creating store procedure0-ImportSetPersonNbr
+2019-09-23 17:32:07,891 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:07,892 - root - INFO - creating store procedure1-MarkDateValidationPROC
+2019-09-23 17:32:07,959 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:07,959 - root - INFO - creating store procedure10-ImportAgentProcessAll
+2019-09-23 17:32:08,026 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,026 - root - INFO - creating store procedure11-ImportMarkProcess
+2019-09-23 17:32:08,115 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,116 - root - INFO - creating store procedure12-userdocImport-1
+2019-09-23 17:32:08,192 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,193 - root - INFO - creating store procedure13-userdocImport-2
+2019-09-23 17:32:08,264 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,265 - root - INFO - creating store procedure2-PatentDateValidationPROC
+2019-09-23 17:32:08,334 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,335 - root - INFO - creating store procedure3-UserDocDateValidationPROC
+2019-09-23 17:32:08,400 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,400 - root - INFO - creating store procedure4-CallToDateValidationPROC
+2019-09-23 17:32:08,465 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,466 - root - INFO - creating store procedure5-ImportAgentValidate
+2019-09-23 17:32:08,541 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,541 - root - INFO - creating store procedure6-ImportMarkValidate
+2019-09-23 17:32:08,648 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,648 - root - INFO - creating store procedure8-ImportUserdocValidate
+2019-09-23 17:32:08,744 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:08,744 - root - INFO - creating store procedure9-ImportWorkTablesCreate
+2019-09-23 17:32:09,150 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 17:32:09,150 - root - WARNING - Running validation and migration.
+2019-09-23 17:32:09,271 - root - WARNING - Migrating agents.
+2019-09-23 17:32:14,329 - root - WARNING - Validation TM .
+2019-09-23 17:32:51,994 - root - INFO - wrong query:UPDATE HN_MARCAS.dbo.VW_IMPORT_MARK_PRIORITIES SET PRIORITY_DATE=DATAADD(YEAR,-1,PRIORITY_DATE) WHERE PRIORITY_DATE>GETDATE ()running TM updates
+2019-09-23 17:32:51,994 - root - ERROR - >>>>>>>>>>>>>>> issue with insert query ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'DATAADD' is not a recognized built-in function name. (195) (SQLExecDirectW)")
+2019-09-23 17:32:51,994 - root - WARNING - Validation TM post correction.

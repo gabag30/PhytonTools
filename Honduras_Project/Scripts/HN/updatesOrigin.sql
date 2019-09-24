@@ -7,3 +7,15 @@ update vw_origin_movimi  set action_date_IPAS=convert(datetime,cast(f_evento as 
 +':'+case  when substring(HORA,5,2)<0 then '00' when substring(HORA,5,2)<60 then substring(HORA,5,2) else '59' end
 +'.000',120);;
 
+
+ with cte as (
+  SELECT rowNum
+      ,CODE_USER
+      ,NAME
+      ,DELETED
+	  ,row_Number() over (partition by code_user,name order by rowNum) rn
+  FROM VW_ORIGIN_USERS where rowNum !=4)
+
+delete from cte where rn >1;;
+
+

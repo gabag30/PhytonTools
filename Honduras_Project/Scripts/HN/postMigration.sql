@@ -11,7 +11,7 @@ FROM
       ,ss.user_id nuevo
 
 
-  FROM HN1.dbo.[vw_origin_users] ou, IP_USER ss where ou.code_user=ss.login) AS Table_B
+  FROM [vw_origin_users] ou, IP_USER ss where ou.code_user=ss.login) AS Table_B
         ON Table_A.capture_USER_ID = Table_B.viejo;;
 
 		 UPDATE
@@ -24,7 +24,7 @@ FROM
       ,ss.user_id nuevo
 
 
-  FROM HN1.dbo.[vw_origin_users] ou, IP_USER ss where ou.code_user=ss.login and ou.DELETED='N') AS Table_B
+  FROM [vw_origin_users] ou, IP_USER ss where ou.code_user=ss.login and ou.DELETED='N') AS Table_B
         ON Table_A.capture_USER_ID = Table_B.viejo;;
 
 			 UPDATE
@@ -39,7 +39,7 @@ FROM
       ,ss.user_id nuevo
 
 
-  FROM HN1.dbo.[vw_origin_users] ou, IP_USER ss where ou.code_user=ss.login) AS Table_B
+  FROM [vw_origin_users] ou, IP_USER ss where ou.code_user=ss.login) AS Table_B
         ON Table_A.capture_USER_ID = Table_B.viejo;;
 
 UPDATE
@@ -98,10 +98,36 @@ case
               when status ='22' then '090'
               when status ='RD' then '090'
        end as estado
-          FROM HN1.dbo.vw_origin_marca 
+          FROM vw_origin_marca 
    where Deleted='N' and len(nro_solici)>5 and status is not null ) gg, IP_FILE ff
    where ff.FILE_SEQ=gg.file_SEQ and ff.FILE_TYP=gg.FILE_TYPE and cast(ff.FILE_SER as varchar)= gg.file_series and cast(ff.file_nbr as varchar)=gg.file_nbr) AS Table_B
         ON Table_A.PROC_TYP = Table_B.PROC_TYP and Table_A.PROC_NBR=Table_B.PROC_NBR;;
 		
 		update IP_DOC set ind_specific_edoc='N', IND_INTERFACE_EDOC='S' where file_nbr is null;;
 		
+insert into CF_CONFIG_PARAM values 
+
+  (1,'ExtraDataMarkDataText1TabId','1'),(1,'ExtraDataMarkDataText1','N° Tomo'),
+  (1,'ExtraDataMarkDataText2TabId','1'),(1,'ExtraDataMarkDataText2','N° Folio'),
+  (1,'ExtraDataMarkDataText3TabId','1'),(1,'ExtraDataMarkDataText3','N° Resolución');;
+
+    UPDATE
+    Table_A
+SET
+    Table_A.DATA_TEXT1 = Table_B.tomo,
+    Table_A.DATA_TEXT2 = Table_B.folio,
+	table_a.DATA_TEXT3 = table_b.nro_resoluc
+FROM
+    ip_doc AS Table_A
+    INNER JOIN (SELECT  dd.DOC_ORI,dd.DOC_LOG,dd.DOC_SER,dd.doc_nbr
+      ,case when tomo is null then '' else tomo end tomo
+      ,case when folio is null then '' else folio end folio
+      ,case when nro_resoluc is null then '' else nro_resoluc end nro_resoluc
+
+  FROM vw_marcas2 vv inner join ip_doc dd
+  on vv.file_SEQ=dd.FILE_SEQ and vv.FILE_TYPE=dd.FILE_TYP and vv.FILE_SERIES=dd.FILE_SER and vv.file_NBR=dd.FILE_NBR)
+ AS Table_B
+        ON Table_A.doc_ori = Table_B.doc_ori and
+		Table_A.doc_log = Table_B.doc_log and
+		Table_A.doc_ser = Table_B.doc_ser and
+		Table_A.doc_nbr = Table_B.doc_nbr ;;

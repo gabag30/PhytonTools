@@ -240,7 +240,7 @@ select FILE_SEQ
 DELETE FROM cte WHERE rn >1;;
 
 
-
+update VW_IMPORT_MARK_PRIORITIES set PRIORITY_DATE=dateadd(year,-1,PRIORITY_DATE) where priority_date>getdate ();;
 
 
 --insert into CF_DOC_SEQUENCE (ROW_VERSION  ,DOC_SEQ_TYP   ,DOC_SEQ_NAME     ,IND_ANNUAL_SERIES   ,FIXED_SERIES    ,IND_CONT_NBR_FOR_FILE) select distinct 1,userdoc_seq,'seq alternativa userdocs'+userdoc_seq,'S',null,'N' from vw_import_userdoc where userdoc_seq!='M';;

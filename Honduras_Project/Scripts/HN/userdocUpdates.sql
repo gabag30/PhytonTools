@@ -128,15 +128,22 @@ select oo.*
       ,oo.userdoc_NBR)
 
  
-from VW_IMPORT_USERDOC_owners oo)
+ from VW_IMPORT_USERDOC_owners oo)
 delete from cte where rn>1
 
 ;;
 With cte as (
-select oo.*
-                 ,rn=row_number() over(partition by oo.userdoc_type,FILING_DATE,RECEPTION_DATE
-      )
-
-
-from VW_IMPORT_USERDOC oo)
+select oo.*,rn=row_number() over(partition by oo.userdoc_type,FILING_DATE,RECEPTION_DATE order by oo.userdoc_type,FILING_DATE,RECEPTION_DATE
+      ) from VW_IMPORT_USERDOC oo)
 delete from cte where rn>1 ;;
+ 
+UPDATE CF_USERDOC_TYPE SET IND_AFFECTS_FILE = 'S' where USERDOC_TYP IN ('ESC007','ESC012','ESC022','ESC051','ESC056','ESC057','ESC067','ESC069','ESC074','ESC094','ESC096');;
+
+insert into CF_USERDOC_TYPE ([ROW_VERSION]      ,[USERDOC_TYP]      ,[USERDOC_NAME]      ,[IND_AFFECTS_FILE],GENERATE_PROC_TYP)
+SELECT distinct 1,USERDOC_TYPE,'Escrito tipo: '+USERDOC_TYPE,'S','EVA' from VW_IMPORT_USERDOC where USERDOC_TYPE not in (select userdoc_typ from CF_USERDOC_TYPE);; 
+
+insert into CF_DOC_SEQUENCE
+SELECT  distinct 1,USERDOC_SEQ,'SEC ALTERNATIVA SEC: '+USERDOC_SEQ,'<PARAMS></PARAMS>','S',null,'N'
+
+  FROM VW_IMPORT_USERDOC where ind_import=2 and USERDOC_SEQ not in  
+  (select doc_seq_typ from CF_DOC_SEQUENCE);;

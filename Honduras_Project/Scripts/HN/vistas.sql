@@ -89,9 +89,9 @@ convert(datetime,cast(solicitada as varchar)+
    NOM_MARCA mark_name, 
    case when RESERVA is not null then 'RESERVA: '+cast(RESERVA as varchar(max)) else '' end +
    case when LIMITACION is not null and len(LIMITACION)>0 then 'LIMITACION: ' + cast(LIMITACION as varchar(3000)) else '' end notes,   
-   case when (len(rtomo)>0) then 'Tomo: ' + cast(rtomo as varchar) + ' -- ' else '' end  tomo,
-   case when len(rfolio)>0 then 'Folio: ' + cast(rfolio as varchar) + ' -- ' else '' end folio,
-   case when len(NRO_RESOL)>0 then 'Resolucion: ' + cast(NRO_RESOL as varchar) + ' -- ' else '' end nro_resoluc,
+   case when (len(rtomo)>0) then cast(rtomo as varchar) else '' end  tomo,
+   case when len(rfolio)>0 then cast(rfolio as varchar) else '' end folio,
+   case when len(NRO_RESOL)>0 then cast(NRO_RESOL as varchar)  else '' end nro_resoluc,
       
   4 as capture_user_id,  
    getdate() as capture_date, rowNum,NRO_SOLICI ,
@@ -411,6 +411,8 @@ select aaa.rowNum
 	select   pp.nro_solici,pp.file_ser,pp.file_seq,pp.file_nbr, cc.num_serie,  case when cc.doc_seq is not null then case  when rn=1 then cc.DOC_SEQ else cc.doc_seq +'-'+cast(rn as varchar) end   else pp.doc_seq end userdoc_seq,  case when cc.doc_ser is not null then cast(cc.doc_ser as numeric(4,0)) else cast(pp.doc_ser as numeric(4,0)) end USERDOC_SERIES,  case when cc.doc_nbr is not null then cast(cc.doc_nbr as numeric(10,0)) else cast(pp.doc_nbr as numeric(10,0)) end USERDOC_NBR   from cte cc right join (SELECT  rowNum      ,NRO_SOLICI      ,file_ser      ,file_seq      ,file_nbr      ,NUM_SERIE      ,doc_ser      ,doc_seq      ,doc_nbr      FROM vw_PETIREG ) pp on cc.num_serie=pp.num_serie where cc.deleted='N'
 
 ;;  
+
+--CREATE UNIQUE CLUSTERED INDEX ud_files_ix ON VW_USERDOC_FILES (userdoc_seq,userdoc_series,userdoc_nbr);;
 
 
 --with cte as (SELECT  rowNum      ,NRO_SOLICI      ,file_ser      ,file_seq      ,file_nbr      ,NUM_SERIE      ,doc_ser      ,doc_seq      ,doc_nbr      ,Deleted	  ,RN = ROW_NUMBER()OVER(PARTITION BY doc_seq,doc_ser,doc_nbrORDER BY doc_ser,doc_nbr)  FROM vw_PETIREG)  select jj.USERDOC_SEQ,jj.USERDOC_SERIES,jj.USERDOC_NBR,file_seq      ,file_TYPE,file_series    ,file_nbr from ( select     case when rn=1 then DOC_SEQ else doc_seq +'-'+cast(rn as varchar) end userdoc_seq       ,  cast(doc_ser as numeric) USERDOC_SERIES       ,cast(doc_nbr as numeric) USERDOC_NBR      ,file_seq	  ,'M' FILE_TYPE	  ,cast(file_ser as numeric)  FILE_SERIES   ,cast(file_nbr as numeric) FILE_NBR from cte where num_serie!='0000000000' and isnumeric(file_ser)=1 ) jj ;;    

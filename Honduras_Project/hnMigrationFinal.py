@@ -2,15 +2,15 @@ import os
 
 import loadConfig
 from basicTools import silentremove, logger, cmdtool, changeDatabase, queryinsert, queryselectOne, querygetcursor
-#import dbfToSqlAllTables
-#import prepareTables
-import restoreIpasDatabase
+import dbfToSqlAllTables
+import prepareTables
+
 
 import prepareViews
 
 import originToIntermed
 
-exit(0)
+import restoreIpasDatabase
 import intermedToIpas
 import logosUploader
 
@@ -19,8 +19,19 @@ import logosUploader
 # ---- finalizing the environment
 # ----removing old config
 try:
-    silentremove(loadConfig.externalTool + 'config\\config311.properties')
-    with open(loadConfig.externalTool + 'config\\config311.properties', 'a') as the_file:
+    silentremove(loadConfig.externalTool + 'config\\config350B.properties')
+    with open(loadConfig.externalTool + 'config\\config350B.properties', 'a') as the_file:
+        the_file.write('databaseType=MSSQLSERVER\n\n')
+        the_file.write('jdbc.host=' + loadConfig.hostIp + '\n\n')
+        the_file.write('jdbc.port=1433\n\n')
+        the_file.write('jdbc.username=' + loadConfig.ipasUser + '\n\n')
+        the_file.write('jdbc.password=' + loadConfig.ipasPass + '\n\n')
+        the_file.write('jdbc.sid=NOPE\n\n')
+        the_file.write('jdbc.databaseName=' + loadConfig.ipasDb + '\n\n')
+        the_file.write('jdbc.instanceName=\n\n')
+        the_file.close()
+    silentremove(loadConfig.externalTool + 'config\\config340A.properties')
+    with open(loadConfig.externalTool + 'config\\config340A.properties', 'a') as the_file:
         the_file.write('databaseType=MSSQLSERVER\n\n')
         the_file.write('jdbc.host=' + loadConfig.hostIp + '\n\n')
         the_file.write('jdbc.port=1433\n\n')

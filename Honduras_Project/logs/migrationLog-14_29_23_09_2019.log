@@ -1,0 +1,12 @@
+2019-09-23 14:29:22,944 - root - WARNING - connected to Sqlserver.
+2019-09-23 14:29:22,949 - root - INFO - Connections to database severed
+2019-09-23 14:29:22,977 - root - INFO - database dropped
+2019-09-23 14:29:22,978 - root - INFO - user ready
+2019-09-23 14:29:22,979 - root - INFO - access granted
+2019-09-23 14:29:22,980 - root - INFO - access granted
+2019-09-23 14:29:22,981 - root - INFO - password changed
+2019-09-23 14:29:23,727 - root - INFO - <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>Child returned, 0
+2019-09-23 14:29:23,741 - root - WARNING - connected to Sqlserver.
+2019-09-23 14:29:23,769 - root - INFO - repository synced
+2019-09-23 14:29:23,775 - root - INFO - repository synced
+2019-09-23 14:29:23,779 - root - WARNING - connected to Sqlserver.

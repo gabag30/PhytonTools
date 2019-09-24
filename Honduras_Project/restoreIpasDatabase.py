@@ -58,7 +58,8 @@ conex=changeDatabase(loadConfig.serverTyp,loadConfig.hostIp,'MASTER',loadConfig.
 with open('scripts/HN/usersCorrection.sql', 'r') as myfile:
     data = myfile.read().replace(' CF_',
                                  ' ' + loadConfig.ipasDb + '.' + loadConfig.ipasUser + '.CF_').replace(' IP_',
-                                 ' ' + loadConfig.ipasDb + '.' + loadConfig.ipasUser + '.IP_').replace(
+                                 ' ' + loadConfig.ipasDb + '.' + loadConfig.ipasUser + '.IP_').replace(' DO_',
+                                 ' ' + loadConfig.ipasDb + '.' + loadConfig.ipasUser + '.DO_').replace(
         ' VW_', ' ' + loadConfig.interMedDb + '.dbo.VW_')
     try:
         for statement in data.split(';;'):
