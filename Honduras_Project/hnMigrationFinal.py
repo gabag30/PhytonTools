@@ -2,14 +2,11 @@ import os
 
 import loadConfig
 from basicTools import silentremove, logger, cmdtool, changeDatabase, queryinsert, queryselectOne, querygetcursor
+
 import dbfToSqlAllTables
 import prepareTables
-
-
 import prepareViews
-
 import originToIntermed
-
 import restoreIpasDatabase
 import intermedToIpas
 import logosUploader

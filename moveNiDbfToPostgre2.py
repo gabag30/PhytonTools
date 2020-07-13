@@ -23,9 +23,9 @@ parser.add_argument("adminPass",default=True,help="pass admin user sqlserver")
 parser.add_argument("interMedDb",default=True,help="name of the intermed database")
 parser.add_argument("schemaDb",default=True,help="name of the intermed schema")
 parser.add_argument("dbfFilesLocation",default=True,help="Location of the dbf files")
-parser.add_argument("tablesIgnore",default=True,help="List of dbf files to ignore")
-parser.add_argument("tablesLoad",default=True,help="List of dbf files to Load")
-parser.add_argument("logsFolder",default=True,help="folder for logs")
+parser.add_argument("tablesIgnore",default=False,help="List of dbf files to ignore")
+parser.add_argument("tablesLoad",default=False,help="List of dbf files to Load")
+parser.add_argument("logsFolder",default=False,help="folder for logs")
 
 args = parser.parse_args()
 
